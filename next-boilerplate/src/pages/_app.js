@@ -1,7 +1,7 @@
 import React from "react";
 
-import "@fontsource/varela";
-import "@fontsource-variable/dosis";
+import "@fontsource/ubuntu-mono";
+import "@fontsource-variable/comfortaa";
 import "@fontsource-variable/josefin-sans";
 import "../styles/styles.scss";
 

@@ -1,14 +1,13 @@
 // Colors
 $brand__color: #151515;
-$cta__color: #000;
-$cta__colorLink: #ffd219;
+$cta__color: #ff0060;
+$cta__colorLink: #ff0060;
 $hot__color: #1f1f1f;
 $hotDark__color: #6200ff;
 $cta__contrast_color: #ffd219;
 $error_color: #ffd219;
 $link__color: #ffaa00;
 
-$heading__top-padding: 30px;
 $heading__bottom-padding: 0px;
 
 $primary: $cta__color;
@@ -43,27 +42,136 @@ $boxedMobile__maxWidth: 375px;
 //Spaces
 $s__space: 16pt;
 
-// typograph
-$alternative__font: "Arial";
-
-$main__font: var(--font-jetbrains-mono), $alternative__font, sans-serif;
-
-$second__font: "Dosis Variable", $alternative__font, sans-serif;
-
-$third__font: "Josefin Sans Variable", $alternative__font, sans-serif;
-
-$fourth__font: var(--font-quattrocento), $alternative__font, sans-serif;
-
-// $fifth__font: var(--font-playfair-display), $alternative__font, sans-serif;
-
-$sixth__font: var(--font-roboto), $alternative__font, sans-serif;
-
-$seventh__font: var(--font-nova-flat), $alternative__font, sans-serif;
-
-$eighth__font: "Varela", $alternative__font, sans-serif;
-
 $h1__fontSize: 30pt;
 $h2__fontSize: 24pt;
 $h3__fontSize: 22pt;
 $h4__fontSize: 20pt;
 $h5__fontSize: 18pt;
+
+// ----------
+
+$blue__shadowBox: 0px 5px 10px 0px rgba(3, 14, 51, 0.5);
+$gray__shadowBox: 0px 10px 15px 0px rgba(34, 34, 34, 0.5);
+$brown__shadowBox: 0px 10px 15px 0px rgba(51, 14, 3, 0.5);
+$brown__insetShadowBox: -300px 0px 100px 40px rgba(29, 19, 13, 0.3) inset;
+
+$border_tick: #8a6248;
+$shadowColor: #2b1f18;
+$textShadow: 2px 3px 0 $shadowColor;
+//
+
+$btn_brown__active: #e0c6ac;
+$btn_brown__not_active: #ff0060;
+// Colors
+$system__color: #ff0060;
+
+$additional__color: #000;
+$additionalDark__color: #c52c39;
+
+$gradient_000__color: #fff499;
+$gradient_200__color: #ffd600;
+$gradient_300__color: #ffb600;
+$gradient_400__color: #ffa100;
+$gradient_600__color: #d65926;
+$gradient_800__color: #9e2942;
+$gradient_999__color: #3e215c;
+
+$brand_black__color: #0c0c0c;
+$brand_white__color: #fff;
+$black__color: #1c1c1c;
+
+$grayscale_100__color: #fcfcfc;
+$grayscale_300__color: #e3e3e3;
+$grayscale_400__color: #d2d2d2;
+$grayscale_600__color: #a3a3a3;
+$grayscale_800__color: #7d7d7d;
+
+$that_green__color: #47ff9d;
+$that_green__RGBAcolor: rgb(71, 255, 157, 0.6);
+
+$success__color: #0fe279;
+$error__color: #d80909;
+
+$secondary_blue__color: #00cfff;
+$secondary_light_blue__color: #d8e4ed;
+$secondary_pink__color: #f10fb4;
+$secondary_pink__RGBAcolor: rgba(255, 0, 98, 0.431);
+$secondary_oh_my_eye__color: #ff3a65;
+$secondary_golden_rod__color: #e8922f;
+$secondary_wheat__color: #f2c9b5;
+$secondary_light_purple__color: #c3a8d5;
+$secondary_is_this_green__color: #3c7e9f;
+$secondary_gray__color: #1f1724;
+
+$light_brown__bgColor: #91683e;
+$verylight_brown__bgColor: #000;
+$dark_brown__bgColor: #fff;
+
+.row_color__Additional {
+  background-color: $additional__color;
+}
+
+// ------------
+// Breakpoints
+$desktop__size: 960px;
+$small__size: 480px;
+$m__maxWidth: 768px;
+
+//Spaces
+$xxs__space: 3pt;
+$xs__space: 8pt;
+$s__space: 16pt;
+
+$xs__radius: 3px;
+$s__radius: 5px;
+$m__radius: 8px;
+$l__radius: 10px;
+$xl__radius: 15px;
+$xxl__radius: 50%;
+
+// CTA Link Padding
+$cta__padding: 18px 15px 10px;
+$cta__width: 230px;
+
+@font-face {
+  font-family: "Braynerd";
+  src: local("Braynerd"), url(../../../public/fonts/Braynerd-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Gobold_Hollow";
+  src: local("Gobold_Hollow"), url(../../../public/fonts/Gobold_Hollow.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Gobold";
+  src: local("Gobold"), url(../../../public/fonts/Gobold_Light_Italic.otf) format("truetype");
+}
+
+// typograph
+$alternative__font: "Arial";
+$main__font__two: "Josefin Sans Variable", $alternative__font, sans-serif;
+$second__font: "Comfortaa", $alternative__font, sans-serif;
+$third__font: "Ubuntu Mono", $alternative__font, sans-serif;
+$fourth__font: "Bowlby One SC", $alternative__font, sans-serif;
+$sixth__font: "Braynerd", $alternative__font, sans-serif;
+$seventh__font: "Gobold", $alternative__font, sans-serif;
+$eighth__font: "nine__font", $alternative__font, sans-serif;
+
+// Typograph Gobold_Light
+$main__font: "Josefin Sans", Arial, sans-serif;
+$two__font: "Comfortaa", Arial, sans-serif;
+$three__font: "Ubuntu Mono", Arial, sans-serif;
+$sex__font: "Braynerd", Arial, sans-serif;
+$seven__font: "Gobold", Arial, sans-serif;
+$nine__font: "Gobold_Hollow", Arial, sans-serif;
+$alternative__font: "Arial";
+
+$xxs__fontSize: 10pt;
+$xs__fontSize: 12pt;
+$s__fontSize: 14pt;
+$m__fontSize: 18pt;
+$l__fontSize: 23pt;
+
+$color__light-grey: #999999;
+
+$header__height: 125px;
+$heading__top-padding: 120px;

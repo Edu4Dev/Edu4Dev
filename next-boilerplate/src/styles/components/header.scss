@@ -28,23 +28,28 @@
 .full-width-row.main-header {
   max-width: 97%;
   .main-header {
-    position: relative;
     .left-gray-circle {
       display: block;
       width: 20px;
       height: 20px;
-      background-color: #c4c4c4;
+      background-color: #ee05ff;
       border-radius: 25px;
       border: 2px solid black;
       position: absolute;
       left: 20px;
       top: 20px;
     }
-    .door {
-      position: absolute;
+    .main-menu-button {
+      position: fixed;
       right: 30px;
       top: 20px;
       cursor: pointer;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-weight: 900;
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
     }
   }
 }
@@ -72,6 +77,7 @@
 
   .main-menu-visible {
     height: 0;
+    position: absolute;
   }
 
   .main-logo {

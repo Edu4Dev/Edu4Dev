@@ -14,6 +14,20 @@ const MainWrapper = ({
   rowWidth,
 }) => (
   <>
+    {hasHeader !== false ? (
+      <HeaderContainer
+        opt={{
+          mainMenuStatus: mainConfigs.menu.status,
+          logoSvg: "logotipoSvg",
+          bgOne: "transparent",
+          bgTwo: "transparent",
+          classes: "header-block",
+          hasMenu: hasMenu,
+          isDarkLogo: isDarkLogo,
+        }}
+        mainMenu={mainConfigs.menu.items}
+      />
+    ) : null}
     <div
       className={"main-wrapper"}
       style={{
@@ -26,25 +40,10 @@ const MainWrapper = ({
         opt={{
           classes: "main-wrapper-inner",
           isBoxed: true,
-          bgColor: "#fff",
+          // bgColor: "#fff",
           rowWidth: rowWidth,
         }}
       >
-        {hasHeader !== false ? (
-          <HeaderContainer
-            opt={{
-              mainMenuStatus: mainConfigs.menu.status,
-              logoSvg: "logotipoSvg",
-              bgOne: "transparent",
-              bgTwo: "transparent",
-              classes: "header-block",
-              hasMenu: hasMenu,
-              isDarkLogo: isDarkLogo,
-            }}
-            mainMenu={mainConfigs.menu.items}
-          />
-        ) : null}
-
         <main className='main-container'>{children}</main>
       </RowContainer>
     </div>

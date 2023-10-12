@@ -24,36 +24,6 @@ const Header = ({
 }) => {
   return (
     <header>
-      <div className='toggle-dark-mode'>
-        <button
-          onClick={() => setTheme("light")}
-          className={theme === "light" ? "active" : ""}
-        >
-          <Image
-            src={"/brandimages/light-mode.svg"}
-            alt={"Light Mode"}
-            placeholder={"NONE"}
-            critical='true'
-            className={""}
-            width={30}
-            height={30}
-          />
-        </button>
-        <button
-          onClick={() => setTheme("dark")}
-          className={theme === "dark" ? "active" : ""}
-        >
-          {" "}
-          <Image
-            src={"/brandimages/dark-mode.svg"}
-            alt={"Dark Mode"}
-            placeholder={"NONE"}
-            critical='true'
-            width={30}
-            height={30}
-          />
-        </button>
-      </div>
       <Row
         opt={{
           isBoxed: false,
@@ -91,18 +61,20 @@ const Header = ({
                   aria-controls='mainmenu'
                   aria-expanded={refState}
                   aria-label='Alternar visibilidade do menu'
-                  className={`door resetButton  ${
+                  className={`main-menu-button resetButton  ${
                     !refState ? "active opened" : "not-active"
                   }`}
                 >
                   <Image
-                    src={"/brandimages/door.png"}
+                    src={"/brandimages/ico-edu4dev-logo.png"}
                     alt={"Open Menu"}
                     placeholder={"NONE"}
                     critical='true'
-                    width={15}
-                    height={30}
+                    width={75}
+                    height={50}
+                    className='main-menu-icon'
                   />
+                  Menu
                 </button>
               </div>
             </div>

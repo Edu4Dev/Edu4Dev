@@ -18,7 +18,7 @@ Projeto de Ensino de Tecnologia
 
 Eu sou o Milton Bolonha, um programador e versionador de códigos. Eu estou aqui para te ensinar tecnologia de ponta.
 
-Bem-vindo ao projeto repositório de códigos da Bolonha Conversas. Nós temos uma base sólida para iniciarmos nossas aventuras no mundo da tecnologia, utilizando a poderosa ferramenta do Github.
+Bem-vindo ao projeto repositório de códigos da Edu4Dev. Nós temos uma base sólida para iniciarmos nossas aventuras no mundo da tecnologia, utilizando a poderosa ferramenta do Github.
 
 # Sobre o Projeto
 

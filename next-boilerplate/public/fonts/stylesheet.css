@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Braynerd';
+    src: url('Braynerd-Shadow.woff2') format('woff2'),
+        url('Braynerd-Shadow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Braynerd';
+    src: url('Braynerd-Regular.woff2') format('woff2'),
+        url('Braynerd-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Braynerd';
+    src: url('Braynerd-Inline.woff2') format('woff2'),
+        url('Braynerd-Inline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Braynerd';
+    src: url('Braynerd-layered.woff2') format('woff2'),
+        url('Braynerd-layered.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

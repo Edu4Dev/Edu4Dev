@@ -2,6 +2,8 @@
   background-attachment: fixed !important;
   min-height: 100vh;
   background-size: 500px 500px;
+  /*hack*/
+  margin-top: -250px;
   p {
     margin: 10px auto;
     font-weight: 400;
@@ -14,7 +16,7 @@
   }
   h1,
   h2 {
-    color: black;
+    color: #fff;
     text-align: center;
     font-size: 26px;
     font-family: $third__font;
@@ -26,11 +28,7 @@
   }
   .main-wrapper-inner {
     &.boxed-column-child {
-      border-radius: 5px;
-      border: 2px solid black;
       .main-container {
-        border-radius: 10px;
-        border: 2px solid black;
         margin: 10px 20px;
       }
     }
@@ -40,8 +38,6 @@
   }
 }
 .wrapper-box {
-  border-radius: 10px;
-  border: 2px solid black;
   margin: 10px 20px;
   padding: 10px 20px;
 }
