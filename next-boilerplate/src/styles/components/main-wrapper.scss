@@ -3,15 +3,15 @@
   min-height: 100vh;
   background-size: 500px 500px;
   /*hack*/
-  margin-top: -250px;
+  margin-top: -150px;
   p {
-    margin: 10px auto;
-    font-weight: 400;
+    margin: 0px auto;
+    font-weight: 600;
     font-size: 20px;
     width: 100%;
     text-align-last: center;
-    font-family: $second__font;
-    color: $brand__color;
+    font-family: $third__font;
+    color: #fff;
     text-align: center;
   }
   h1,

@@ -76,106 +76,11 @@ const Home = ({ posts }) => (
                   Curso de Programação
                 </h1>
                 <p className='hero-heading-p'>
-                  Aprenda criando o verdadeiro mão na massa. Crie e hospede seu
-                  app ou site GRÁTIS*
+                  <strong>Aprenda com teoria e prática.</strong>
+                  <br />* Matrículas abertas!
                 </p>
-
-                {/* <button onClick={handle.enter} className='hero-cta-button one'>
-                <p className='four-head-button head-1'>Veja o vídeo</p>
-                <p className='four-head-button head-2'>Vídeo Promocional</p>
-                <p className='four-head-button head-3'>
-                  Clique-me, baby, 1+time <FaPlay className='FaPlay' />
-                  <span className='four-head-button head-4'>Play me</span>
-                </p>
-              </button> */}
-              </div>
-              <div className='wrapper-main-hero-center'>
-                <p>-- Material Didático</p>
-                <p>-- Aulas com Mentor</p>
-                <p>-- Tecnologia de Ponta</p>
-                <p>-- Livro Grátis (PDF)</p>
-                <p>-- Certificado Válido</p>
-                <p>-- Conquiste Medalhas</p>
               </div>
             </div>
-            <div
-              className='wrapper-main-hero-right'
-              style={{
-                position: "absolute",
-                right: "0",
-                width: "76px",
-                bottom: "0",
-                overflow: "hidden",
-                backgroundColor: "#1f1724",
-                height: "100%",
-              }}
-            >
-              <ul className='apps-menu'>
-                <li className='apps-menu-item'>
-                  <Link href='/' className='call-apps-button apps-buttons-link'>
-                    <FaRegLightbulb className='FaWhatsapp' />
-                  </Link>
-                </li>
-                <li className='apps-menu-item'>
-                  <Link href='/' className='apps-buttons-link dark'>
-                    <GiOctopus className='FaWhatsapp' />
-                  </Link>
-                </li>
-
-                <li className='apps-menu-item'>
-                  <Link href='/' className='call-apps-button apps-buttons-link'>
-                    <GiAlliedStar className='FaWhatsapp' />
-                  </Link>
-                </li>
-
-                <li className='apps-menu-item'>
-                  <Link href='/' className='apps-buttons-link dark'>
-                    <GiAmericanFootballHelmet className='FaWhatsapp' />
-                  </Link>
-                </li>
-
-                <li className='apps-menu-item zumba'>
-                  <Link href='/' className='call-apps-button apps-buttons-link'>
-                    <GiAnarchy className='FaWhatsapp' />
-                  </Link>
-                </li>
-
-                <li className='apps-menu-item'>
-                  <Link href='/' className='apps-buttons-link dark'>
-                    <GiArtificialHive className='FaWhatsapp' />
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <nav>
-              <ul className='nav-menu wrapper-bottom-hero'>
-                <li className='nav-item'>
-                  <Link href='/' className='nav-link'>
-                    Home
-                  </Link>
-                </li>
-                <li className='nav-item'>
-                  <Link href='/' className='nav-link'>
-                    Edu4Dev
-                  </Link>
-                </li>
-                <li className='nav-item'>
-                  <Link href='/' className='nav-link'>
-                    Cursos
-                  </Link>
-                </li>
-                <li className='nav-item'>
-                  <Link href='/' className='nav-link'>
-                    Planos
-                  </Link>
-                </li>
-                <li className='nav-item'>
-                  <Link href='/' className='nav-link'>
-                    Contato
-                  </Link>
-                </li>
-              </ul>
-            </nav>
           </div>
         </div>
       </div>
@@ -189,7 +94,7 @@ const Home = ({ posts }) => (
     >
       <div className='main-content'>
         <main>
-          <Image
+          {/* <Image
             src={"/brandimages/logo-ROOM@2x.png"}
             alt={"Edu4Dev"}
             placeholder={"NONE"}
@@ -198,7 +103,13 @@ const Home = ({ posts }) => (
             height={60}
             style={{ objectFit: "cover", margin: "50px 0" }}
             className='profile-image'
-          />
+          /> */}
+          <p className='main-content-p'>
+            Aqui, você não apenas aprenderá a programar, mas também explorará o
+            fascinante universo da tecnologia e da programação. Nossos cursos
+            são projetados para despertar sua curiosidade e criatividade,
+            tornando o aprendizado uma experiência única.
+          </p>
           <div className='wrapper-seven-box'>
             <div className='seven-box A'>
               <Link href='/'>
@@ -209,16 +120,24 @@ const Home = ({ posts }) => (
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
-                  width={250}
-                  height={250}
-                  style={{ objectFit: "cover" }}
+                  width={280}
+                  height={160}
                   className='seven-img'
                 />
 
                 <p className='seven-paragraph'>
-                  Este é o seu passo inicial para se tornar um Especialista em
-                  Tecnologia.
+                  Na Edu4Dev, os melhores programadores irão te ensinar todos os
+                  principais segredos da carreira de desenvolvedor web.
                 </p>
+
+                <button className='hero-cta-button one content-cta'>
+                  <p className='four-head-button head-1'>Comece A</p>
+                  <p className='four-head-button head-2'>Estudar Agora</p>
+                  <p className='four-head-button head-3'>
+                    Clique-me <FaPlay className='FaPlay' />
+                    <span className='four-head-button head-4'>Vem...</span>
+                  </p>
+                </button>
               </Link>
             </div>
             <div className='seven-box B'>
@@ -230,16 +149,24 @@ const Home = ({ posts }) => (
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
-                  width={250}
-                  height={250}
-                  style={{ objectFit: "cover" }}
+                  width={280}
+                  height={160}
                   className='seven-img'
                 />
 
-                <p className='seven-paragraph'>Nosso kit educacional contém:</p>
-                <ul className='seven-list'>
-                  <li className='seven-list-item'>Livro do Aluno</li>
-                </ul>
+                <p className='seven-paragraph'>
+                  O kit educacinal é incrível! Fácil de entender e com passo a
+                  passo bem elaborado.
+                </p>
+
+                <button className='hero-cta-button one content-cta'>
+                  <p className='four-head-button head-1'>Acesse</p>
+                  <p className='four-head-button head-2'>Livros de Estudo</p>
+                  <p className='four-head-button head-3'>
+                    Clique-me <FaPlay className='FaPlay' />
+                    <span className='four-head-button head-4'>Vem...</span>
+                  </p>
+                </button>
               </Link>
             </div>
             <div className='seven-box C'>
@@ -251,9 +178,8 @@ const Home = ({ posts }) => (
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
-                  width={250}
-                  height={250}
-                  style={{ objectFit: "cover" }}
+                  width={280}
+                  height={160}
                   className='seven-img'
                 />
 
@@ -261,6 +187,15 @@ const Home = ({ posts }) => (
                   Turmas, mentores, aulas on-line, aulão, palestras, bots
                   especialistas.
                 </p>
+
+                <button className='hero-cta-button one content-cta'>
+                  <p className='four-head-button head-1'>Conheça</p>
+                  <p className='four-head-button head-2'>Comunidade</p>
+                  <p className='four-head-button head-3'>
+                    Clique-me <FaPlay className='FaPlay' />
+                    <span className='four-head-button head-4'>Vem...</span>
+                  </p>
+                </button>
               </Link>
             </div>
             <div className='seven-box D'>
@@ -284,9 +219,8 @@ const Home = ({ posts }) => (
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
-                  width={250}
-                  height={250}
-                  style={{ objectFit: "cover" }}
+                  width={280}
+                  height={160}
                   className='seven-img'
                 />
 
@@ -294,6 +228,15 @@ const Home = ({ posts }) => (
                   Este é o seu passo inicial para se tornar um Especialista em
                   Tecnologia.
                 </p>
+
+                <button className='hero-cta-button one content-cta'>
+                  <p className='four-head-button head-1'>Construa</p>
+                  <p className='four-head-button head-2'>MetaVersos</p>
+                  <p className='four-head-button head-3'>
+                    Clique-me <FaPlay className='FaPlay' />
+                    <span className='four-head-button head-4'>Vem...</span>
+                  </p>
+                </button>
               </Link>
             </div>
             <div className='seven-box B'>
@@ -306,16 +249,21 @@ const Home = ({ posts }) => (
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
-                  width={250}
-                  height={250}
-                  style={{ objectFit: "cover" }}
+                  width={280}
+                  height={160}
                   className='seven-img'
                 />
 
-                <p className='seven-paragraph'>Nosso kit educacional contém:</p>
-                <ul className='seven-list'>
-                  <li className='seven-list-item'>Livro do Aluno</li>
-                </ul>
+                <p className='seven-paragraph'>XXX</p>
+
+                <button className='hero-cta-button one content-cta'>
+                  <p className='four-head-button head-1'>Conheça</p>
+                  <p className='four-head-button head-2'>Comunidade</p>
+                  <p className='four-head-button head-3'>
+                    Clique-me <FaPlay className='FaPlay' />
+                    <span className='four-head-button head-4'>Vem...</span>
+                  </p>
+                </button>
               </Link>
             </div>
             <div className='seven-box C'>
@@ -327,16 +275,21 @@ const Home = ({ posts }) => (
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
-                  width={250}
-                  height={250}
-                  style={{ objectFit: "cover" }}
+                  width={280}
+                  height={160}
                   className='seven-img'
                 />
 
-                <p className='seven-paragraph'>
-                  Turmas, mentores, aulas on-line, aulão, palestras, bots
-                  especialistas.
-                </p>
+                <p className='seven-paragraph'>xxx.</p>
+
+                <button className='hero-cta-button one content-cta'>
+                  <p className='four-head-button head-1'>Conheça</p>
+                  <p className='four-head-button head-2'>Comunidade</p>
+                  <p className='four-head-button head-3'>
+                    Clique-me <FaPlay className='FaPlay' />
+                    <span className='four-head-button head-4'>Vem...</span>
+                  </p>
+                </button>
               </Link>
             </div>
             <div className='seven-box E'>
@@ -348,9 +301,8 @@ const Home = ({ posts }) => (
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
-                  width={250}
-                  height={250}
-                  style={{ objectFit: "cover" }}
+                  width={280}
+                  height={160}
                   className='seven-img'
                 />
 
@@ -358,21 +310,32 @@ const Home = ({ posts }) => (
                   Saia já do zero e monte sua própria agência digital com todos
                   os mais modernos e populares produtos cibernéticos!
                 </p>
+
+                <button className='hero-cta-button one content-cta'>
+                  <p className='four-head-button head-1'>Conheça</p>
+                  <p className='four-head-button head-2'>Comunidade</p>
+                  <p className='four-head-button head-3'>
+                    Clique-me <FaPlay className='FaPlay' />
+                    <span className='four-head-button head-4'>Vem...</span>
+                  </p>
+                </button>
               </Link>
             </div>
             <div className='seven-box F'>
               <Link href='/'>
                 <h3 className='seven-title-green'>
-                  Ganhe domínio grátis
+                  Repositório GitHub
                   <br />
-                  Receba material didático <br />
-                  Hospedagem para o seu app ou site
+                  Vitrine Virtual
                   <br />
-                  Acesse os nossos app's <br />
-                  Biblioteca Virtual <br />
+                  Crie seu Hacker-book
+                  <br />
+                  Aprenda a Ganhar em Dólar
+                  <br />
                   Certficado Válido
                   <br />
-                  Concorra a Prêmios <br />E muito mais...
+                  Concorra a Prêmios
+                  <br />E muito mais...
                 </h3>
               </Link>
             </div>
@@ -393,8 +356,14 @@ const Home = ({ posts }) => (
               </Link>
             </div>
           </div>
+          <h2>Pronto para Começar?</h2>
+          <p>
+            Matricule-se agora e inicie sua jornada para se tornar um
+            especialista em tecnologia.
+          </p>
+
           <div>
-            <h1>Reconhecimentos e Parceirxs</h1>
+            <h1>Reconhecimentos e Parceiros</h1>
             <div className='partners'>
               <h2>UpWork</h2>
               img
@@ -454,8 +423,78 @@ const Home = ({ posts }) => (
           </div>
         </main>
       </div>
+      <div className='edu-modules'>
+        módulos
+        <ul>
+          <li>Módulo Introdutório</li>
+          <ul>
+            <li>Boas-vindas</li>
+            <li>Palestra Inicial</li>
+            <li>Apresentando-se</li>
+            <li>O que Vamos Aprender?</li>
+            <li>O que Vamos Fazer?</li>
+            <li>Como Ganhar Dinheiro Com Esse Ensinamento?</li>
+            <li>Tecnologia, Arte e Filosofia</li>
+            <li>Inteligência Artificial</li>
+          </ul>
+          <li>Módulo 01</li>
+          <ul>
+            <li>O que é Versionamento</li>
+            <li>O que é Git</li>
+            <li>O que é GitHub </li>
+            <li>Como acessar e criar uma conta no GitHub</li>
+            <li>
+              Lidar com o formulário de cadastro, senhas fracas e teste de
+              confirmação
+            </li>
+            <li>Cutomizar e escolher o seu pacote gratuito GitHub</li>
+            <li>Acessar o menu lateral</li>
+            <li>Customizar as suas informações pessoais no GitHub</li>
+          </ul>
+          <li>Módulo 02</li>
+          <ul>
+            <li>Como criar um repositório e o arquivo do seu perfil</li>
+            <li>O que é um repositório git</li>
+            <li>Padrão de escrita MD “MarkDown”</li>
+            <li>Marcações e Conversões em MD</li>
+            <li>Analisar e seguir perfil do professor </li>
+          </ul>
+          <li>Módulo 03</li>
+          <ul>
+            <li>Software Livre</li>
+            <li>Código Aberto</li>
+            <li>Arquivos Padrões de Projeto</li>
+            <li>Arquivos dotEnv</li>
+            <li>Garantias Para Projetos de Código Aberto</li>
+          </ul>
+          <li>Módulo 04</li>
+          <ul>
+            <li>O MultiVerso RÖÖM</li>
+            <li>Cartas do MultiVerso RÖÖM</li>
+            <li>Método TE[i]As</li>
+            <li>Esquema de MetaDados</li>
+            <li>Blocos de MetaDados</li>
+            <li>Palavras-chaves e Importâncias</li>
+          </ul>
+          <li>Módulo 05</li>
+          <ul>
+            <li>GitHub Templates</li>
+            <li>
+              Como colocar um site no ar igual a um hacker em cinco minutos?
+            </li>
+          </ul>
+          <li>Módulo 06</li>
+          <ul>
+            <li>Otimização de Websítios</li>
+            <li>Google PageSpeed</li>
+            <li>GTMetrix</li>
+            <li>Schema Validador</li>
+            <li>MetaTags Validador</li>
+          </ul>
+          <li>E muito mais...</li>
+        </ul>
+      </div>
     </Row>
-
     <footer>
       <div className='social-icons'>
         <a href='https://google.com'>
