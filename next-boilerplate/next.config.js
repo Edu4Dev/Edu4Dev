@@ -5,7 +5,7 @@ const nextConfig = {
   reactStrictMode: true,
   output: "export",
   trailingSlash: true,
-  basePath: isGithubPages ? "/next-boilerplate" : undefined,
+  basePath: isGithubPages ? "/website" : undefined,
   images: {
     loader: "custom",
     loaderFile: "./src/containers/imgLoaderContainer.js",
