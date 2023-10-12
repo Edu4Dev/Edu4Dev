@@ -12,7 +12,7 @@ const nextConfig = {
   },
   env: {
     IS_GITHUB_PAGE: isGithubPages,
-    THEME_FOLDER: "next-boilerplate",
+    THEME_FOLDER: "website",
   },
 };
 
