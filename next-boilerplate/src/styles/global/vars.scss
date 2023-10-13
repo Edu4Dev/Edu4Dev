@@ -1,7 +1,7 @@
 // Colors
 $brand__color: #fff;
 $cta__color: #ff0060;
-$cta__colorLink: #ff0060;
+$cta__colorLink: $cta__color;
 $hot__color: #fff;
 $hotDark__color: #6200ff;
 $cta__contrast_color: #ffd219;
@@ -61,12 +61,11 @@ $textShadow: 2px 3px 0 $shadowColor;
 //
 
 $btn_brown__active: #e0c6ac;
-$btn_brown__not_active: #ff0060;
+$btn_brown__not_active: $cta__color;
 // Colors
-$system__color: #ff0060;
+$system__color: $cta__color;
 
 $additional__color: #000;
-$additionalDark__color: #c52c39;
 
 $gradient_000__color: #fff499;
 $gradient_200__color: #ffd600;
@@ -88,6 +87,7 @@ $grayscale_800__color: #7d7d7d;
 
 $that_green__color: #47ff9d;
 $that_green__RGBAcolor: rgb(71, 255, 157, 0.6);
+$additionalDark__color: $that_green__color;
 
 $success__color: #0fe279;
 $error__color: #d80909;
@@ -147,7 +147,7 @@ $cta__width: 230px;
 }
 
 // typograph
-$alternative__font: "Arial";
+$alternative__font: "Open Sans Variable";
 $main__font__two: "Josefin Sans Variable", $alternative__font, sans-serif;
 $second__font: "Comfortaa", $alternative__font, sans-serif;
 $third__font: "Ubuntu Mono", $alternative__font, sans-serif;
@@ -163,7 +163,6 @@ $three__font: "Ubuntu Mono", Arial, sans-serif;
 $sex__font: "Braynerd", Arial, sans-serif;
 $seven__font: "Gobold", Arial, sans-serif;
 $nine__font: "Gobold_Hollow", Arial, sans-serif;
-$alternative__font: "Arial";
 
 $xxs__fontSize: 10pt;
 $xs__fontSize: 12pt;

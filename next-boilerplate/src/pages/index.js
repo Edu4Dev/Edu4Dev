@@ -105,11 +105,32 @@ const Home = ({ posts }) => (
             className='profile-image'
           /> */}
           <p className='main-content-p'>
-            Aqui, você não apenas aprenderá a programar, mas também explorará o
-            fascinante universo da tecnologia e da programação. Nossos cursos
-            são projetados para despertar sua curiosidade e criatividade,
-            tornando o aprendizado uma experiência única.
+            Somos a <span className='highlightMe'>Edu4Dev</span>, a única Escola
+            de Programação que <br />
+            ensina <span className='highlightMe'>teoria de verdade</span>,
+            possui <span className='highlightMe'>tecnologia própria</span>
+            <br />e possui a maior experiência de mercado (desde 1998 e Top
+            Rated UpWork)
+            <br />
+            tudo para te ensinar o verdadeiro{" "}
+            <span className='highlightMe'>Mão Na Massa!!!</span>
           </p>
+
+          <p className='main-content-p'>
+            Impulsione já o seu aprendizado em tecnologia.
+            <br />
+            <span className='highlightMe'>Faça 1 década em 1 mês</span>, com
+            escola de programação mais especializada do Brasil!
+            <br />
+            Nossos cursos são projetados para despertar sua criatividade e
+            empreendedorismo,
+            <br />
+            tornando o seu aprendizado em uma{" "}
+            <span className='highlightMe'>experiência incrível</span>.
+          </p>
+          <Link href={"/"} className='matriculas'>
+            Matriculas Abertas!
+          </Link>
           <div className='wrapper-seven-box'>
             <div className='seven-box A'>
               <Link href='/'>
@@ -126,13 +147,13 @@ const Home = ({ posts }) => (
                 />
 
                 <p className='seven-paragraph'>
-                  Na Edu4Dev, os melhores programadores irão te ensinar todos os
+                  Na Edu4Dev, os melhores programadores irão te ensinar os
                   principais segredos da carreira de desenvolvedor web.
                 </p>
 
                 <button className='hero-cta-button one content-cta'>
                   <p className='four-head-button head-1'>Comece A</p>
-                  <p className='four-head-button head-2'>Estudar Agora</p>
+                  <p className='four-head-button head-2'>Programar</p>
                   <p className='four-head-button head-3'>
                     Clique-me <FaPlay className='FaPlay' />
                     <span className='four-head-button head-4'>Vem...</span>
@@ -155,13 +176,13 @@ const Home = ({ posts }) => (
                 />
 
                 <p className='seven-paragraph'>
-                  O kit educacinal é incrível! Fácil de entender e com passo a
-                  passo bem elaborado.
+                  O kit educacinal é incrível! Fácil de entender e com um passo
+                  a passo ideal para você.
                 </p>
 
                 <button className='hero-cta-button one content-cta'>
                   <p className='four-head-button head-1'>Acesse</p>
-                  <p className='four-head-button head-2'>Livros de Estudo</p>
+                  <p className='four-head-button head-2'>Livros</p>
                   <p className='four-head-button head-3'>
                     Clique-me <FaPlay className='FaPlay' />
                     <span className='four-head-button head-4'>Vem...</span>
@@ -184,7 +205,7 @@ const Home = ({ posts }) => (
                 />
 
                 <p className='seven-paragraph'>
-                  Turmas, mentores, aulas on-line, aulão, palestras, bots
+                  Turmas, mentores, aulas on-line, aulão, palestras,
                   especialistas.
                 </p>
 
@@ -198,13 +219,17 @@ const Home = ({ posts }) => (
                 </button>
               </Link>
             </div>
-            <div className='seven-box D'>
+            <div className='seven-box D prevent-hover'>
               <Link href='/'>
                 <p>
                   {" "}
                   <q>
-                    <small className='small-q'>{"<aluno>"}</small>É mais fácil
-                    pq eu aprendo e pratico tudo no mesmo ambiente.
+                    <small className='small-q'>{"<aluno>"}</small>É incrível,
+                    tem dia de programar, outro é para criar jogos e até temos
+                    tempo para leitura em grupo.
+                    <br />
+                    Eu amo a Edu4Dev{" "}
+                    <span className={"color-me-span"}>#devComOrgulho</span>
                     <small className='small-q'>{"</aluno>"}</small>
                   </q>
                 </p>
@@ -254,11 +279,14 @@ const Home = ({ posts }) => (
                   className='seven-img'
                 />
 
-                <p className='seven-paragraph'>XXX</p>
+                <p className='seven-paragraph'>
+                  Aprenda a construir facilmente a sua própria Inteligência
+                  Artificial e divirta-se!
+                </p>
 
                 <button className='hero-cta-button one content-cta'>
-                  <p className='four-head-button head-1'>Conheça</p>
-                  <p className='four-head-button head-2'>Comunidade</p>
+                  <p className='four-head-button head-1'>Inovador</p>
+                  <p className='four-head-button head-2'>Disruptivo</p>
                   <p className='four-head-button head-3'>
                     Clique-me <FaPlay className='FaPlay' />
                     <span className='four-head-button head-4'>Vem...</span>
@@ -280,11 +308,14 @@ const Home = ({ posts }) => (
                   className='seven-img'
                 />
 
-                <p className='seven-paragraph'>xxx.</p>
+                <p className='seven-paragraph'>
+                  Ganhe um eletrizante livro e um álbum de música instrumental
+                  para estudo para quem tem TDAH.
+                </p>
 
                 <button className='hero-cta-button one content-cta'>
-                  <p className='four-head-button head-1'>Conheça</p>
-                  <p className='four-head-button head-2'>Comunidade</p>
+                  <p className='four-head-button head-1'>Relaxe</p>
+                  <p className='four-head-button head-2'>Divirta-se</p>
                   <p className='four-head-button head-3'>
                     Clique-me <FaPlay className='FaPlay' />
                     <span className='four-head-button head-4'>Vem...</span>
@@ -312,8 +343,8 @@ const Home = ({ posts }) => (
                 </p>
 
                 <button className='hero-cta-button one content-cta'>
-                  <p className='four-head-button head-1'>Conheça</p>
-                  <p className='four-head-button head-2'>Comunidade</p>
+                  <p className='four-head-button head-1'>Trabalhe</p>
+                  <p className='four-head-button head-2'>Empreender</p>
                   <p className='four-head-button head-3'>
                     Clique-me <FaPlay className='FaPlay' />
                     <span className='four-head-button head-4'>Vem...</span>
@@ -321,7 +352,7 @@ const Home = ({ posts }) => (
                 </button>
               </Link>
             </div>
-            <div className='seven-box F'>
+            <div className='seven-box F prevent-hover'>
               <Link href='/'>
                 <h3 className='seven-title-green'>
                   Repositório GitHub
@@ -339,7 +370,7 @@ const Home = ({ posts }) => (
                 </h3>
               </Link>
             </div>
-            <div className='seven-box G'>
+            <div className='seven-box G prevent-hover'>
               <Link href='/' className='seven-title-link'>
                 <h4 className='seven-title-now align-center'>Comece Já!!!</h4>
                 <div className='why-triangles'>
@@ -367,9 +398,9 @@ const Home = ({ posts }) => (
             <div className='partners'>
               <h2>UpWork</h2>
               img
-              <p>parceiro</p>
-              <p>blog da descola fiz</p>
-              <p>testemunho</p>
+              <p>mercado internacional</p>
+              <p>top rated</p>
+              <p>+ 2k horas</p>
             </div>
             <div className='partners'>
               <h2>GitHub</h2>

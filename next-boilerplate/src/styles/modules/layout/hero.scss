@@ -51,7 +51,7 @@
 
 		.main-hero {
 			overflow: hidden;
-			padding: 50px 35px 0;
+			padding: 20px 35px 0;
 			margin-top: 16px;
 			// display: grid;
 			// grid-template-columns: 1fr 1fr;
@@ -100,26 +100,36 @@
 					font-weight: 900;
 					font-size: 20px;
 					letter-spacing: 0.4px;
-					font-family: $two__font;
+					font-family: $alternative__font;
 					color: #111;
 					text-align: left;
 				}
+
 				.hero-heading-h1 {
 					text-transform: uppercase;
-					font-size: 24px;
-					font-family: $main__font;
+					margin-top: 0;
+					font-size: 38px;
+
+					@media (min-width: 720px) {
+						font-size: 36px;
+					}
+					@media (min-width: 880px) {
+						font-size: 46px;
+					}
+					font-family: $sex__font;
 				}
 				// .hero-heading-h1,
 				// .hero-heading-h2 {
 				// 	// text-align: left;
 				// }
 				.hero-heading-h2 {
-					font-weight: 500;
+					font-weight: 600;
 					letter-spacing: 0.5px;
 					text-transform: uppercase;
 					font-size: 17px;
-					font-family: $two__font;
-					margin-bottom: 15px;
+					font-family: $alternative__font;
+					margin-bottom: 5px;
+					text-align: left;
 					color: #111;
 				}
 				.hero-heading-p {
@@ -176,6 +186,20 @@
 						width: 100% !important;
 						display: block !important;
 					}
+				}
+			}
+
+			.profile-image {
+				@media (max-width: 960px) {
+					width: 450px;
+				}
+				@media (max-width: 760px) {
+					width: 330px;
+				}
+				@media (max-width: 630px) {
+					// display: none;
+					width: 650px;
+					opacity: 0.1;
 				}
 			}
 		}
@@ -240,7 +264,7 @@
 }
 
 .css-typing .type-this:nth-child(3) {
-	width: 14.2em;
+	width: 9em;
 	opacity: 0;
 	-webkit-animation: type3 2s steps(40, end), blink 0.5s step-end infinite alternate;
 	animation: type3 2s steps(40, end), blink 0.5s step-end infinite alternate;
@@ -301,12 +325,12 @@
 	position: relative;
 	display: block;
 	cursor: pointer;
-	margin: 0;
-
+	margin: 0 auto;
+	top: -10px;
 	.four-head-button {
 		&.head-1 {
 			background-color: $secondary_gray__color;
-			color: $secondary_pink__color;
+			color: $gradient_300__color;
 			width: 65px;
 			font-size: 18px;
 			text-align: center;
@@ -317,27 +341,29 @@
 			font-weight: 100;
 			z-index: 1;
 			position: relative;
-			left: -20px;
+			left: -70px;
 		}
 		&.head-2 {
 			// background-color: palegoldenrod;
 			font-family: $sex__font;
+			text-shadow: 1px 1px 0 $secondary_gray__color;
 			color: white;
 			font-size: 20px;
 			position: absolute;
-			left: 95px;
-			top: 3px;
+			left: 35px;
+			top: -3px;
 			z-index: 1;
 			white-space: nowrap;
 			letter-spacing: 1px;
 		}
+
 		&.head-3 {
 			background-color: $secondary_pink__color;
-			margin-left: 50px;
+			margin-left: 10px;
 			height: 30px;
-			max-width: 260px;
+			max-width: 150px;
 
-			top: -10px;
+			top: -8px;
 			border-radius: 4px;
 			position: relative;
 			z-index: 0;
@@ -366,6 +392,7 @@
 		&.head-4 {
 			// background-color: olive;
 			color: $gradient_300__color;
+			text-shadow: 1px 1px 0 $secondary_gray__color;
 			z-index: 0;
 			font-size: 28px;
 			top: 5px;
