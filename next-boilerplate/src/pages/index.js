@@ -107,8 +107,8 @@ const Home = ({ posts }) => (
           <p className='main-content-p'>
             Somos a <span className='highlightMe'>Edu4Dev</span>, a única Escola
             de Programação que <br />
-            ensina <span className='highlightMe'>teoria de verdade</span>,
-            possui <span className='highlightMe'>tecnologia própria</span>
+            ensina <span className='highlightMe'>teoria de verdade</span>, com{" "}
+            <span className='highlightMe'>tecnologia própria</span>
             <br />e possui a maior experiência de mercado (desde 1998 e Top
             Rated UpWork)
             <br />
@@ -384,6 +384,9 @@ const Home = ({ posts }) => (
                   <div className='cool-arrow'></div>
                   <div className='cool-arrow'></div>
                 </div>
+                <p>
+                  <span>▶</span> Play
+                </p>
               </Link>
             </div>
           </div>

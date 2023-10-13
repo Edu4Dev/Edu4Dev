@@ -208,7 +208,7 @@
 
 	.seven-box {
 		display: block;
-
+		align-self: center;
 		// max-height: 350px;
 		width: 32%;
 		margin: 30px auto 10px;
@@ -216,7 +216,7 @@
 		&:nth-child(4) {
 			width: 100%;
 			// max-width: 960px;
-			margin: 60px auto;
+			margin: 50px auto 0;
 		}
 		a {
 			margin: 0 5px;
@@ -228,8 +228,36 @@
 				border: 2px solid #47ff9d;
 				background: #47ff9d;
 			}
-			.seven-title-link {
+			&.seven-title-link {
 				position: relative;
+				p {
+					background-color: $cta__color;
+					border: 2px solid #47ff9d;
+					padding: 3px 10px;
+					color: yellow !important;
+					width: 125px;
+					height: 40px;
+					line-height: 40px;
+					font-size: 50px;
+					display: flex;
+					letter-spacing: 5px;
+					font-family: $sixth__font;
+					span {
+						color: $secondary_blue__color !important;
+						margin-right: 5px;
+						font-size: 28px;
+						position: relative;
+						top: -4px;
+						left: 2px;
+					}
+					&:hover {
+						background: $secondary_blue__color;
+						border: 2px solid yellow;
+						span {
+							color: yellow !important;
+						}
+					}
+				}
 			}
 			.seven-img {
 				margin: 0px auto;
@@ -253,6 +281,13 @@
 					color: $secondary_blue__color;
 					opacity: 0.2;
 					padding: 0 5px;
+				}
+				@media (max-width: 450px) {
+					font-size: 22px;
+					line-height: 26px;
+					&.small-q {
+						font-size: 14px;
+					}
 				}
 				.color-me-span {
 					color: #ff6e20;
@@ -307,6 +342,8 @@
 				line-height: 26px;
 				text-shadow: 2px 2px 3px $secondary_pink__RGBAcolor;
 				font-family: $sex__font;
+				position: relative;
+				top: -50px;
 			}
 			h3.seven-title-green {
 				font-weight: 100;
@@ -378,6 +415,14 @@
 				}
 			}
 		}
+		@media (max-width: 550px) {
+			&.D {
+				max-width: 350px;
+				padding: 0;
+				margin-left: 0;
+				margin-right: 0;
+			}
+		}
 	}
 }
 .A {
@@ -431,7 +476,6 @@
 		border: 0 !important;
 	}
 }
-
 .matriculas {
 	font-family: $seventh__font;
 	padding: 12px 0 10px;
