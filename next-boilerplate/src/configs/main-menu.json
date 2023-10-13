@@ -17,6 +17,12 @@
       },
       {
         "item": {
+          "label": "Módulos",
+          "to": "/modules"
+        }
+      },
+      {
+        "item": {
           "label": "Contato",
           "to": "/contact"
         }

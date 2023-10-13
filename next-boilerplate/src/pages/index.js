@@ -49,40 +49,27 @@ const Home = ({ posts }) => (
       opt={{
         isBoxed: true,
         classes: "wrapper-overflow hero-cta",
-        alignTo: "left",
         bgColor: "#47ff9d",
       }}
     >
-      <div className='bg-nav-gray'>
-        <div className='hero'>
-          <div className='main-hero'>
-            <div>
-              <Image
-                src={"/brandimages/nutkls-img-hero.png"}
-                alt={"Edu4Dev"}
-                placeholder={"NONE"}
-                critical='true'
-                width={550}
-                height={350}
-                style={{ position: "absolute", right: "-110px", top: 0 }}
-                className='profile-image'
-              />{" "}
-              <div className='wrapper-main-hero-left css-typing'>
-                <h2 className='hero-heading-h2 type-this'>
-                  Universo de Aprendizado
-                </h2>
-                <h3 className='hero-heading-h3 type-this'>Para Iniciantes</h3>
-                <h1 className='hero-heading-h1 type-this'>
-                  Curso de Programação
-                </h1>
-                <p className='hero-heading-p'>
-                  <strong>Aprenda com teoria e prática.</strong>
-                  <br />* Matrículas abertas!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+      <Image
+        src={"/brandimages/nutkls-img-hero.png"}
+        alt={"Edu4Dev"}
+        placeholder={"NONE"}
+        critical='true'
+        width={550}
+        height={350}
+        style={{ position: "absolute", right: "-110px", top: "-75px" }}
+        className='profile-image'
+      />{" "}
+      <div className='wrapper-main-hero-left css-typing'>
+        <h2 className='hero-heading-h2 type-this'>Universo de Aprendizado</h2>
+        <h3 className='hero-heading-h3 type-this'>Para Iniciantes</h3>
+        <h1 className='hero-heading-h1 type-this'>Curso de Programação</h1>
+        <p className='hero-heading-p'>
+          <strong>Aprenda com teoria e prática.</strong>
+          <br />* Matrículas abertas!
+        </p>
       </div>
     </Row>
     <Row
@@ -110,22 +97,22 @@ const Home = ({ posts }) => (
             ensina <span className='highlightMe'>teoria de verdade</span>, com{" "}
             <span className='highlightMe'>tecnologia própria</span>
             <br />e possui a maior experiência de mercado (desde 1998 e Top
-            Rated UpWork)
+            Rated UpWork).
             <br />
-            tudo para te ensinar o verdadeiro{" "}
+            Tudo para te ensinar o verdadeiro{" "}
             <span className='highlightMe'>Mão Na Massa!!!</span>
           </p>
-
           <p className='main-content-p'>
             Impulsione já o seu aprendizado em tecnologia.
             <br />
-            <span className='highlightMe'>Faça 1 década em 1 mês</span>, com
+            <span className='highlightMe'>Faça 1 década em 1 mês</span>, com a
             escola de programação mais especializada do Brasil!
             <br />
             Nossos cursos são projetados para despertar sua criatividade e
-            empreendedorismo,
+            empreendedorismo.
             <br />
-            tornando o seu aprendizado em uma{" "}
+            Com a <span className='highlightMe'>Edu4Dev</span> o seu aprendizado
+            se torna uma{" "}
             <span className='highlightMe'>experiência incrível</span>.
           </p>
           <Link href={"/"} className='matriculas'>
@@ -390,143 +377,165 @@ const Home = ({ posts }) => (
               </Link>
             </div>
           </div>
-          <h2>Pronto para Começar?</h2>
+          <h2 className='main-content-h2'>Reconhecimentos e Parceiros</h2>
+          <p className='main-content-p'>
+            A edu4Dev é uma iniciativa do mentor de tecnologia Milton Bolonha.
+            <br />
+            Programador desde 1998, filantropo desde 2007 e programador "Top
+            Rated" pela UpWork desde 2019.
+          </p>
           <p>
-            Matricule-se agora e inicie sua jornada para se tornar um
-            especialista em tecnologia.
+            Veja abaixo alguns reconhecimentos, entidades e parceiros que se
+            beneficiam da nossa tecnologia, ou estão juntos conosco em nosso
+            MetaVerso.
           </p>
 
-          <div>
-            <h1>Reconhecimentos e Parceiros</h1>
+          <div className='partners-wrapper'>
             <div className='partners'>
-              <h2>UpWork</h2>
-              img
-              <p>mercado internacional</p>
-              <p>top rated</p>
-              <p>+ 2k horas</p>
+              <div className='inner-partners'>
+                <h3>UpWork</h3>
+                <Image
+                  src={"/brandimages/tela-room1-tiny.png"}
+                  alt={"Edu4Dev"}
+                  placeholder={"NONE"}
+                  critical='true'
+                  width={280}
+                  height={160}
+                  className='seven-img'
+                />
+                <p>mercado internacional</p>
+                <p>top rated</p>
+                <p>+ 2k horas</p>
+              </div>
             </div>
             <div className='partners'>
-              <h2>GitHub</h2>
-              img
-              <p>parceiro</p>
-              <p>blog da descola fiz</p>
-              <p>testemunho</p>
+              <div className='inner-partners'>
+                <h3>GitHub</h3>
+                <Image
+                  src={"/brandimages/tela-room1-tiny.png"}
+                  alt={"Edu4Dev"}
+                  placeholder={"NONE"}
+                  critical='true'
+                  width={280}
+                  height={160}
+                  className='seven-img'
+                />
+                <p>parceiro</p>
+                <p>blog da descola fiz</p>
+                <p>testemunho</p>
+              </div>
             </div>
             <div className='partners'>
-              <h2>Descola</h2>
-              img
-              <p>parceiro</p>
-              <p>blog da descola fiz</p>
-              <p>testemunho</p>
+              <div className='inner-partners'>
+                <h3>Descola</h3>
+                <Image
+                  src={"/brandimages/tela-room1-tiny.png"}
+                  alt={"Edu4Dev"}
+                  placeholder={"NONE"}
+                  critical='true'
+                  width={280}
+                  height={160}
+                  className='seven-img'
+                />
+                <p>parceiro</p>
+                <p>blog da descola fiz</p>
+                <p>testemunho</p>
+              </div>
             </div>
             <div className='partners'>
-              <h2>As Casamenteiras</h2>
-              img
-              <p>parceiro</p>
-              <p>blog da descola fiz</p>
-              <p>testemunho</p>{" "}
+              <div className='inner-partners'>
+                <h3>As Casamenteiras</h3>
+                <Image
+                  src={"/brandimages/tela-room1-tiny.png"}
+                  alt={"Edu4Dev"}
+                  placeholder={"NONE"}
+                  critical='true'
+                  width={280}
+                  height={160}
+                  className='seven-img'
+                />
+                <p>parceiro</p>
+                <p>blog da descola fiz</p>
+                <p>testemunho</p>{" "}
+              </div>
             </div>
             <div className='partners'>
-              <h2>ADJ - Ass. Diabetes Brasil</h2>
-              img
-              <p>parceiro</p>
-              <p>blog da descola fiz</p>
-              <p>testemunho</p>{" "}
+              <div className='inner-partners'>
+                <h3>ADJ - Ass. Diabetes Brasil</h3>
+                <Image
+                  src={"/brandimages/tela-room1-tiny.png"}
+                  alt={"Edu4Dev"}
+                  placeholder={"NONE"}
+                  critical='true'
+                  width={280}
+                  height={160}
+                  className='seven-img'
+                />
+                <p>parceiro</p>
+                <p>blog da descola fiz</p>
+                <p>testemunho</p>{" "}
+              </div>
             </div>
             <div className='partners'>
-              <h2>Green Hat Web Solutions</h2>
-              img
-              <p>parceiro</p>
-              <p>blog da descola fiz</p>
-              <p>testemunho</p>{" "}
+              <div className='inner-partners'>
+                <h3>Green Hat Web Solutions</h3>
+                <Image
+                  src={"/brandimages/tela-room1-tiny.png"}
+                  alt={"Edu4Dev"}
+                  placeholder={"NONE"}
+                  critical='true'
+                  width={280}
+                  height={160}
+                  className='seven-img'
+                />
+                <p>parceiro</p>
+                <p>blog da descola fiz</p>
+                <p>testemunho</p>{" "}
+              </div>
             </div>
             <div className='partners'>
-              <h2>Ass Comercial de SP</h2>
-              img
-              <p>parceiro</p>
-              <p>blog da descola fiz</p>
-              <p>testemunho</p>{" "}
+              <div className='inner-partners'>
+                <h3>Ass Comercial de SP</h3>
+                <Image
+                  src={"/brandimages/tela-room1-tiny.png"}
+                  alt={"Edu4Dev"}
+                  placeholder={"NONE"}
+                  critical='true'
+                  width={280}
+                  height={160}
+                  className='seven-img'
+                />
+                <p>parceiro</p>
+                <p>blog da descola fiz</p>
+                <p>testemunho</p>{" "}
+              </div>
             </div>
             <div className='partners'>
-              <h2>Green Hat Web Solutions</h2>
-              img
-              <p>parceiro</p>
-              <p>blog da descola fiz</p>
-              <p>testemunho</p>{" "}
+              <div className='inner-partners'>
+                <h3>Green Hat Web Solutions</h3>
+                <Image
+                  src={"/brandimages/tela-room1-tiny.png"}
+                  alt={"Edu4Dev"}
+                  placeholder={"NONE"}
+                  critical='true'
+                  width={280}
+                  height={160}
+                  className='seven-img'
+                />
+                <p>parceiro</p>
+                <p>blog da descola fiz</p>
+                <p>testemunho</p>{" "}
+              </div>
             </div>
+            <p className='main-content-p'>
+              Matricule-se agora e inicie sua jornada <br />
+              para se tornar um especialista em tecnologia.
+            </p>
+            <Link href={"/"} className='matriculas'>
+              Matriculas Abertas!
+            </Link>
           </div>
         </main>
-      </div>
-      <div className='edu-modules'>
-        módulos
-        <ul>
-          <li>Módulo Introdutório</li>
-          <ul>
-            <li>Boas-vindas</li>
-            <li>Palestra Inicial</li>
-            <li>Apresentando-se</li>
-            <li>O que Vamos Aprender?</li>
-            <li>O que Vamos Fazer?</li>
-            <li>Como Ganhar Dinheiro Com Esse Ensinamento?</li>
-            <li>Tecnologia, Arte e Filosofia</li>
-            <li>Inteligência Artificial</li>
-          </ul>
-          <li>Módulo 01</li>
-          <ul>
-            <li>O que é Versionamento</li>
-            <li>O que é Git</li>
-            <li>O que é GitHub </li>
-            <li>Como acessar e criar uma conta no GitHub</li>
-            <li>
-              Lidar com o formulário de cadastro, senhas fracas e teste de
-              confirmação
-            </li>
-            <li>Cutomizar e escolher o seu pacote gratuito GitHub</li>
-            <li>Acessar o menu lateral</li>
-            <li>Customizar as suas informações pessoais no GitHub</li>
-          </ul>
-          <li>Módulo 02</li>
-          <ul>
-            <li>Como criar um repositório e o arquivo do seu perfil</li>
-            <li>O que é um repositório git</li>
-            <li>Padrão de escrita MD “MarkDown”</li>
-            <li>Marcações e Conversões em MD</li>
-            <li>Analisar e seguir perfil do professor </li>
-          </ul>
-          <li>Módulo 03</li>
-          <ul>
-            <li>Software Livre</li>
-            <li>Código Aberto</li>
-            <li>Arquivos Padrões de Projeto</li>
-            <li>Arquivos dotEnv</li>
-            <li>Garantias Para Projetos de Código Aberto</li>
-          </ul>
-          <li>Módulo 04</li>
-          <ul>
-            <li>O MultiVerso RÖÖM</li>
-            <li>Cartas do MultiVerso RÖÖM</li>
-            <li>Método TE[i]As</li>
-            <li>Esquema de MetaDados</li>
-            <li>Blocos de MetaDados</li>
-            <li>Palavras-chaves e Importâncias</li>
-          </ul>
-          <li>Módulo 05</li>
-          <ul>
-            <li>GitHub Templates</li>
-            <li>
-              Como colocar um site no ar igual a um hacker em cinco minutos?
-            </li>
-          </ul>
-          <li>Módulo 06</li>
-          <ul>
-            <li>Otimização de Websítios</li>
-            <li>Google PageSpeed</li>
-            <li>GTMetrix</li>
-            <li>Schema Validador</li>
-            <li>MetaTags Validador</li>
-          </ul>
-          <li>E muito mais...</li>
-        </ul>
       </div>
     </Row>
     <footer>

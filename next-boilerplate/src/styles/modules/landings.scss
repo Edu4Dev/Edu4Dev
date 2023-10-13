@@ -21,10 +21,7 @@
       flex-direction: column;
       color: $cta__colorLink;
       margin: 0 auto;
-      h2 {
-        font-size: 32px;
-        font-family: $sixth__font;
-      }
+
       &.success {
         height: 100vh;
       }

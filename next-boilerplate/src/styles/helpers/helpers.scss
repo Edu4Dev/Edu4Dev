@@ -478,7 +478,7 @@
 }
 .matriculas {
 	font-family: $seventh__font;
-	padding: 12px 0 10px;
+	padding: 12px 20px 10px;
 	text-align-last: center;
 	border-radius: 25px;
 	border: 2px solid #000;
@@ -506,5 +506,36 @@
 		background: $cta__colorLink;
 		color: $cta__contrast_color;
 		border: 2px dashed $cta__contrast_color;
+	}
+}
+.main-wrapper h2.main-content-h2 {
+	font-size: 40px;
+	font-family: $sixth__font;
+	text-shadow: 3px 3px 1px #2600ff;
+}
+.main-wrapper .main-content-p {
+	margin: 20px 0;
+}
+.partners-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 30px auto;
+	.partners {
+		min-width: 300px;
+		max-width: 33%;
+		margin: 10px;
+		border: 3px dashed #47ff9d;
+		border-radius: 5px;
+		& * {
+			color: #47ff9d;
+		}
+		.inner-partners {
+			padding: 20px 10px;
+			h3 {
+				font-size: 24px;
+				padding: 0 5px;
+				color: $link__color;
+			}
+		}
 	}
 }
