@@ -91,10 +91,19 @@ const Home = ({ posts }) => (
             style={{ objectFit: "cover", margin: "50px 0" }}
             className='profile-image'
           /> */}
+          <Image
+            src={"/brandimages/edu4dev-logo-charas.png"}
+            alt={"Edu4Dev"}
+            placeholder={"NONE"}
+            critical='true'
+            width={400}
+            height={264}
+            className='seven-img'
+          />
           <p className='main-content-p'>
             Somos a <span className='highlightMe'>Edu4Dev</span>, a única Escola
             de Programação que <br />
-            ensina <span className='highlightMe'>teoria de verdade</span>, com{" "}
+            ensina <span className='highlightMe'>teoria disruptiva</span>, com{" "}
             <span className='highlightMe'>tecnologia própria</span>
             <br />e possui a maior experiência de mercado (desde 1998 e Top
             Rated UpWork).
@@ -102,22 +111,56 @@ const Home = ({ posts }) => (
             Tudo para te ensinar o verdadeiro{" "}
             <span className='highlightMe'>Mão Na Massa!!!</span>
           </p>
+
+          <h2 className='main-content-h2'>Educação À Distância</h2>
+          <Image
+            src={"/brandimages/learning.png"}
+            alt={"Edu4Dev"}
+            placeholder={"NONE"}
+            critical='true'
+            width={480}
+            height={275}
+            className='seven-img'
+          />
+
           <p className='main-content-p'>
-            Impulsione já o seu aprendizado em tecnologia.
-            <br />
-            <span className='highlightMe'>Faça 1 década em 1 mês</span>, com a
-            escola de programação mais especializada do Brasil!
-            <br />
-            Nossos cursos são projetados para despertar sua criatividade e
-            empreendedorismo.
+            Mentorias on-line, aulas em grupo, consultorias avulsas, tudo no
+            conforto de casa.
             <br />
             Com a <span className='highlightMe'>Edu4Dev</span> o seu aprendizado
             se torna uma{" "}
             <span className='highlightMe'>experiência incrível</span>.
           </p>
+          <p className='main-content-p'>
+            <span className='highlightMe'>Faça 1 década em 1 mês</span>, com a
+            escola de programação mais especializada do Brasil!
+            <br />
+            Nossos cursos são projetados para despertar a criatividade e o
+            empreendedorismo.
+          </p>
           <Link href={"/"} className='matriculas'>
             Matriculas Abertas!
           </Link>
+          <h2 className='main-content-h2'>O Que Você Vai Descobrir?</h2>
+
+          <Image
+            src={"/brandimages/laptop-reading.png"}
+            alt={"Edu4Dev"}
+            placeholder={"NONE"}
+            critical='true'
+            width={480}
+            height={275}
+            className='seven-img'
+          />
+          <p className='main-content-p'>
+            Conheça o <span className='highlightMe'>MultiVerso RÖÖM</span>, um
+            mundo tecnológico impressionante, onde você vai aprender a programar
+            com os mentores mais incríveis.
+            <p className='main-content-p'></p>E de{" "}
+            <span className='highlightMe'>brinde</span> você vai acessar uma
+            aventura em livro eletrizante, um álbum musical empolgante, material
+            didático, inteligência artificial, hacker-book, e muito mais.
+          </p>
           <div className='wrapper-seven-box'>
             <div className='seven-box A'>
               <Link href='/'>
@@ -377,42 +420,59 @@ const Home = ({ posts }) => (
               </Link>
             </div>
           </div>
-          <h2 className='main-content-h2'>Reconhecimentos e Parceiros</h2>
+          <h2 className='main-content-h2'>Reconhecimentos e Parcerias</h2>
+
+          <Image
+            src={"/brandimages/qualidade.png"}
+            alt={"Edu4Dev"}
+            placeholder={"NONE"}
+            critical='true'
+            width={480}
+            height={275}
+            className='seven-img'
+          />
           <p className='main-content-p'>
-            A edu4Dev é uma iniciativa do mentor de tecnologia Milton Bolonha.
+            A <span className='highlightMe'>Edu4Dev</span> é uma iniciativa do
+            mentor de tecnologia{" "}
+            <span className='highlightMe'>Milton Bolonha</span>.
             <br />
-            Programador desde 1998, filantropo desde 2007 e programador "Top
-            Rated" pela UpWork desde 2019.
+            Programador desde <span className='highlightMe'>1998</span>,
+            filantropo desde <span className='highlightMe'>2007</span> e
+            programador "Top Rated" pela{" "}
+            <span className='highlightMe'>UpWork</span> desde 2019.
           </p>
           <p>
-            Veja abaixo alguns reconhecimentos, entidades e parceiros que se
-            beneficiam da nossa tecnologia, ou estão juntos conosco em nosso
-            MetaVerso.
+            Abaixo reconhecimentos, entidades e parcerias que estão conosco em
+            nosso MetaVerso.
           </p>
 
           <div className='partners-wrapper'>
             <div className='partners'>
               <div className='inner-partners'>
-                <h3>UpWork</h3>
+                <h3>São Francisco, CA, EUA</h3>
                 <Image
-                  src={"/brandimages/tela-room1-tiny.png"}
+                  src={"/brandimages/upwork-logo.png"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
                   width={280}
-                  height={160}
+                  height={75}
                   className='seven-img'
                 />
-                <p>mercado internacional</p>
-                <p>top rated</p>
-                <p>+ 2k horas</p>
+                <p>
+                  Nossos mentores atuam no mercado competitivo em cenário
+                  internacional, desde 2018, destacando-se na{" "}
+                  <span className='highlightMe'>UpWork</span> como{" "}
+                  <span className='highlightMe'>TOP RATED</span> (autoridades na
+                  programação web).
+                </p>
               </div>
             </div>
             <div className='partners'>
               <div className='inner-partners'>
-                <h3>GitHub</h3>
+                <h3>São Francisco, CA, EUA</h3>
                 <Image
-                  src={"/brandimages/tela-room1-tiny.png"}
+                  src={"/brandimages/github-logo.png"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -420,16 +480,41 @@ const Home = ({ posts }) => (
                   height={160}
                   className='seven-img'
                 />
-                <p>parceiro</p>
-                <p>blog da descola fiz</p>
-                <p>testemunho</p>
+                <p>
+                  Fazemos parte do
+                  <br />
+                  <span className='highlightMe'>GitHub Developer Program</span>,
+                  <br />
+                  isso quer dizer que vamos te dar todo o suporte{" "}
+                  <span className='highlightMe'>GitHub</span> que você precisa.
+                </p>
+              </div>
+            </div>
+
+            <div className='partners'>
+              <div className='inner-partners'>
+                <h3>São Paulo - SP</h3>
+                <Image
+                  src={"/brandimages/hapvida-logo.png"}
+                  alt={"Edu4Dev"}
+                  placeholder={"NONE"}
+                  critical='true'
+                  width={280}
+                  height={160}
+                  className='seven-img'
+                />
+                <p>
+                  Por meio do programa 100 Open Startup, fomos contratados pela{" "}
+                  <span className='highlightMe'>HapVida</span> para consultoria
+                  on-line em tecnologia.
+                </p>
               </div>
             </div>
             <div className='partners'>
               <div className='inner-partners'>
-                <h3>Descola</h3>
+                <h3>São Paulo - SP</h3>
                 <Image
-                  src={"/brandimages/tela-room1-tiny.png"}
+                  src={"/brandimages/100-open-startups.png"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -437,16 +522,19 @@ const Home = ({ posts }) => (
                   height={160}
                   className='seven-img'
                 />
-                <p>parceiro</p>
-                <p>blog da descola fiz</p>
-                <p>testemunho</p>
+                <p>
+                  Estamos no ranking <br />
+                  <span className='highlightMe'>100 Open Startup</span>, <br />
+                  isso significa que já fechamos negócio com grandes players do
+                  mercado.
+                </p>
               </div>
             </div>
             <div className='partners'>
               <div className='inner-partners'>
-                <h3>As Casamenteiras</h3>
+                <h3>São Paulo - SP</h3>
                 <Image
-                  src={"/brandimages/tela-room1-tiny.png"}
+                  src={"/brandimages/acboost.png"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -454,16 +542,21 @@ const Home = ({ posts }) => (
                   height={160}
                   className='seven-img'
                 />
-                <p>parceiro</p>
-                <p>blog da descola fiz</p>
-                <p>testemunho</p>{" "}
+                <p>
+                  Avaliados pela ACBOOST 22, da{" "}
+                  <span className='highlightMe'>
+                    Associação Comercial de São Paulo
+                  </span>
+                  , a <span className='highlightMe'>Edu4Dev</span> se destacou
+                  com um produto acima da média do programa.
+                </p>
               </div>
             </div>
             <div className='partners'>
               <div className='inner-partners'>
-                <h3>ADJ - Ass. Diabetes Brasil</h3>
+                <h3>Denver, CO, USA</h3>
                 <Image
-                  src={"/brandimages/tela-room1-tiny.png"}
+                  src={"/brandimages/green-hat-logo.jpeg"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -471,33 +564,49 @@ const Home = ({ posts }) => (
                   height={160}
                   className='seven-img'
                 />
-                <p>parceiro</p>
-                <p>blog da descola fiz</p>
-                <p>testemunho</p>{" "}
+                <p>
+                  Nossos especialistas trabalharam por mais de 2 anos na agência
+                  web internacional{" "}
+                  <span className='highlightMe'>Green Hat Web Solution</span>.
+                </p>
+                <p>
+                  "Milton é um grande designer e desenvolvedor. Ele é
+                  extremamente talentoso. Eu recomendo Milton."
+                  <br />
+                  <br />
+                  <span className='highlightMe'>
+                    - Ryan Masterson, <br />
+                    CEO da Green Hat
+                  </span>
+                </p>
               </div>
             </div>
             <div className='partners'>
               <div className='inner-partners'>
-                <h3>Green Hat Web Solutions</h3>
+                <h3>São Paulo - SP</h3>
                 <Image
-                  src={"/brandimages/tela-room1-tiny.png"}
+                  src={"/brandimages/descola-logo.png"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
                   width={280}
-                  height={160}
+                  height={75}
                   className='seven-img'
                 />
-                <p>parceiro</p>
-                <p>blog da descola fiz</p>
-                <p>testemunho</p>{" "}
+                <p>
+                  A Descola é uma startup inovadora na área de cursos e tem como
+                  principal parceiro o Cubo Itaú. Eles usam no blog deles,
+                  tecnologia criada pela{" "}
+                  <span className='highlightMe'>Edu4Dev</span>, a mesma usada no
+                  curso.
+                </p>
               </div>
             </div>
             <div className='partners'>
               <div className='inner-partners'>
-                <h3>Ass Comercial de SP</h3>
+                <h3>Ribeirão Preto - SP</h3>
                 <Image
-                  src={"/brandimages/tela-room1-tiny.png"}
+                  src={"/brandimages/as-casamenteiras-logo.png"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -505,35 +614,27 @@ const Home = ({ posts }) => (
                   height={160}
                   className='seven-img'
                 />
-                <p>parceiro</p>
-                <p>blog da descola fiz</p>
-                <p>testemunho</p>{" "}
+                <p>
+                  Tecnologia do curso alavancando vendas: "Hoje faço muito mais
+                  casamentos, graças as vendas da minha empresa que funcionam
+                  com tecnologia de ponta a ponta." <br />
+                  <br />
+                  <span className='highlightMe'>
+                    Priscilla Barbosa, <br />
+                    CEO As Casamenteiras
+                  </span>
+                </p>
               </div>
             </div>
-            <div className='partners'>
-              <div className='inner-partners'>
-                <h3>Green Hat Web Solutions</h3>
-                <Image
-                  src={"/brandimages/tela-room1-tiny.png"}
-                  alt={"Edu4Dev"}
-                  placeholder={"NONE"}
-                  critical='true'
-                  width={280}
-                  height={160}
-                  className='seven-img'
-                />
-                <p>parceiro</p>
-                <p>blog da descola fiz</p>
-                <p>testemunho</p>{" "}
-              </div>
-            </div>
-            <p className='main-content-p'>
+
+            <p className='main-content-p mboost'>
               Matricule-se agora e inicie sua jornada <br />
               para se tornar um especialista em tecnologia.
             </p>
             <Link href={"/"} className='matriculas'>
               Matriculas Abertas!
             </Link>
+            <h2 className='main-content-h2'>Conheça os nossos módulos</h2>
           </div>
         </main>
       </div>

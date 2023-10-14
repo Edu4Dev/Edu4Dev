@@ -15,7 +15,7 @@ $primary_background: mix(white, $cta__color, 90%);
 $primary_light: mix(white, $cta__colorLink, 25%);
 $primary_darklight: mix(black, $cta__colorLink, 25%);
 $primary_lightVar: mix(black, $hot__color, 25%);
-$primary_dark: mix(black, $cta__color, 35%);
+$primary_dark: mix(rgb(44, 13, 5), $cta__color, 18%);
 $primary_darkvar: #252210;
 
 $brand_black__color: #262833;
