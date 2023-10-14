@@ -18,7 +18,7 @@ import {
 } from "react-icons/gi";
 
 const Home = ({ posts }) => (
-  <MainWrapperContainer rowWidth={960}>
+  <MainWrapperContainer>
     <SeoContainer
       killSeo={false}
       data={{
@@ -101,17 +101,16 @@ const Home = ({ posts }) => (
             className='seven-img'
           />
           <p className='main-content-p'>
-            Somos a <span className='highlightMe'>Edu4Dev</span>, a única Escola
-            de Programação que <br />
-            ensina <span className='highlightMe'>teoria disruptiva</span>, com{" "}
-            <span className='highlightMe'>tecnologia própria</span>
+            Somos a <strong className='highlightMe'>Edu4Dev</strong>, a única
+            Escola de Programação que <br />
+            ensina <strong className='highlightMe'>teoria disruptiva</strong>,
+            com <strong className='highlightMe'>tecnologia própria</strong>
             <br />e possui a maior experiência de mercado (desde 1998 e Top
             Rated UpWork).
             <br />
             Tudo para te ensinar o verdadeiro{" "}
-            <span className='highlightMe'>Mão Na Massa!!!</span>
+            <strong className='highlightMe'>Mão Na Massa!!!</strong>
           </p>
-
           <h2 className='main-content-h2'>Educação À Distância</h2>
           <Image
             src={"/brandimages/learning.png"}
@@ -122,18 +121,17 @@ const Home = ({ posts }) => (
             height={275}
             className='seven-img'
           />
-
           <p className='main-content-p'>
             Mentorias on-line, aulas em grupo, consultorias avulsas, tudo no
             conforto de casa.
             <br />
-            Com a <span className='highlightMe'>Edu4Dev</span> o seu aprendizado
-            se torna uma{" "}
-            <span className='highlightMe'>experiência incrível</span>.
+            Com a <strong className='highlightMe'>Edu4Dev</strong> o seu
+            aprendizado se torna uma{" "}
+            <strong className='highlightMe'>experiência incrível</strong>.
           </p>
           <p className='main-content-p'>
-            <span className='highlightMe'>Faça 1 década em 1 mês</span>, com a
-            escola de programação mais especializada do Brasil!
+            <strong className='highlightMe'>Faça 1 década em 1 mês</strong>, com
+            a escola de programação mais especializada do Brasil!
             <br />
             Nossos cursos são projetados para despertar a criatividade e o
             empreendedorismo.
@@ -142,7 +140,6 @@ const Home = ({ posts }) => (
             Matriculas Abertas!
           </Link>
           <h2 className='main-content-h2'>O Que Você Vai Descobrir?</h2>
-
           <Image
             src={"/brandimages/laptop-reading.png"}
             alt={"Edu4Dev"}
@@ -153,11 +150,11 @@ const Home = ({ posts }) => (
             className='seven-img'
           />
           <p className='main-content-p'>
-            Conheça o <span className='highlightMe'>MultiVerso RÖÖM</span>, um
-            mundo tecnológico impressionante, onde você vai aprender a programar
-            com os mentores mais incríveis.
+            Conheça o <strong className='highlightMe'>MultiVerso RÖÖM</strong>,
+            um mundo tecnológico impressionante, onde você vai aprender a
+            programar com os mentores mais incríveis.
             <p className='main-content-p'></p>E de{" "}
-            <span className='highlightMe'>brinde</span> você vai acessar uma
+            <strong className='highlightMe'>brinde</strong> você vai acessar uma
             aventura em livro eletrizante, um álbum musical empolgante, material
             didático, inteligência artificial, hacker-book, e muito mais.
           </p>
@@ -421,7 +418,6 @@ const Home = ({ posts }) => (
             </div>
           </div>
           <h2 className='main-content-h2'>Reconhecimentos e Parcerias</h2>
-
           <Image
             src={"/brandimages/qualidade.png"}
             alt={"Edu4Dev"}
@@ -432,20 +428,19 @@ const Home = ({ posts }) => (
             className='seven-img'
           />
           <p className='main-content-p'>
-            A <span className='highlightMe'>Edu4Dev</span> é uma iniciativa do
-            mentor de tecnologia{" "}
-            <span className='highlightMe'>Milton Bolonha</span>.
+            A <strong className='highlightMe'>Edu4Dev</strong> é uma iniciativa
+            do mentor de tecnologia{" "}
+            <strong className='highlightMe'>Milton Bolonha</strong>.
             <br />
-            Programador desde <span className='highlightMe'>1998</span>,
-            filantropo desde <span className='highlightMe'>2007</span> e
+            Programador desde <strong className='highlightMe'>1998</strong>,
+            filantropo desde <strong className='highlightMe'>2007</strong> e
             programador "Top Rated" pela{" "}
-            <span className='highlightMe'>UpWork</span> desde 2019.
+            <strong className='highlightMe'>UpWork</strong> desde 2019.
           </p>
           <p>
             Abaixo reconhecimentos, entidades e parcerias que estão conosco em
             nosso MetaVerso.
           </p>
-
           <div className='partners-wrapper'>
             <div className='partners'>
               <div className='inner-partners'>
@@ -462,9 +457,9 @@ const Home = ({ posts }) => (
                 <p>
                   Nossos mentores atuam no mercado competitivo em cenário
                   internacional, desde 2018, destacando-se na{" "}
-                  <span className='highlightMe'>UpWork</span> como{" "}
-                  <span className='highlightMe'>TOP RATED</span> (autoridades na
-                  programação web).
+                  <strong className='highlightMe'>UpWork</strong> como{" "}
+                  <strong className='highlightMe'>TOP RATED</strong>{" "}
+                  (autoridades na programação web).
                 </p>
               </div>
             </div>
@@ -483,14 +478,17 @@ const Home = ({ posts }) => (
                 <p>
                   Fazemos parte do
                   <br />
-                  <span className='highlightMe'>GitHub Developer Program</span>,
+                  <strong className='highlightMe'>
+                    GitHub Developer Program
+                  </strong>
+                  ,
                   <br />
                   isso quer dizer que vamos te dar todo o suporte{" "}
-                  <span className='highlightMe'>GitHub</span> que você precisa.
+                  <strong className='highlightMe'>GitHub</strong> que você
+                  precisa.
                 </p>
               </div>
             </div>
-
             <div className='partners'>
               <div className='inner-partners'>
                 <h3>São Paulo - SP</h3>
@@ -505,8 +503,8 @@ const Home = ({ posts }) => (
                 />
                 <p>
                   Por meio do programa 100 Open Startup, fomos contratados pela{" "}
-                  <span className='highlightMe'>HapVida</span> para consultoria
-                  on-line em tecnologia.
+                  <strong className='highlightMe'>HapVida</strong> para
+                  consultoria on-line em tecnologia.
                 </p>
               </div>
             </div>
@@ -524,7 +522,9 @@ const Home = ({ posts }) => (
                 />
                 <p>
                   Estamos no ranking <br />
-                  <span className='highlightMe'>100 Open Startup</span>, <br />
+                  <strong className='highlightMe'>
+                    100 Open Startup
+                  </strong>, <br />
                   isso significa que já fechamos negócio com grandes players do
                   mercado.
                 </p>
@@ -544,11 +544,11 @@ const Home = ({ posts }) => (
                 />
                 <p>
                   Avaliados pela ACBOOST 22, da{" "}
-                  <span className='highlightMe'>
+                  <strong className='highlightMe'>
                     Associação Comercial de São Paulo
-                  </span>
-                  , a <span className='highlightMe'>Edu4Dev</span> se destacou
-                  com um produto acima da média do programa.
+                  </strong>
+                  , a <strong className='highlightMe'>Edu4Dev</strong> se
+                  destacou com um produto acima da média do programa.
                 </p>
               </div>
             </div>
@@ -567,17 +567,20 @@ const Home = ({ posts }) => (
                 <p>
                   Nossos especialistas trabalharam por mais de 2 anos na agência
                   web internacional{" "}
-                  <span className='highlightMe'>Green Hat Web Solution</span>.
+                  <strong className='highlightMe'>
+                    Green Hat Web Solution
+                  </strong>
+                  .
                 </p>
                 <p>
                   "Milton é um grande designer e desenvolvedor. Ele é
                   extremamente talentoso. Eu recomendo Milton."
                   <br />
                   <br />
-                  <span className='highlightMe'>
+                  <strong className='highlightMe'>
                     - Ryan Masterson, <br />
                     CEO da Green Hat
-                  </span>
+                  </strong>
                 </p>
               </div>
             </div>
@@ -597,8 +600,8 @@ const Home = ({ posts }) => (
                   A Descola é uma startup inovadora na área de cursos e tem como
                   principal parceiro o Cubo Itaú. Eles usam no blog deles,
                   tecnologia criada pela{" "}
-                  <span className='highlightMe'>Edu4Dev</span>, a mesma usada no
-                  curso.
+                  <strong className='highlightMe'>Edu4Dev</strong>, a mesma
+                  usada no curso.
                 </p>
               </div>
             </div>
@@ -619,14 +622,13 @@ const Home = ({ posts }) => (
                   casamentos, graças as vendas da minha empresa que funcionam
                   com tecnologia de ponta a ponta." <br />
                   <br />
-                  <span className='highlightMe'>
+                  <strong className='highlightMe'>
                     Priscilla Barbosa, <br />
                     CEO As Casamenteiras
-                  </span>
+                  </strong>
                 </p>
               </div>
             </div>
-
             <p className='main-content-p mboost'>
               Matricule-se agora e inicie sua jornada <br />
               para se tornar um especialista em tecnologia.
@@ -634,8 +636,21 @@ const Home = ({ posts }) => (
             <Link href={"/"} className='matriculas'>
               Matriculas Abertas!
             </Link>
-            <h2 className='main-content-h2'>Conheça os nossos módulos</h2>
           </div>
+          <h2 className='main-content-h2'>Conheça os nossos módulos</h2>]
+          <Image
+            src={"/brandimages/origami.png"}
+            alt={"Edu4Dev"}
+            placeholder={"NONE"}
+            critical='true'
+            width={300}
+            height={300}
+            className='seven-img'
+          />
+          <p>Vamos dar uma espiada nas aulas e nos módulos de estudo?</p>
+          <Link href={"/modules"} className='matriculas yellow'>
+            Baixe Já os Módulos de Estudo
+          </Link>
         </main>
       </div>
     </Row>

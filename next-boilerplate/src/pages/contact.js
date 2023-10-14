@@ -7,7 +7,7 @@ import { slugPrefix } from "../lib/utils";
 import mainConfigs from "../configs/main-infos.json";
 
 const Contato = () => (
-  <MainWrapperContainer rowWidth={960}>
+  <MainWrapperContainer>
     <SeoContainer
       killSeo={false}
       data={{
@@ -34,7 +34,6 @@ const Contato = () => (
         twitter: mainConfigs.business.twitterCard,
       }}
     />
-    <h2>Página: Contato</h2>
     <div className='wrapper-box'>
       <Row opt={{ isBoxed: true }}>
         <div className='hero-txt'>

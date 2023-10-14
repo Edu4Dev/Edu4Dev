@@ -497,6 +497,12 @@
 	display: inline-block;
 	font-size: 18px;
 	text-align: center;
+	&.yellow {
+		background-color: $cta__contrast_color;
+		color: $secondary_gray__color;
+		border: 2px solid $secondary_gray__color;
+		text-shadow: 2px 2px 0 $secondary_pink__color;
+	}
 	&:first-letter {
 		text-transform: uppercase;
 		font-weight: 900;
@@ -505,9 +511,11 @@
 	&:hover {
 		background: $primary_dark;
 		color: $cta__contrast_color;
+		text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8);
 		border: 2px dashed $cta__contrast_color;
 	}
 }
+.main-container h1,
 .main-wrapper h2.main-content-h2 {
 	font-size: 40px;
 	font-family: $sixth__font;
@@ -551,4 +559,24 @@
 }
 .mboost {
 	margin: 40px auto !important;
+}
+.mcenter {
+	margin: 0 auto;
+	display: block;
+}
+
+.modules-page {
+	ul {
+		font-family: $sixth__font;
+		margin-bottom: 30px;
+		li {
+			color: yellow;
+			font-size: 24px;
+			text-shadow: 1px 1px 0 $cta__color;
+			text-align: left;
+			list-style: disc;
+			margin-left: 15px;
+			padding-bottom: 10px;
+		}
+	}
 }
