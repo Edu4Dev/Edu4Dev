@@ -38,6 +38,10 @@ Acesse a aplicação em seu navegador através do endereço: http://localhost:30
 
 A partir desse ponto, você estará pronto(a) para começar a desenvolver suas próprias funcionalidades sobre essa base sólida.
 
+# Customizar
+
+Caso você tenha alterado o nome do repositório de `website` para qualquer outro nome, configure o arquivo `next-boilerplate/next.config.js`.
+
 # Contribuições
 
 Contribuições são sempre bem-vindas! Se você encontrar bugs, tiver sugestões ou quiser adicionar novas funcionalidades, sinta-se à vontade para abrir uma issue ou enviar um pull request. Juntos, podemos tornar esse boilerplate cada vez melhor!
