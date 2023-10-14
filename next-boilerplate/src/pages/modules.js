@@ -64,7 +64,19 @@ const Contato = () => (
       </div>
       <div className='edu-modules'>
         <h2 className='main-content-h2'>Módulo de Introdução ao Curso</h2>
-
+        <Image
+          src={"/brandimages/ditadora.png"}
+          alt={"Edu4Dev"}
+          placeholder={"NONE"}
+          critical='true'
+          width={280}
+          height={280}
+          className='seven-img'
+        />
+        <p>
+          "Sejam bem-vindx's ao meu Brasil beta 2-0.X.X" -{" "}
+          <span className='highlightMe'>Ditadora Facista</span>
+        </p>
         <ul>
           <li>Boas-vindas</li>
           <li>Palestra Inicial</li>
@@ -72,10 +84,25 @@ const Contato = () => (
           <li>O Que Vamos Aprender?</li>
           <li>O Que Vamos Fazer?</li>
           <li>Como Ganhar Dinheiro Com Esses Códigos?</li>
+          <li>Comece a sua Carreira Internacional</li>
           <li>Tecnologia, Arte e Filosofia</li>
           <li>Inteligência Artificial</li>
+          <li>O Desenvolvedor da Luz</li>
         </ul>
         <h2 className='main-content-h2'>Módulo 01 - O Que é Versionamento?</h2>
+        <Image
+          src={"/brandimages/check.png"}
+          alt={"Edu4Dev"}
+          placeholder={"NONE"}
+          critical='true'
+          width={280}
+          height={280}
+          className='seven-img'
+        />
+        <p>
+          Compreenda o conceito fundamental do versionamento e sua importância
+          na programação.
+        </p>
         <ul>
           <li>O Que é Versionamento?</li>
           <li>O Que é Git?</li>
@@ -85,26 +112,59 @@ const Contato = () => (
             Lidando com o formulário de cadastro, senhas fracas e teste de
             confirmação.
           </li>
-          <li>Customizar as suas informações pessoais no GitHub.</li>
+          <li>Customize o seu Perfil GitHub.</li>
         </ul>
-        <p>
-          Compreenda o conceito fundamental do versionamento e sua importância
-          na programação.
-        </p>
-        <p>
-          Explore o sistema de controle de versão Git e como ele facilita o
-          gerenciamento de código.
-        </p>
-        <p>
-          Descubra o GitHub, uma plataforma de hospedagem de código que aprimora
-          a colaboração e o compartilhamento.
-        </p>
 
+        <h2 className='main-content-h2'>Módulo 02 - Construindo o Metaverso</h2>
+        <Image
+          src={"/brandimages/passeando.png"}
+          alt={"Edu4Dev"}
+          placeholder={"NONE"}
+          critical='true'
+          width={280}
+          height={280}
+          className='seven-img'
+        />
         <p>
-          Saiba como personalizar suas informações de perfil e configurar o seu
-          perfil de programador no GitHub.
+          Neste módulo você aprenderá a criar um repositório no GitHub.
+          Configurar o arquivo de desenvolvedor. Explore o conceito de
+          repositórios Git e como são usados para gerenciar código e projetos.
+          Descubra o padrão de escrita MarkDown (MD) e sua utilidade na
+          formatação de texto.
         </p>
-        <h2 className='main-content-h2'>Módulo 03</h2>
+        <ul>
+          <li>Como Criar um Repositório e o Arquivo do seu Perfil</li>
+          <li>O que é um Repositório Git</li>
+          <li>Padrão de escrita MD “MarkDown”</li>
+          <li>Marcações e Conversões em MD</li>
+          <li>
+            Perfil da <span className='highlightMe'>Edu4Dev</span>{" "}
+            https://github.com/Edu4Dev
+          </li>
+          <li>
+            Perfil do <span className='highlightMe'>Professor</span>{" "}
+            https://github.com/miltonbolonha
+          </li>
+        </ul>
+
+        <h2 className='main-content-h2'>
+          Módulo 03 - Código Aberto & Padrões Básicos
+        </h2>
+        <Image
+          src={"/brandimages/bolo.png"}
+          alt={"Edu4Dev"}
+          placeholder={"NONE"}
+          critical='true'
+          width={280}
+          height={280}
+          className='seven-img'
+        />
+        <p>
+          Compreenda o que significa código aberto e as vantagens associadas a
+          esse modelo de desenvolvimento. Saiba mais sobre os arquivos padrões
+          de projeto de código aberto. Aprenda sobre as garantias de software,
+          licença MIT e segurança.
+        </p>
         <ul>
           <li>Software Livre</li>
           <li>Código Aberto</li>
@@ -112,7 +172,23 @@ const Contato = () => (
           <li>Arquivos dotEnv</li>
           <li>Garantias Para Projetos de Código Aberto</li>
         </ul>
-        <h2 className='main-content-h2'>Módulo 04</h2>
+
+        <h2 className='main-content-h2'>Módulo 04 - O MultiVerso RÖÖM</h2>
+        <Image
+          src={"/brandimages/web.png"}
+          alt={"Edu4Dev"}
+          placeholder={"NONE"}
+          critical='true'
+          width={280}
+          height={280}
+          className='seven-img'
+        />
+        <p>
+          Explore o conceito do MetaVerso, como funciona o universo dos dados e
+          sua importância. Entenda a definição de metadados e como eles são
+          usados em contextos como jogos e sistemas de informação. Conheça o
+          Método TE[i]As para a organização de metadados.
+        </p>
         <ul>
           <li>O MultiVerso RÖÖM</li>
           <li>Cartas do MultiVerso RÖÖM</li>
@@ -121,88 +197,53 @@ const Contato = () => (
           <li>Blocos de MetaDados</li>
           <li>Palavras-chaves e Importâncias</li>
         </ul>
-        <h2 className='main-content-h2'>Módulo 05</h2>
+
+        <h2 className='main-content-h2'>
+          Módulo 05 - Modelo GitHub Para WebSítios
+        </h2>
+        <Image
+          src={"/brandimages/github-logo.png"}
+          alt={"Edu4Dev"}
+          placeholder={"NONE"}
+          critical='true'
+          width={280}
+          height={280}
+          className='seven-img'
+        />
+        <p>
+          Use os modelos <span className='highlightMe'>Edu4Dev</span> para{" "}
+          <span className='highlightMe'>GitHub Templates</span> e simplifique o
+          processo de criação aplicativos e websítios. Coloque um websítio no ar
+          em 5 minutos, igual a um hacker.
+        </p>
         <ul>
           <li>GitHub Templates</li>
           <li>
             Como colocar um site no ar igual a um hacker em cinco minutos?
           </li>
         </ul>
+
         <h2 className='main-content-h2'>Módulo 06</h2>
+        <Image
+          src={"/brandimages/pinguim.png"}
+          alt={"Edu4Dev"}
+          placeholder={"NONE"}
+          critical='true'
+          width={280}
+          height={280}
+          className='seven-img'
+        />
+        <p>
+          Explorare técnicas e práticas para testar a velocidade e o desempenho
+          de websites. A importância da validação de esquema de metadados, como
+          isso afeta a visibilidade e o desempenho nos mecanismos de busca.
+        </p>
         <ul>
           <li>Otimização de Websítios</li>
           <li>Google PageSpeed</li>
           <li>GTMetrix</li>
           <li>Schema Validador</li>
           <li>MetaTags Validador</li>
-        </ul>
-        <ul>
-          <li>Módulo Introdutório</li>
-          <ul>
-            <li>Boas-vindas</li>
-            <li>Palestra Inicial</li>
-            <li>Apresentando-se</li>
-            <li>O que Vamos Aprender?</li>
-            <li>O que Vamos Fazer?</li>
-            <li>Como Ganhar Dinheiro Com Códigos?</li>
-            <li>Tecnologia, Arte e Filosofia</li>
-            <li>Inteligência Artificial</li>
-          </ul>
-          <li>Módulo 01</li>
-          <ul>
-            <li>O Que é Versionamento</li>
-            <li>O Que é Git</li>
-            <li>O Que é GitHub </li>
-            <li>Como acessar e criar uma conta no GitHub</li>
-            <li>
-              Lidar com o formulário de cadastro, senhas fracas e teste de
-              confirmação
-            </li>
-            <li>Cutomizar e escolher o seu pacote gratuito GitHub</li>
-            <li>Acessar o menu lateral</li>
-            <li>Customizar as suas informações pessoais no GitHub</li>
-          </ul>
-          <li>Módulo 02</li>
-          <ul>
-            <li>Como criar um repositório e o arquivo do seu perfil</li>
-            <li>O Que é um repositório git</li>
-            <li>Padrão de escrita MD “MarkDown”</li>
-            <li>Marcações e Conversões em MD</li>
-            <li>Analisar e seguir perfil do professor </li>
-          </ul>
-          <li>Módulo 03</li>
-          <ul>
-            <li>Software Livre</li>
-            <li>Código Aberto</li>
-            <li>Arquivos Padrões de Projeto</li>
-            <li>Arquivos dotEnv</li>
-            <li>Garantias Para Projetos de Código Aberto</li>
-          </ul>
-          <li>Módulo 04</li>
-          <ul>
-            <li>O MultiVerso RÖÖM</li>
-            <li>Cartas do MultiVerso RÖÖM</li>
-            <li>Método TE[i]As</li>
-            <li>Esquema de MetaDados</li>
-            <li>Blocos de MetaDados</li>
-            <li>Palavras-chaves e Importâncias</li>
-          </ul>
-          <li>Módulo 05</li>
-          <ul>
-            <li>GitHub Templates</li>
-            <li>
-              Como colocar um site no ar igual a um hacker em cinco minutos?
-            </li>
-          </ul>
-          <li>Módulo 06</li>
-          <ul>
-            <li>Otimização de Websítios</li>
-            <li>Google PageSpeed</li>
-            <li>GTMetrix</li>
-            <li>Schema Validador</li>
-            <li>MetaTags Validador</li>
-          </ul>
-          <li>E muito mais...</li>
         </ul>
       </div>
     </Row>

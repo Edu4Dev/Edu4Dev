@@ -35,7 +35,7 @@ const AboutPage = () => (
       }}
     />
     <div className='wrapper-box'>
-      <Row opt={{ isBoxed: true }}>
+      <Row opt={{ isBoxed: true, classes: "wrapper-overflow about-page" }}>
         <div className='hero-txt'>
           <h1>Milton Bolonha</h1>
           <h2>Especialista em Tecnologia e Marketing</h2>
@@ -65,12 +65,10 @@ const AboutPage = () => (
           <h2 className='main-content-h2'>Biografia Profissional</h2>
           <p>
             "Meu primeiro site fiz aos 11 anos em 1998, era sobre um vilão de
-            desenho animado. Quando comecei não existiam absoutamente nenhum
-            curso, nenhuma informação, a não ser em livros! Além de ler, eu
-            tinha que abrir códigos aleatórios de páginas web, copiar e colar
-            para ver o que acontecia. Hoje aos 36 anos, tenho uma lista grande
-            de tecnologias que aprendi ao longo da minha carreira. Veja abaixo:
-            CLI's.
+            desenho animado. Quando comecei não existia absoutamente nenhum
+            curso, quase nenhuma informação na internet sobre como programar, a
+            não ser em livros! Hoje aos 36 anos, tenho uma lista grande de
+            tecnologias que aprendi ao longo da minha carreira. Veja abaixo:
           </p>
           <ul>
             <li>Git</li>
@@ -119,7 +117,7 @@ const AboutPage = () => (
             Atua profissionalmente na área de marketing desde os seus 18 anos,
             tendo começado a fazer sites, aplicativos, sistemas e design no ano
             de 2006. Atua como engenheiro de software, desenvolvedor de jogos,
-            aplicativos e web sítios.{" "}
+            aplicativos e web sítios.
           </p>
           <p>
             Atualmente Milton possui perfil público em renomada instituição
@@ -128,6 +126,17 @@ const AboutPage = () => (
             profissionais mais bem avaliados pelos seus clientes em métricas de
             qualidade nas entregas dos seus serviços.
           </p>
+          <h2 className='main-content-h2'>Voluntariado</h2>
+
+          <Image
+            src={"/brandimages/abraco.png"}
+            alt={"Edu4Dev"}
+            placeholder={"NONE"}
+            critical='true'
+            width={280}
+            height={280}
+            className='seven-img'
+          />
           <p>
             Como professor começou a lecionar de forma voluntária em 2006, Desde
             2018 ensina programação e tecnologia. Possui a iniciativa social
@@ -136,12 +145,16 @@ const AboutPage = () => (
             com dificuldades de aprender a programar.
           </p>
           <h2 className='main-content-h2'>Biografia Pessoal</h2>
-          <p>
-            Natural de Itapetininga, Milton Bolonha passou a sua infância
-            seguindo as mudanças da família de uma cidade para outra por conta
-            dos empreendimentos do pai. Ainda menino chega aos 11 anos em
-            Ribeirão Preto.
-          </p>
+          <Image
+            src={"/brandimages/passeando.png"}
+            alt={"Edu4Dev"}
+            placeholder={"NONE"}
+            critical='true'
+            width={280}
+            height={280}
+            className='seven-img'
+          />
+
           <p>
             Morou na Dom Luiz no Castelo Branco em Ribeirão Preto, jogou futebol
             no SESI com o treinador Esquerda, atuou como camisa 10 do Botafogo
@@ -156,6 +169,18 @@ const AboutPage = () => (
             “Inteligências e Ordens: Descubra Quem É Você”. É também o autor
             brasileiro mais lido da categoria.
           </p>
+          <h2 className='main-content-h2'>Música e Livros</h2>
+
+          <Image
+            src={"/brandimages/musica.png"}
+            alt={"Edu4Dev"}
+            placeholder={"NONE"}
+            critical='true'
+            width={280}
+            height={280}
+            className='seven-img'
+          />
+
           <p>
             Aos 11 anos de idade Milton Bolonha se descobriu poeta, aos 34 em
             janeiro de 2022 o autor publicou o primeiro livro da série que

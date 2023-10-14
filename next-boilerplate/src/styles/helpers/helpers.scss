@@ -459,13 +459,14 @@
 	padding: 12px 0 10px;
 	text-align-last: center;
 	color: $cta__contrast_color !important;
+	font-weight: 900;
 }
 .wrapper-overflow li {
 	color: #fff;
 }
 
 .edu-modules ul {
-	border: 2px solid white;
+	border: 2px dashed #47ff9d;
 	border-radius: 5px;
 	padding: 30px;
 }
@@ -515,7 +516,7 @@
 		border: 2px dashed $cta__contrast_color;
 	}
 }
-.main-container h1,
+.main-container h1:not(.hero-heading-h1),
 .main-wrapper h2.main-content-h2 {
 	font-size: 40px;
 	font-family: $sixth__font;
@@ -566,17 +567,53 @@
 }
 
 .modules-page {
+	p {
+		margin: 30px 0 40px;
+	}
 	ul {
 		font-family: $sixth__font;
-		margin-bottom: 30px;
+		padding-top: 50px;
 		li {
 			color: yellow;
 			font-size: 24px;
 			text-shadow: 1px 1px 0 $cta__color;
 			text-align: left;
-			list-style: disc;
-			margin-left: 15px;
-			padding-bottom: 10px;
+			padding: 10px;
+			box-shadow: 2px 2px 0 #47ff9d;
+			background-color: #2d05ff;
+			margin: 0 5px 20px;
+			line-height: 27px;
+			&:hover {
+				background-color: $cta__color;
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+.modules-page .edu-modules p {
+	color: #47ff9d;
+}
+.about-page {
+	img {
+		width: auto;
+		display: block;
+		margin: 40px auto;
+	}
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 50px 0;
+		li {
+			padding: 5px 10px;
+			font-family: $fourth__font;
+			background-color: $cta__color;
+			font-weight: 700;
+			margin: 5px 5px;
+			&:hover {
+				background: yellow;
+				color: #000;
+			}
 		}
 	}
 }

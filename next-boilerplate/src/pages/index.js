@@ -81,16 +81,6 @@ const Home = ({ posts }) => (
     >
       <div className='main-content'>
         <main>
-          {/* <Image
-            src={"/brandimages/logo-ROOM@2x.png"}
-            alt={"Edu4Dev"}
-            placeholder={"NONE"}
-            critical='true'
-            width={215}
-            height={60}
-            style={{ objectFit: "cover", margin: "50px 0" }}
-            className='profile-image'
-          /> */}
           <Image
             src={"/brandimages/edu4dev-logo-charas.png"}
             alt={"Edu4Dev"}
@@ -153,10 +143,12 @@ const Home = ({ posts }) => (
             Conheça o <strong className='highlightMe'>MultiVerso RÖÖM</strong>,
             um mundo tecnológico impressionante, onde você vai aprender a
             programar com os mentores mais incríveis.
-            <p className='main-content-p'></p>E de{" "}
-            <strong className='highlightMe'>brinde</strong> você vai acessar uma
-            aventura em livro eletrizante, um álbum musical empolgante, material
-            didático, inteligência artificial, hacker-book, e muito mais.
+          </p>
+          <p className='main-content-p'>
+            E de <strong className='highlightMe'>brinde</strong> você vai
+            acessar uma aventura em livro eletrizante, um álbum musical
+            empolgante, material didático, inteligência artificial, hacker-book,
+            e muito mais.
           </p>
           <div className='wrapper-seven-box'>
             <div className='seven-box A'>
@@ -637,7 +629,7 @@ const Home = ({ posts }) => (
               Matriculas Abertas!
             </Link>
           </div>
-          <h2 className='main-content-h2'>Conheça os nossos módulos</h2>]
+          <h2 className='main-content-h2'>Conheça os nossos módulos</h2>
           <Image
             src={"/brandimages/origami.png"}
             alt={"Edu4Dev"}
