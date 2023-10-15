@@ -2,20 +2,13 @@ import React from "react";
 import Row from "../containers/RowContainer";
 import Link from "next/link";
 import Image from "next/image";
-import BlogList from "../templates/blog-list";
 import { getAllPosts } from "../lib/api";
+import Footer from "../components/Footer";
 import MainWrapperContainer from "../containers/MainWrapperContainer";
 import SeoContainer from "../containers/SeoContainer";
 import { slugPrefix } from "../lib/utils";
 import mainConfigs from "../configs/main-infos.json";
-import { FaPlay, FaRegLightbulb } from "react-icons/fa";
-import {
-  GiOctopus,
-  GiAlliedStar,
-  GiAmericanFootballHelmet,
-  GiAnarchy,
-  GiArtificialHive,
-} from "react-icons/gi";
+import { FaPlay } from "react-icons/fa";
 
 const Home = ({ posts }) => (
   <MainWrapperContainer>
@@ -621,12 +614,31 @@ const Home = ({ posts }) => (
                 </p>
               </div>
             </div>
+
+            <div className='partners'>
+              <div className='inner-partners'>
+                <h3>Paraíba</h3>
+                <Image
+                  src={"/brandimages/lds.png"}
+                  alt={"Edu4Dev"}
+                  placeholder={"NONE"}
+                  critical='true'
+                  width={280}
+                  height={160}
+                  className='seven-img'
+                />
+                <p>
+                  Serviço filantrópico/voluntário realizado na Paraíba nos anos
+                  de 2007 a 2009.
+                </p>
+              </div>
+            </div>
             <p className='main-content-p mboost'>
               Matricule-se agora e inicie sua jornada <br />
               para se tornar um especialista em tecnologia.
             </p>
             <Link href={"/"} className='matriculas'>
-              Matriculas Abertas!
+              Matricule-se Já!
             </Link>
           </div>
           <h2 className='main-content-h2'>Conheça os nossos módulos</h2>
@@ -646,135 +658,7 @@ const Home = ({ posts }) => (
         </main>
       </div>
     </Row>
-    <footer>
-      <div className='social-icons'>
-        <a href='https://google.com'>
-          Face
-          {/* <Img
-              fixed={instagram.childImageSharp.fixed}
-              width={instagram.childImageSharp.fixed.width}
-              height={instagram.childImageSharp.fixed.height}
-              alt="Develop with Gatsby"
-              title="Gatsby"
-            /> */}
-        </a>
-        <a href='https://google.com'>
-          Face
-          {/* <Img
-              fixed={facebook.childImageSharp.fixed}
-              width={facebook.childImageSharp.fixed.width}
-              height={facebook.childImageSharp.fixed.height}
-              alt="Develop with Gatsby"
-              title="Gatsby"
-            /> */}
-        </a>
-        <a href='https://google.com'>
-          Face
-          {/* <Img
-              fixed={linkedin.childImageSharp.fixed}
-              width={linkedin.childImageSharp.fixed.width}
-              height={linkedin.childImageSharp.fixed.height}
-              alt="Develop with Gatsby"
-              title="Gatsby"
-            /> */}
-        </a>
-        <a href='https://google.com'>
-          Face
-          {/* <Img
-              fixed={pinterest.childImageSharp.fixed}
-              width={pinterest.childImageSharp.fixed.width}
-              height={pinterest.childImageSharp.fixed.height}
-              alt="Develop with Gatsby"
-              title="Gatsby"
-            /> */}
-        </a>
-      </div>
-      <div className='main-footer'>
-        {/* <div className="footer-columns">
-						<a href="https://google.com" className="footer-subscribe">
-							<strong>Torne-se um Membro</strong>
-						</a>
-					</div> */}
-        <div className='footer-columns'>
-          <ul className='footer-menu'>
-            <li className='footer-links'>
-              <a href='https://google.com' className='footer-link'>
-                Info
-              </a>
-            </li>
-            <li className='footer-links'>
-              <a href='https://google.com' className='footer-link'>
-                Contato
-              </a>
-            </li>
-            <li className='footer-links'>
-              <a href='https://google.com' className='footer-link'>
-                FAQ
-              </a>
-            </li>
-            <li className='footer-links'>
-              <a href='https://google.com' className='footer-link'>
-                Link Item
-              </a>
-            </li>
-            <li className='footer-links'>
-              <a href='https://google.com' className='footer-link'>
-                Link Item
-              </a>
-            </li>
-            <li className='footer-links'>
-              <a href='https://google.com' className='footer-link'>
-                Link Item
-              </a>
-            </li>
-            <li className='footer-links'>
-              <a href='https://google.com' className='footer-link'>
-                Link Item
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div className='footer-columns'>
-          <ul className='footer-menu'>
-            <li className='footer-links'>
-              <a href='https://google.com' className='footer-link'>
-                Sobre
-              </a>
-            </li>
-            <li className='footer-links'>
-              <a href='https://google.com' className='footer-link'>
-                Nossa História
-              </a>
-            </li>
-            <li className='footer-links'>
-              <a href='/wiki/alesp' className='footer-link'>
-                Link
-              </a>
-            </li>
-            <li className='footer-links'>
-              <a href='https://google.com' className='footer-link'>
-                Facebook
-              </a>
-            </li>
-            <li className='footer-links'>
-              <a href='https://google.com' className='footer-link'>
-                Pinterest
-              </a>
-            </li>
-            <li className='footer-links'>
-              <a href='https://google.com' className='footer-link'>
-                Instagram
-              </a>
-            </li>
-            <li className='footer-links'>
-              <a href='https://google.com' className='footer-link'>
-                © {new Date().getFullYear()}, Edu4Dev mudar
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
+    <Footer />
 
     {/*     
     <h2>Início: Sumário</h2>

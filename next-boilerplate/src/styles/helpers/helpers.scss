@@ -461,6 +461,9 @@
 	color: $cta__contrast_color !important;
 	font-weight: 900;
 }
+.wrapper-overflow {
+	padding-bottom: 30px;
+}
 .wrapper-overflow li {
 	color: #fff;
 }
@@ -495,7 +498,7 @@
 	color: #fff;
 	text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8);
 	font-weight: 600;
-	display: inline-block;
+	display: block;
 	font-size: 18px;
 	text-align: center;
 	&.yellow {
@@ -616,4 +619,27 @@
 			}
 		}
 	}
+}
+.m0auto {
+	margin: 0 auto;
+	display: block;
+	width: auto;
+}
+
+.social-icons {
+	display: block;
+	a {
+		margin: 5px;
+	}
+}
+@media (max-width: 400px) {
+	.main-wrapper-inner.boxed-column-child {
+		display: block !important;
+	}
+}
+footer p {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: block;
+	max-width: 520px;
 }

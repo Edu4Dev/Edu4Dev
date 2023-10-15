@@ -1,5 +1,6 @@
 import React from "react";
 import Row from "../containers/RowContainer";
+import Footer from "../components/Footer";
 import Image from "next/image";
 import MainWrapperContainer from "../containers/MainWrapperContainer";
 import SeoContainer from "../containers/SeoContainer";
@@ -199,6 +200,7 @@ const AboutPage = () => (
         </div>
       </Row>
     </div>
+    <Footer />
   </MainWrapperContainer>
 );
 

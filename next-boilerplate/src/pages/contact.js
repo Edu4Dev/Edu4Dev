@@ -1,5 +1,6 @@
 import React from "react";
 
+import Footer from "../components/Footer";
 import Row from "../containers/RowContainer";
 import MainWrapperContainer from "../containers/MainWrapperContainer";
 import SeoContainer from "../containers/SeoContainer";
@@ -49,6 +50,7 @@ const Contato = () => (
         </ul>
       </Row>
     </div>
+    <Footer />
   </MainWrapperContainer>
 );
 export default Contato;

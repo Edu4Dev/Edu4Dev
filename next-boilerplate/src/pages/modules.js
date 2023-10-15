@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
+import Footer from "../components/Footer";
 import Row from "../containers/RowContainer";
 import MainWrapperContainer from "../containers/MainWrapperContainer";
 import SeoContainer from "../containers/SeoContainer";
@@ -247,6 +248,7 @@ const Contato = () => (
         </ul>
       </div>
     </Row>
+    <Footer />
   </MainWrapperContainer>
 );
 export default Contato;

@@ -1,6 +1,9 @@
 ul.contact-link-tree-wrapper {
   max-width: 550px;
   min-width: 450px;
+  @media (max-width: 520px) {
+    min-width: 275px;
+  }
   margin: 20px auto;
   li {
     list-style-type: none;
