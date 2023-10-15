@@ -1,10 +1,13 @@
 /** @type {import('next').NextConfig} */
 const isGithubPages = process.env.GITHUB_PAGES || false;
+const isProd = process.env.NODE_ENV === 'production';
+const customDomain = 'https://edu4.dev';
 const repo = "website";
 const nextConfig = {
   reactStrictMode: true,
   output: "export",
   trailingSlash: true,
+  assetPrefix: isProd ? customDomain : undefined,
   basePath: isGithubPages ? "/" + repo : undefined,
   images: {
     loader: "custom",
