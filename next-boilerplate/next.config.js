@@ -8,7 +8,7 @@ const nextConfig = {
   output: "export",
   trailingSlash: true,
   assetPrefix: isProd ? customDomain : undefined,
-  basePath: isGithubPages ? "/" + repo : undefined,
+  basePath: isGithubPages ? "" : undefined,
   images: {
     loader: "custom",
     loaderFile: "./src/containers/imgLoaderContainer.js",
