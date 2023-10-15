@@ -2,13 +2,12 @@
 const isGithubPages = process.env.GITHUB_PAGES || false;
 const isProd = process.env.NODE_ENV === 'production';
 const customDomain = 'https://edu4.dev';
-const repo = "";
+const repo = null;
 const nextConfig = {
   reactStrictMode: true,
   output: "export",
   trailingSlash: true,
   assetPrefix: isProd ? customDomain : undefined,
-  basePath: isGithubPages ? "" : undefined,
   images: {
     loader: "custom",
     loaderFile: "./src/containers/imgLoaderContainer.js",
