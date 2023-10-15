@@ -1,11 +1,10 @@
 /** @type {import('next').NextConfig} */
 const isGithubPages = process.env.GITHUB_PAGES || false;
-const customDomain = "https://edu4.dev";
 const nextConfig = {
   reactStrictMode: true,
   output: "export",
   trailingSlash: true,
-  assetPrefix: customDomain,
+  assetPrefix: "https://edu4.dev",
   images: {
     loader: "custom",
     loaderFile: "./src/containers/imgLoaderContainer.js",
