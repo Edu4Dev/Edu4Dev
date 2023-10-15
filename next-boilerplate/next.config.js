@@ -6,10 +6,6 @@ const nextConfig = {
   output: "export",
   trailingSlash: true,
   assetPrefix: customDomain,
-  images: {
-    loader: "custom",
-    loaderFile: "./src/containers/imgLoaderContainer.js",
-  },
   env: {
     IS_GITHUB_PAGE: isGithubPages,
   },

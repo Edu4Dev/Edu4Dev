@@ -91,8 +91,8 @@ const Home = ({ posts }) => (
             className='seven-img'
           />
           <p className='main-content-p'>
-            Somos a <strong className='highlightMe'>Edu4Dev</strong>, a única
-            Escola de Programação que <br />
+            Somos a <strong className='highlightMe'>Edu4Dev</strong>, a Escola
+            de Programação que <br />
             ensina <strong className='highlightMe'>teoria disruptiva</strong>,
             com <strong className='highlightMe'>tecnologia própria</strong>
             <br />e possui a maior experiência de mercado (desde 1998 e Top
