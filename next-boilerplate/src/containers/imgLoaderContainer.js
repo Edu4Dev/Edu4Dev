@@ -5,7 +5,7 @@ export default function myImageLoader({ src, width, height, quality }) {
     height || 150
   }&q=${quality || 100}`;
   const isGithubPages = process.env.IS_GITHUB_PAGE || false;
-  if (isGithubPages) {
+  if (isGithubPages && process.env.THEME_FOLDER) {
     return `/${process.env.THEME_FOLDER + objReturn}`;
   }
   return `${objReturn}`;
