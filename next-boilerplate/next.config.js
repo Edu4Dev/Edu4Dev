@@ -2,7 +2,7 @@
 const isGithubPages = process.env.GITHUB_PAGES || false;
 const isProd = process.env.NODE_ENV === 'production';
 const customDomain = 'https://edu4.dev';
-const repo = "website";
+const repo = "";
 const nextConfig = {
   reactStrictMode: true,
   output: "export",
