@@ -53,7 +53,7 @@ const Home = ({ posts }) => (
       }}
     >
       <Image
-        src={"brandimages/nutkls-img-hero.png"}
+        src={"/brandimages/nutkls-img-hero.png"}
         alt={"Edu4Dev"}
         placeholder={"NONE"}
         critical='true'
@@ -82,7 +82,7 @@ const Home = ({ posts }) => (
       <div className='main-content'>
         <main>
           <Image
-            src={"brandimages/edu4dev-logo-charas.png"}
+            src={"/brandimages/edu4dev-logo-charas.png"}
             alt={"Edu4Dev"}
             placeholder={"NONE"}
             critical='true'
@@ -103,7 +103,7 @@ const Home = ({ posts }) => (
           </p>
           <h2 className='main-content-h2'>Educação À Distância</h2>
           <Image
-            src={"brandimages/learning.png"}
+            src={"/brandimages/learning.png"}
             alt={"Edu4Dev"}
             placeholder={"NONE"}
             critical='true'
@@ -131,7 +131,7 @@ const Home = ({ posts }) => (
           </Link>
           <h2 className='main-content-h2'>O Que Você Vai Descobrir?</h2>
           <Image
-            src={"brandimages/laptop-reading.png"}
+            src={"/brandimages/laptop-reading.png"}
             alt={"Edu4Dev"}
             placeholder={"NONE"}
             critical='true'
@@ -156,7 +156,7 @@ const Home = ({ posts }) => (
                 <h3 className='seven-subtitle'>Aprenda</h3>
                 <h2 className='seven-title'>Programação</h2>
                 <Image
-                  src={"brandimages/tela-room1-tiny.png"}
+                  src={"/brandimages/tela-room1-tiny.png"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -185,7 +185,7 @@ const Home = ({ posts }) => (
                 <h3 className='seven-subtitle'>Receba</h3>
                 <h2 className='seven-title'>Material Didático</h2>
                 <Image
-                  src={"brandimages/tela-room1-tiny.png"}
+                  src={"/brandimages/tela-room1-tiny.png"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -214,7 +214,7 @@ const Home = ({ posts }) => (
                 <h3 className='seven-subtitle'>Estude</h3>
                 <h2 className='seven-title'>Chat e Salas</h2>
                 <Image
-                  src={"brandimages/tela-room1-tiny.png"}
+                  src={"/brandimages/tela-room1-tiny.png"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -259,7 +259,7 @@ const Home = ({ posts }) => (
                 <h3 className='seven-subtitle'>Segredos do</h3>
                 <h2 className='seven-title'>MetaVerso</h2>
                 <Image
-                  src={"brandimages/tela-room1-tiny.png"}
+                  src={"/brandimages/tela-room1-tiny.png"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -289,7 +289,7 @@ const Home = ({ posts }) => (
                 <h2 className='seven-title'>I.A.</h2>
 
                 <Image
-                  src={"brandimages/tela-room1-tiny.png"}
+                  src={"/brandimages/tela-room1-tiny.png"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -318,7 +318,7 @@ const Home = ({ posts }) => (
                 <h3 className='seven-subtitle'>Músicas e</h3>
                 <h2 className='seven-title'>Literatura</h2>
                 <Image
-                  src={"brandimages/tela-room1-tiny.png"}
+                  src={"/brandimages/tela-room1-tiny.png"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -347,7 +347,7 @@ const Home = ({ posts }) => (
                 <h3 className='seven-subtitle'>Ganhe</h3>
                 <h2 className='seven-title'>Produtos virtuais</h2>
                 <Image
-                  src={"brandimages/tela-room1-tiny.png"}
+                  src={"/brandimages/tela-room1-tiny.png"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -411,7 +411,7 @@ const Home = ({ posts }) => (
           </div>
           <h2 className='main-content-h2'>Reconhecimentos e Parcerias</h2>
           <Image
-            src={"brandimages/qualidade.png"}
+            src={"/brandimages/qualidade.png"}
             alt={"Edu4Dev"}
             placeholder={"NONE"}
             critical='true'
@@ -438,7 +438,7 @@ const Home = ({ posts }) => (
               <div className='inner-partners'>
                 <h3>São Francisco, CA, EUA</h3>
                 <Image
-                  src={"brandimages/upwork-logo.png"}
+                  src={"/brandimages/upwork-logo.png"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -459,7 +459,7 @@ const Home = ({ posts }) => (
               <div className='inner-partners'>
                 <h3>São Francisco, CA, EUA</h3>
                 <Image
-                  src={"brandimages/github-logo.png"}
+                  src={"/brandimages/github-logo.png"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -485,7 +485,7 @@ const Home = ({ posts }) => (
               <div className='inner-partners'>
                 <h3>São Paulo - SP</h3>
                 <Image
-                  src={"brandimages/hapvida-logo.png"}
+                  src={"/brandimages/hapvida-logo.png"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -504,7 +504,7 @@ const Home = ({ posts }) => (
               <div className='inner-partners'>
                 <h3>São Paulo - SP</h3>
                 <Image
-                  src={"brandimages/100-open-startups.png"}
+                  src={"/brandimages/100-open-startups.png"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -526,7 +526,7 @@ const Home = ({ posts }) => (
               <div className='inner-partners'>
                 <h3>São Paulo - SP</h3>
                 <Image
-                  src={"brandimages/acboost.png"}
+                  src={"/brandimages/acboost.png"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -548,7 +548,7 @@ const Home = ({ posts }) => (
               <div className='inner-partners'>
                 <h3>Denver, CO, USA</h3>
                 <Image
-                  src={"brandimages/green-hat-logo.jpeg"}
+                  src={"/brandimages/green-hat-logo.jpeg"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -580,7 +580,7 @@ const Home = ({ posts }) => (
               <div className='inner-partners'>
                 <h3>São Paulo - SP</h3>
                 <Image
-                  src={"brandimages/descola-logo.png"}
+                  src={"/brandimages/descola-logo.png"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -601,7 +601,7 @@ const Home = ({ posts }) => (
               <div className='inner-partners'>
                 <h3>Ribeirão Preto - SP</h3>
                 <Image
-                  src={"brandimages/as-casamenteiras-logo.png"}
+                  src={"/brandimages/as-casamenteiras-logo.png"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -631,7 +631,7 @@ const Home = ({ posts }) => (
           </div>
           <h2 className='main-content-h2'>Conheça os nossos módulos</h2>
           <Image
-            src={"brandimages/origami.png"}
+            src={"/brandimages/origami.png"}
             alt={"Edu4Dev"}
             placeholder={"NONE"}
             critical='true'
