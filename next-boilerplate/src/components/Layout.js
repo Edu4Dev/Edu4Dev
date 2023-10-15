@@ -3,7 +3,7 @@ import React from "react";
 const Layout = ({ children }) => {
   return (
     <section className='LayoutWrapper'>
-      <main className='LayoutMain'>{children}</main>
+      <div className='LayoutMain'>{children}</div>
     </section>
   );
 };

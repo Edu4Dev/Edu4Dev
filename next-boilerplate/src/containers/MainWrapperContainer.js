@@ -7,7 +7,10 @@ const MainWrapperContainer = ({ children, rowWidth }) => {
   const [mounted, setMounted] = useState(false);
   const { theme } = useTheme();
   const isGithubPages = process.env.IS_GITHUB_PAGE || false;
-  const THEME_FOLDER = isGithubPages ? "/" + process.env.THEME_FOLDER : "";
+  const THEME_FOLDER =
+    isGithubPages && process.env.THEME_FOLDER
+      ? "/" + process.env.THEME_FOLDER
+      : "";
   const opt = {
     ...mainConfigs,
     bgImg: THEME_FOLDER + "/brandimages/gray-bg.jpg",
