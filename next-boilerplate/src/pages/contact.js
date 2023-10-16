@@ -35,7 +35,7 @@ const Contato = () => (
         twitter: mainConfigs.business.twitterCard,
       }}
     />
-    <div className='wrapper-box'>
+    <div className=''>
       <Row opt={{ isBoxed: true }}>
         <div className='hero-txt'>
           <h1>Fale direto com o Milton</h1>

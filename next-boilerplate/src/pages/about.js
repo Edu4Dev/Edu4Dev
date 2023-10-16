@@ -35,7 +35,7 @@ const AboutPage = () => (
         twitter: mainConfigs.business.twitterCard,
       }}
     />
-    <div className='wrapper-box'>
+    <div className=''>
       <Row opt={{ isBoxed: true, classes: "wrapper-overflow about-page" }}>
         <div className='hero-txt'>
           <h1>Milton Bolonha</h1>

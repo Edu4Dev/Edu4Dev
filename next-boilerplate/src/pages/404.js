@@ -36,7 +36,7 @@ const NotFoundPage = () => (
       }}
     />
     <h2>Erro: 404</h2>
-    <div className='wrapper-box'>
+    <div className=''>
       <Row opt={{ isBoxed: true }}>
         <div className='hero-txt'>
           <h1>Não há nada por aqui!</h1>
