@@ -117,7 +117,8 @@ const Home = ({ posts }) => {
               typeof window !== "undefined"
                 ? window.open(
                     "https://www.youtube.com/watch?v=FNJuXWO2kHk",
-                    "_blank"
+                    "_blank",
+                    "noopener"
                   )
                 : null
             }
