@@ -48,7 +48,7 @@ const Home = ({ posts }) => {
         }}
       >
         <Image
-          src={"/brandimages/nutkls-img-hero.png"}
+          src={"/brandimages/nuktpls-img-hero.png"}
           alt={"Edu4Dev"}
           placeholder={"NONE"}
           critical='true'
