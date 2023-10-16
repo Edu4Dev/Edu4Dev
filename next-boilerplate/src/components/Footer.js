@@ -6,15 +6,17 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer>
-      <Image
-        src={"/brandimages/edu4dev-logo-charas.png"}
-        alt={"Edu4Dev"}
-        placeholder={"NONE"}
-        critical='true'
-        width={400}
-        height={264}
-        className='m0auto'
-      />
+      <Link href={"/"}>
+        <Image
+          src={"/brandimages/edu4dev-logo-charas.png"}
+          alt={"Edu4Dev"}
+          placeholder={"NONE"}
+          critical='true'
+          width={400}
+          height={264}
+          className='m0auto'
+        />
+      </Link>
       <p>Estamos te esperando, junte-se a nós nessa aventura eletrizante!</p>
       <Link href={"/"} className='matriculas'>
         Matricule-se Já!
