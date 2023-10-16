@@ -15,11 +15,11 @@ function App({ Component, pageProps }) {
     <ThemeProvider>
       <Layout>
         <NextNProgress
-          color='#F231A5'
+          color='#47ff9d'
           startPosition={0.3}
           stopDelayMs={200}
-          height={5}
-          showSpinner={false}
+          height={3}
+          showSpinner={true}
         />
         <Component {...pageProps} />
       </Layout>
