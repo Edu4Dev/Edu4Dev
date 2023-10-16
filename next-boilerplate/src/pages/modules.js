@@ -49,9 +49,15 @@ const Contato = () => (
         </p>
 
         <div className='partners-wrapper'>
-          <Link href={"/"} className='matriculas'>
+          <a
+            href={"/"}
+            href={"https://wa.me/5512981062959"}
+            target='_blank'
+            rel='nofollow'
+            className='matriculas'
+          >
             Matriculas Abertas!
-          </Link>
+          </a>
         </div>
       </main>
       <div className='edu-modules'>

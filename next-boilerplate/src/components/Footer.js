@@ -14,13 +14,18 @@ const Footer = () => {
           critical='true'
           width={400}
           height={264}
-          className='m0auto'
+          className='m0auto mx350'
         />
       </Link>
       <p>Estamos te esperando, junte-se a nós nessa aventura eletrizante!</p>
-      <Link href={"/"} className='matriculas'>
+      <a
+        href={"https://wa.me/5512981062959"}
+        target='_blank'
+        rel='nofollow'
+        className='matriculas'
+      >
         Matricule-se Já!
-      </Link>
+      </a>
       <Row
         opt={{
           isBoxed: true,

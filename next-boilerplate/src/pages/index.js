@@ -155,9 +155,14 @@ const Home = ({ posts }) => {
             Nossos cursos são projetados para despertar a criatividade e o
             empreendedorismo.
           </p>
-          <Link href={"/"} className='matriculas'>
+          <a
+            href={"https://wa.me/5512981062959"}
+            target='_blank'
+            rel='nofollow'
+            className='matriculas'
+          >
             Matriculas Abertas!
-          </Link>
+          </a>
           <h2 className='main-content-h2'>O Que Você Vai Descobrir?</h2>
           <Image
             src={"/brandimages/laptop-reading.png"}
@@ -673,9 +678,14 @@ const Home = ({ posts }) => {
               Matricule-se agora e inicie sua jornada <br />
               para se tornar um especialista em tecnologia.
             </p>
-            <Link href={"/"} className='matriculas'>
+            <a
+              href={"https://wa.me/5512981062959"}
+              target='_blank'
+              rel='nofollow'
+              className='matriculas'
+            >
               Matricule-se Já!
-            </Link>
+            </a>
           </div>
           <h2 className='main-content-h2'>Conheça os nossos módulos</h2>
           <Image
