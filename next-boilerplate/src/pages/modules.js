@@ -37,32 +37,23 @@ const Contato = () => (
         twitter: mainConfigs.business.twitterCard,
       }}
     />
+    <div className='modules-page'>
+      <main className='main-content'>
+        <br />
+        <p className='main-content-p'>
+          Quer saber mais do que vai ser ensinado na{" "}
+          <span className='highlightMe'>Edu4Dev</span>? <br />
+          Veja abaixo os primeiros módulos de estudo,{" "}
+          <span className='highlightMe'>Baixe Já</span> os arquivos em PDF das
+          aulas.
+        </p>
 
-    <Row
-      opt={{
-        isBoxed: false,
-        classes: "wrapper-overflow modules-page",
-        alignTo: "center",
-      }}
-    >
-      <div className='main-content'>
-        <main>
-          <br />
-          <p className='main-content-p'>
-            Quer saber mais do que vai ser ensinado na{" "}
-            <span className='highlightMe'>Edu4Dev</span>? <br />
-            Veja abaixo os primeiros módulos de estudo,{" "}
-            <span className='highlightMe'>Baixe Já</span> os arquivos em PDF das
-            aulas.
-          </p>
-
-          <div className='partners-wrapper'>
-            <Link href={"/"} className='matriculas'>
-              Matriculas Abertas!
-            </Link>
-          </div>
-        </main>
-      </div>
+        <div className='partners-wrapper'>
+          <Link href={"/"} className='matriculas'>
+            Matriculas Abertas!
+          </Link>
+        </div>
+      </main>
       <div className='edu-modules'>
         <h2 className='main-content-h2'>Módulo de Introdução ao Curso</h2>
         <Image
@@ -247,7 +238,7 @@ const Contato = () => (
           <li>MetaTags Validador</li>
         </ul>
       </div>
-    </Row>
+    </div>
     <Footer />
   </MainWrapperContainer>
 );

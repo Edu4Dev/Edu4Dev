@@ -105,7 +105,17 @@ const Home = ({ posts }) => {
               height={300}
             />
           </a>
-          <button className='hero-cta-button one video-cta'>
+          <button
+            onClick={() =>
+              typeof window !== "undefined"
+                ? window.open(
+                    "https://www.youtube.com/watch?v=FNJuXWO2kHk",
+                    "_blank"
+                  )
+                : null
+            }
+            className='hero-cta-button one video-cta'
+          >
             <p className='four-head-button head-1'>Assista</p>
             <p className='four-head-button head-2'>Vídeo PROMO</p>
             <p className='four-head-button head-3'>
