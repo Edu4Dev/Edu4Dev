@@ -2,14 +2,13 @@
   background-attachment: fixed !important;
   min-height: 100vh;
   background-size: 500px 500px;
-  width: 100%;
   /*hack*/
   margin-top: -150px;
   p {
     margin: 0px auto;
     font-weight: 600;
     font-size: 20px;
-    width: 90%;
+    width: 100%;
     text-align-last: center;
     font-family: $third__font;
     color: #fff;
@@ -31,6 +30,7 @@
     &.boxed-column-child {
       .main-container {
         margin: 0 auto;
+        max-width: 960px;
       }
     }
     &.boxed-column {

@@ -54,7 +54,12 @@ const Home = ({ posts }) => {
           critical='true'
           width={550}
           height={350}
-          style={{ position: "absolute", right: "-110px", top: "-75px" }}
+          style={{
+            position: "absolute",
+            right: "-110px",
+            top: "-75px",
+            zIndex: 0,
+          }}
           className='profile-image'
         />{" "}
         <div className='wrapper-main-hero-left css-typing'>
@@ -100,9 +105,11 @@ const Home = ({ posts }) => {
               alt={"Maskot Reading"}
               placeholder={"NONE"}
               critical='true'
-              className={"mcenter cpoint hero-cta-button one content-cta"}
+              className={
+                "mcenter cpoint hero-cta-button one content-cta video-promo"
+              }
               width={300}
-              height={300}
+              height={240}
             />
           </a>
           <button
@@ -184,7 +191,7 @@ const Home = ({ posts }) => {
                   critical='true'
                   width={280}
                   height={160}
-                  className='seven-img'
+                  className='m0auto'
                 />
 
                 <p className='seven-paragraph'>
@@ -213,7 +220,7 @@ const Home = ({ posts }) => {
                   critical='true'
                   width={280}
                   height={160}
-                  className='seven-img'
+                  className='m0auto'
                 />
 
                 <p className='seven-paragraph'>
@@ -242,7 +249,7 @@ const Home = ({ posts }) => {
                   critical='true'
                   width={280}
                   height={160}
-                  className='seven-img'
+                  className='m0auto'
                 />
 
                 <p className='seven-paragraph'>
@@ -287,7 +294,7 @@ const Home = ({ posts }) => {
                   critical='true'
                   width={280}
                   height={160}
-                  className='seven-img'
+                  className='m0auto'
                 />
 
                 <p className='seven-paragraph'>
@@ -317,7 +324,7 @@ const Home = ({ posts }) => {
                   critical='true'
                   width={280}
                   height={160}
-                  className='seven-img'
+                  className='m0auto'
                 />
 
                 <p className='seven-paragraph'>
@@ -346,7 +353,7 @@ const Home = ({ posts }) => {
                   critical='true'
                   width={280}
                   height={160}
-                  className='seven-img'
+                  className='m0auto'
                 />
 
                 <p className='seven-paragraph'>
@@ -375,7 +382,7 @@ const Home = ({ posts }) => {
                   critical='true'
                   width={280}
                   height={160}
-                  className='seven-img'
+                  className='m0auto'
                 />
 
                 <p className='seven-paragraph'>
@@ -466,7 +473,7 @@ const Home = ({ posts }) => {
                   critical='true'
                   width={280}
                   height={75}
-                  className='seven-img'
+                  className='m0auto'
                 />
                 <p>
                   Nossos mentores atuam no mercado competitivo em cenário
@@ -487,7 +494,7 @@ const Home = ({ posts }) => {
                   critical='true'
                   width={280}
                   height={160}
-                  className='seven-img'
+                  className='m0auto'
                 />
                 <p>
                   Fazemos parte do
@@ -513,7 +520,7 @@ const Home = ({ posts }) => {
                   critical='true'
                   width={280}
                   height={160}
-                  className='seven-img'
+                  className='m0auto'
                 />
                 <p>
                   Por meio do programa 100 Open Startup, fomos contratados pela{" "}
@@ -532,7 +539,7 @@ const Home = ({ posts }) => {
                   critical='true'
                   width={280}
                   height={160}
-                  className='seven-img'
+                  className='m0auto'
                 />
                 <p>
                   Estamos no ranking <br />
@@ -554,7 +561,7 @@ const Home = ({ posts }) => {
                   critical='true'
                   width={280}
                   height={160}
-                  className='seven-img'
+                  className='m0auto'
                 />
                 <p>
                   Avaliados pela ACBOOST 22, da{" "}
@@ -576,7 +583,7 @@ const Home = ({ posts }) => {
                   critical='true'
                   width={280}
                   height={160}
-                  className='seven-img'
+                  className='m0auto'
                 />
                 <p>
                   Nossos especialistas trabalharam por mais de 2 anos na agência
@@ -608,7 +615,7 @@ const Home = ({ posts }) => {
                   critical='true'
                   width={280}
                   height={75}
-                  className='seven-img'
+                  className='m0auto'
                 />
                 <p>
                   A Descola é uma startup inovadora na área de cursos e tem como
@@ -629,7 +636,7 @@ const Home = ({ posts }) => {
                   critical='true'
                   width={280}
                   height={160}
-                  className='seven-img'
+                  className='m0auto'
                 />
                 <p>
                   Tecnologia do curso alavancando vendas: "Hoje faço muito mais
@@ -654,7 +661,7 @@ const Home = ({ posts }) => {
                   critical='true'
                   width={280}
                   height={160}
-                  className='seven-img'
+                  className='m0auto'
                 />
                 <p>
                   Serviço filantrópico/voluntário realizado na Paraíba nos anos

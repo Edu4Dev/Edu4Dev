@@ -70,8 +70,8 @@ const Header = ({
                     alt={"Open Menu"}
                     placeholder={"NONE"}
                     critical='true'
-                    width={75}
-                    height={50}
+                    width={60}
+                    height={54}
                     className='main-menu-icon'
                   />
                   Menu
