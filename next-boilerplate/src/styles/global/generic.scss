@@ -159,8 +159,18 @@ pre {
   width: 100%;
 }
 img {
-  max-width: 100%;
+  max-width: 600px;
   object-fit: contain;
+  margin: 0 auto;
+  @media (max-width: 600px) {
+    max-width: 400px;
+  }
+  @media (max-width: 450px) {
+    max-width: 300px;
+  }
+  @media (max-width: 350px) {
+    max-width: 275px;
+  }
 }
 code {
   font-size: 13px;

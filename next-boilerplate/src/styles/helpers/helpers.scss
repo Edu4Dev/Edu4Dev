@@ -533,6 +533,9 @@
 	display: flex;
 	flex-wrap: wrap;
 	margin: 30px auto;
+	place-content: center;
+	text-align: center;
+	align-items: stretch;
 	.partners {
 		min-width: 300px;
 		max-width: 33%;
@@ -651,4 +654,7 @@ footer p {
 	margin-top: -20px;
 
 	padding-bottom: 20px;
+}
+.index-img {
+	margin-bottom: 40px;
 }
