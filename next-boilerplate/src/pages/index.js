@@ -9,7 +9,6 @@ import SeoContainer from "../containers/SeoContainer";
 import { slugPrefix } from "../lib/utils";
 import mainConfigs from "../configs/main-infos.json";
 import { FaPlay } from "react-icons/fa";
-import ReactPlayer from "react-player";
 
 const Home = ({ posts }) => {
   return (

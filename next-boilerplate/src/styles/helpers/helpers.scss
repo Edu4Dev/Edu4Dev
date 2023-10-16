@@ -233,10 +233,7 @@
 			border: 2px dashed #112e20;
 			z-index: 1;
 			position: relative;
-			&:hover {
-				border: 2px solid #47ff9d;
-				background: #47ff9d;
-			}
+
 			&.seven-title-link {
 				position: relative;
 				p {
@@ -414,6 +411,8 @@
 				// }
 			}
 			&:hover {
+				border: 2px solid #47ff9d;
+				background: #47ff9d;
 				h2.seven-title,
 				h3.seven-subtitle {
 					color: #000;

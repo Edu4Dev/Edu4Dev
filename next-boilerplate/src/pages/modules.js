@@ -1,9 +1,6 @@
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
-
 import Footer from "../components/Footer";
-import Row from "../containers/RowContainer";
 import MainWrapperContainer from "../containers/MainWrapperContainer";
 import SeoContainer from "../containers/SeoContainer";
 import { slugPrefix } from "../lib/utils";
@@ -50,7 +47,6 @@ const Contato = () => (
 
         <div className='partners-wrapper'>
           <a
-            href={"/"}
             href={"https://wa.me/5512981062959"}
             target='_blank'
             rel='nofollow'
