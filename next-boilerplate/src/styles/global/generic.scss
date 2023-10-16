@@ -160,6 +160,7 @@ pre {
 }
 img {
   max-width: 600px;
+  display: block;
   object-fit: contain;
   margin: 0 auto;
   @media (max-width: 600px) {

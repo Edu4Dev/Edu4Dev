@@ -581,6 +581,7 @@
 		font-family: $sixth__font;
 		padding-top: 50px;
 		li {
+			overflow-wrap: break-word;
 			color: yellow;
 			font-size: 24px;
 			text-shadow: 1px 1px 0 $cta__color;
