@@ -110,8 +110,8 @@ const HumanRightsPage = () => (
           Na nossa aventura{" "}
           <strong className='highlightMe'>
             Eugenia 3.0: As Crianças CTO's
-          </strong>
-          , o personagem mais forte do universo, ou melhor, de pelo menos três
+          </strong>{" "}
+          o personagem mais forte do universo, ou melhor, de pelo menos três
           universos, não possui as pernas, é autista, tem epilepsia, alzheimer e
           TDAH.
         </p>
@@ -195,15 +195,15 @@ const HumanRightsPage = () => (
         </p>
         <p>
           {" "}
-          Seja o protagonista do primeiro livro (
+          Seja o protagonista do primeiro livro {"("}
           <a
             href='https://www.npmjs.com/package/nuktpls-cli'
             target='_blank'
             rel='nofollow'
           >
-            hacker-book
+            <strong className='highlightMe'>hacker-book</strong>
           </a>
-          ) do mundo, que tem como diferencial o personagem principal
+          {")"} do mundo, que tem como diferencial o personagem principal
           customizável.
         </p>
         <p>

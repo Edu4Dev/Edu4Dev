@@ -88,8 +88,8 @@ const Home = ({ posts }) => {
             de Programação que ensina{" "}
             <strong className='highlightMe'>teoria disruptiva</strong>, com{" "}
             <strong className='highlightMe'>tecnologia própria</strong>
-            <br />e possui a maior experiência de mercado (desde 1998 e Top
-            Rated UpWork).
+            <br />e possui a maior experiência de mercado {"("}desde 1998 e Top
+            Rated UpWork{")"}.
             <br />
             Tudo para te ensinar o verdadeiro{" "}
             <strong className='highlightMe'>Mão Na Massa!!!</strong>
@@ -479,8 +479,8 @@ const Home = ({ posts }) => {
                   Nossos mentores atuam no mercado competitivo em cenário
                   internacional, desde 2018, destacando-se na{" "}
                   <strong className='highlightMe'>UpWork</strong> como{" "}
-                  <strong className='highlightMe'>TOP RATED</strong>{" "}
-                  (autoridades na programação web).
+                  <strong className='highlightMe'>TOP RATED</strong> {" ("}
+                  autoridades na programação web{")"}.
                 </p>
               </div>
             </div>
