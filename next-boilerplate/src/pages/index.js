@@ -85,9 +85,9 @@ const Home = ({ posts }) => {
           />
           <p className='main-content-p'>
             Somos a <strong className='highlightMe'>Edu4Dev</strong>, a Escola
-            de Programação que <br />
-            ensina <strong className='highlightMe'>teoria disruptiva</strong>,
-            com <strong className='highlightMe'>tecnologia própria</strong>
+            de Programação que ensina{" "}
+            <strong className='highlightMe'>teoria disruptiva</strong>, com{" "}
+            <strong className='highlightMe'>tecnologia própria</strong>
             <br />e possui a maior experiência de mercado (desde 1998 e Top
             Rated UpWork).
             <br />
@@ -178,19 +178,14 @@ const Home = ({ posts }) => {
             um mundo tecnológico impressionante, onde você vai aprender a
             programar com os mentores mais incríveis.
           </p>
-          <p className='main-content-p'>
-            E de <strong className='highlightMe'>brinde</strong> você vai
-            acessar uma aventura em livro eletrizante, um álbum musical
-            empolgante, material didático, inteligência artificial, hacker-book,
-            e muito mais.
-          </p>
+
           <div className='wrapper-seven-box'>
             <div className='seven-box A'>
               <Link href='/'>
                 <h3 className='seven-subtitle'>Aprenda</h3>
                 <h2 className='seven-title'>Programação</h2>
                 <Image
-                  src={"/brandimages/tela-room1-tiny.png"}
+                  src={"/brandimages/ai-aprenda-programacao.jpg"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -219,7 +214,7 @@ const Home = ({ posts }) => {
                 <h3 className='seven-subtitle'>Receba</h3>
                 <h2 className='seven-title'>Material Didático</h2>
                 <Image
-                  src={"/brandimages/tela-room1-tiny.png"}
+                  src={"/brandimages/ai-girl.jpg"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -230,7 +225,7 @@ const Home = ({ posts }) => {
 
                 <p className='seven-paragraph'>
                   O kit educacinal é incrível! Fácil de entender e com um passo
-                  a passo ideal para você.
+                  a passo ideal.
                 </p>
 
                 <button className='hero-cta-button one content-cta'>
@@ -248,7 +243,7 @@ const Home = ({ posts }) => {
                 <h3 className='seven-subtitle'>Estude</h3>
                 <h2 className='seven-title'>Chat e Salas</h2>
                 <Image
-                  src={"/brandimages/tela-room1-tiny.png"}
+                  src={"/brandimages/ai-chat.jpg"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -259,7 +254,7 @@ const Home = ({ posts }) => {
 
                 <p className='seven-paragraph'>
                   Turmas, mentores, aulas on-line, aulão, palestras,
-                  especialistas.
+                  especialistas, chats.
                 </p>
 
                 <button className='hero-cta-button one content-cta'>
@@ -293,7 +288,7 @@ const Home = ({ posts }) => {
                 <h3 className='seven-subtitle'>Segredos do</h3>
                 <h2 className='seven-title'>MetaVerso</h2>
                 <Image
-                  src={"/brandimages/tela-room1-tiny.png"}
+                  src={"/brandimages/ai-metaverso-indigena.jpg"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -323,7 +318,7 @@ const Home = ({ posts }) => {
                 <h2 className='seven-title'>I.A.</h2>
 
                 <Image
-                  src={"/brandimages/tela-room1-tiny.png"}
+                  src={"/brandimages/ai-terminal.jpg"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -333,8 +328,8 @@ const Home = ({ posts }) => {
                 />
 
                 <p className='seven-paragraph'>
-                  Aprenda a construir facilmente a sua própria Inteligência
-                  Artificial e divirta-se!
+                  Aprenda a construir a sua própria Inteligência Artificial e
+                  divirta-se!
                 </p>
 
                 <button className='hero-cta-button one content-cta'>
@@ -352,7 +347,7 @@ const Home = ({ posts }) => {
                 <h3 className='seven-subtitle'>Músicas e</h3>
                 <h2 className='seven-title'>Literatura</h2>
                 <Image
-                  src={"/brandimages/tela-room1-tiny.png"}
+                  src={"/brandimages/ai-music.jpg"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -381,7 +376,7 @@ const Home = ({ posts }) => {
                 <h3 className='seven-subtitle'>Ganhe</h3>
                 <h2 className='seven-title'>Produtos virtuais</h2>
                 <Image
-                  src={"/brandimages/tela-room1-tiny.png"}
+                  src={"/brandimages/ai-empreender.jpg"}
                   alt={"Edu4Dev"}
                   placeholder={"NONE"}
                   critical='true'
@@ -391,8 +386,8 @@ const Home = ({ posts }) => {
                 />
 
                 <p className='seven-paragraph'>
-                  Saia já do zero e monte sua própria agência digital com todos
-                  os mais modernos e populares produtos cibernéticos!
+                  Que abrir sua própria agência digital? Temos tudo o que você
+                  precisa!
                 </p>
 
                 <button className='hero-cta-button one content-cta'>

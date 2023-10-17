@@ -40,11 +40,8 @@ const Contato = () => (
         <p className='main-content-p'>
           Quer saber mais do que vai ser ensinado na{" "}
           <span className='highlightMe'>Edu4Dev</span>? <br />
-          Veja abaixo os primeiros módulos de estudo,{" "}
-          <span className='highlightMe'>Baixe Já</span> os arquivos em PDF das
-          aulas.
+          Veja abaixo os primeiros módulos e conteúdo das aulas.
         </p>
-
         <div className='partners-wrapper'>
           <a
             href={"https://wa.me/5512981062959"}
