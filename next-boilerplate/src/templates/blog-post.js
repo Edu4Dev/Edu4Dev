@@ -29,7 +29,7 @@ const BlogPost = ({ post }) => (
         keywords: ["keywords"],
         questions: ["questions:answer"],
         topology: "pages",
-        articleUrl: "https://miltonbolonha.com.br/contato",
+        articleUrl: "https://edu4.dev/contato",
         description: post.frontmatter.description,
         themeColor: mainConfigs.website.themeColor,
         fbAppID: null,
