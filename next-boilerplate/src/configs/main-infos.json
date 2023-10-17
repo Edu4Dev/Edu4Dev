@@ -49,6 +49,11 @@
       "slug": "about",
       "description": "Milton Bolonha desenvolve sites desde 1998. Como especialista faz a curadoria e implementação sustentável de códigos e de tecnologias."
     },
+    "humanRights": {
+      "title": "Causas Que Apoiamos",
+      "slug": "human-rights",
+      "description": "Milton Bolonha desenvolve sites desde 1998. Como especialista faz a curadoria e implementação sustentável de códigos e de tecnologias."
+    },
     "contact": {
       "title": "Contato",
       "slug": "contato",

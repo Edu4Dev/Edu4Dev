@@ -216,10 +216,9 @@
 		img {
 			position: relative;
 			z-index: 1;
+			margin: 15px auto;
 		}
-		p:not(.four-head-button) {
-			text-shadow: 2px 2px black;
-		}
+
 		&:nth-child(4) {
 			width: 100%;
 			// max-width: 960px;
@@ -469,6 +468,7 @@
 	text-align-last: center;
 	color: $cta__contrast_color !important;
 	font-weight: 900;
+	white-space: nowrap;
 }
 .wrapper-overflow {
 	padding: 0 5px 30px;
@@ -524,10 +524,10 @@
 		font-size: 25px;
 	}
 	&:hover {
-		background: $primary_dark;
-		color: $cta__contrast_color;
-		text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8);
-		border: 2px dashed $cta__contrast_color;
+		background: #47ff9d;
+		color: #000;
+		text-shadow: 2px 2px 0 #fff;
+		border: 2px dashed #000;
 	}
 }
 .main-container h1:not(.hero-heading-h1),
@@ -682,4 +682,19 @@ footer p {
 
 .mx350 {
 	max-width: 350px !important;
+}
+.human-rights-icons-wrapper {
+	display: flex;
+	flex-direction: row;
+	max-width: 620px;
+	margin: 40px auto;
+	flex-wrap: wrap;
+	img {
+		margin: 10px;
+		place-content: center;
+	}
+}
+.human-rights-page img {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }

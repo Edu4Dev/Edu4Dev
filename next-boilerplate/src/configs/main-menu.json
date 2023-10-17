@@ -23,6 +23,12 @@
       },
       {
         "item": {
+          "label": "Causas Que Apoiamos",
+          "to": "/human-rights"
+        }
+      },
+      {
+        "item": {
           "label": "Contato",
           "to": "/contact"
         }
