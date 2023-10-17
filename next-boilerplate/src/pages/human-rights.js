@@ -1,11 +1,11 @@
 import React from "react";
+import Image from "next/image";
 import Row from "../containers/RowContainer";
 import Footer from "../components/Footer";
-import Image from "next/image";
-import MainWrapperContainer from "../containers/MainWrapperContainer";
 import SeoContainer from "../containers/SeoContainer";
-import { slugPrefix } from "../lib/utils";
+import MainWrapperContainer from "../containers/MainWrapperContainer";
 import mainConfigs from "../configs/main-infos.json";
+import { slugPrefix } from "../lib/utils";
 
 const HumanRightsPage = () => (
   <MainWrapperContainer>
@@ -14,25 +14,25 @@ const HumanRightsPage = () => (
       data={{
         slug: mainConfigs.pages.humanRights.slug,
         title: `${mainConfigs.pages.humanRights.title} - ${mainConfigs.business.brandName}`,
+        siteUrl: mainConfigs.website.siteUrl,
         description: mainConfigs.pages.humanRights.description,
         author: mainConfigs.website.author,
-        siteUrl: mainConfigs.website.siteUrl,
-        brandName: mainConfigs.business.brandName,
-        brandEmail: mainConfigs.business.brandEmail,
-        brandLogo: mainConfigs.business.brandLogo,
-        brandPhone: mainConfigs.business.brandPhone,
-        brandDescription: mainConfigs.business.brandDescription,
         brandCardImage: mainConfigs.business.brandCardImage,
+        brandEmail: mainConfigs.business.brandEmail,
+        brandName: mainConfigs.business.brandName,
+        brandPhone: mainConfigs.business.brandPhone,
+        brandLogo: mainConfigs.business.brandLogo,
+        brandDescription: mainConfigs.business.brandDescription,
         featuredImage: `${mainConfigs.website.siteUrl}${slugPrefix}/favicon-32x32.png`,
-        datePublished: mainConfigs.website.datePublished,
         i18n: mainConfigs.website.i18n,
         keywords: mainConfigs.website.keywords,
+        datePublished: mainConfigs.website.datePublished,
         questions: mainConfigs.website.questions,
-        topology: "pages",
         articleUrl: `${mainConfigs.website.siteUrl}/${mainConfigs.pages.humanRights.slug}`,
         themeColor: "#d3d3d3",
-        sameAs: mainConfigs.business.sameAs,
+        topology: "pages",
         twitter: mainConfigs.business.twitterCard,
+        sameAs: mainConfigs.business.sameAs,
       }}
     />
     <Row opt={{ isBoxed: true, classes: "wrapper-overflow human-rights-page" }}>
@@ -40,7 +40,7 @@ const HumanRightsPage = () => (
       <div className='human-rights-icons-wrapper'>
         <Image
           src={"/brandimages/bandeira-decolonialize.png"}
-          alt={"Edu4Dev"}
+          alt={"Edu4Dev decolonialize"}
           placeholder={"NONE"}
           critical='true'
           width={75}
@@ -49,7 +49,7 @@ const HumanRightsPage = () => (
         />
         <Image
           src={"/brandimages/bandeira-hacktivismo.png"}
-          alt={"Edu4Dev"}
+          alt={"Edu4Dev hacktivismo"}
           placeholder={"NONE"}
           critical='true'
           width={75}
@@ -58,7 +58,7 @@ const HumanRightsPage = () => (
         />
         <Image
           src={"/brandimages/bandeira-autismo.png"}
-          alt={"Edu4Dev"}
+          alt={"Edu4Dev autismo"}
           placeholder={"NONE"}
           critical='true'
           width={75}
@@ -67,7 +67,7 @@ const HumanRightsPage = () => (
         />
         <Image
           src={"/brandimages/bandeira-lgbtqiap.png"}
-          alt={"Edu4Dev"}
+          alt={"Edu4Dev lgbtqiap"}
           placeholder={"NONE"}
           critical='true'
           width={75}
@@ -76,7 +76,7 @@ const HumanRightsPage = () => (
         />
         <Image
           src={"/brandimages/bandeira-vidas-negras.png"}
-          alt={"Edu4Dev"}
+          alt={"Edu4Dev vidas"}
           placeholder={"NONE"}
           critical='true'
           width={75}
@@ -123,7 +123,7 @@ const HumanRightsPage = () => (
       <h2 className='main-content-h2'>Decolonize Já!</h2>
       <Image
         src={"/brandimages/bandeira-decolonialize.png"}
-        alt={"Edu4Dev"}
+        alt={"Edu4Dev decolonialize"}
         placeholder={"NONE"}
         critical='true'
         width={175}
@@ -140,7 +140,7 @@ const HumanRightsPage = () => (
       <h2 className='main-content-h2'>Hacktivismo</h2>
       <Image
         src={"/brandimages/bandeira-hacktivismo.png"}
-        alt={"Edu4Dev"}
+        alt={"Edu4Dev hacktivismo"}
         placeholder={"NONE"}
         critical='true'
         width={175}
@@ -158,7 +158,7 @@ const HumanRightsPage = () => (
       <h2 className='main-content-h2'>NeuroDivergente/Autismo</h2>
       <Image
         src={"/brandimages/bandeira-autismo.png"}
-        alt={"Edu4Dev"}
+        alt={"Edu4Dev autismo"}
         placeholder={"NONE"}
         critical='true'
         width={175}
@@ -175,7 +175,7 @@ const HumanRightsPage = () => (
       <h2 className='main-content-h2'>LGBTQIAP+</h2>
       <Image
         src={"/brandimages/bandeira-lgbtqiap.png"}
-        alt={"Edu4Dev"}
+        alt={"Edu4Dev lgbtqiap"}
         placeholder={"NONE"}
         critical='true'
         width={175}
@@ -207,7 +207,7 @@ const HumanRightsPage = () => (
       <h2 className='main-content-h2'>Vidas Negras Importam</h2>
       <Image
         src={"/brandimages/bandeira-vidas-negras.png"}
-        alt={"Edu4Dev"}
+        alt={"Edu4Dev vidas"}
         placeholder={"NONE"}
         critical='true'
         width={175}
