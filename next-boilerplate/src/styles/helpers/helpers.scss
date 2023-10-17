@@ -694,7 +694,10 @@ footer p {
 		place-content: center;
 	}
 }
-.human-rights-page img {
-	margin-top: 20px;
-	margin-bottom: 20px;
+.human-rights-page {
+	display: block;
+	img {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
 }
