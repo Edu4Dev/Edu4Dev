@@ -695,7 +695,9 @@ footer p {
 	}
 }
 .human-rights-page {
-	display: block;
+	&.boxed-column-child {
+		display: block;
+	}
 	img {
 		margin-top: 20px;
 		margin-bottom: 20px;

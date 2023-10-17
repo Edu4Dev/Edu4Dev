@@ -34,7 +34,11 @@ const Footer = () => {
           rowWidth: "350px",
         }}
       >
-        <a href='https://google.com'>
+        <a
+          href='https://github.com/Edu4Dev/website'
+          target='_blank'
+          rel='nofollow'
+        >
           <Image
             src={"/brandimages/icon-github.png"}
             alt={"Edu4Dev"}
@@ -45,7 +49,11 @@ const Footer = () => {
             className='m0auto'
           />
         </a>
-        <a href='https://google.com'>
+        <a
+          href='https://linkedin.com/in/miltonbolonha'
+          target='_blank'
+          rel='nofollow'
+        >
           <Image
             src={"/brandimages/icon-in.png"}
             alt={"Edu4Dev"}
@@ -56,7 +64,11 @@ const Footer = () => {
             className='m0auto'
           />
         </a>
-        <a href='https://google.com'>
+        <a
+          href='https://instagram.com/miltonbolonha_'
+          target='_blank'
+          rel='nofollow'
+        >
           <Image
             src={"/brandimages/icon-insta.png"}
             alt={"Edu4Dev"}
@@ -67,7 +79,11 @@ const Footer = () => {
             className='m0auto'
           />
         </a>
-        <a href='https://google.com'>
+        <a
+          href='https://twitter.com/miltonbolonha'
+          target='_blank'
+          rel='nofollow'
+        >
           <Image
             src={"/brandimages/icon-twitter.png"}
             alt={"Edu4Dev"}
@@ -78,7 +94,7 @@ const Footer = () => {
             className='m0auto'
           />
         </a>
-        <a href='https://google.com'>
+        <a href='https://wa.me/5512981062959' target='_blank' rel='nofollow'>
           <Image
             src={"/brandimages/icon-whats.png"}
             alt={"Edu4Dev"}

@@ -139,7 +139,7 @@ const Contato = () => (
         </ul>
 
         <h2 className='main-content-h2'>
-          Módulo 03 - Código Aberto & Padrões Básicos
+          Módulo 03 - Código Aberto & Padrões de Comunidade
         </h2>
         <Image
           src={"/brandimages/bolo.png"}
@@ -153,8 +153,8 @@ const Contato = () => (
         <p>
           Compreenda o que significa código aberto e as vantagens associadas a
           esse modelo de desenvolvimento. Saiba mais sobre os arquivos padrões
-          de projeto de código aberto. Aprenda sobre as garantias de software,
-          licença MIT e segurança.
+          de comunidade, que devem estar em cada projeto de código aberto.
+          Aprenda sobre as garantias de software, licença MIT e segurança.
         </p>
         <ul>
           <li>Software Livre</li>
