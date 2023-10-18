@@ -1,4 +1,5 @@
 import React from "react";
+import Row from "../containers/RowContainer";
 import Image from "next/image";
 import Footer from "../components/Footer";
 import MainWrapperContainer from "../containers/MainWrapperContainer";
@@ -7,7 +8,7 @@ import { slugPrefix } from "../lib/utils";
 import mainConfigs from "../configs/main-infos.json";
 
 const Contato = () => (
-  <MainWrapperContainer rowWidth={960}>
+  <MainWrapperContainer>
     <SeoContainer
       killSeo={false}
       data={{
@@ -34,7 +35,12 @@ const Contato = () => (
         twitter: mainConfigs.business.twitterCard,
       }}
     />
-    <div className='modules-page'>
+    <Row
+      opt={{
+        isBoxed: true,
+        classes: "wrapper-overflow modules-page human-rights-page",
+      }}
+    >
       <main className='main-content'>
         <br />
         <p className='main-content-p'>
@@ -65,8 +71,9 @@ const Contato = () => (
           className='seven-img'
         />
         <p>
-          "Sejam bem-vindx's ao meu Brasil beta 2-0.X.X" -{" "}
-          <span className='highlightMe'>Ditadora Facista</span>
+          <span className='highlightMe'>
+            Sejam bem-vindx's ao Brasil beta 2-0.X.X
+          </span>
         </p>
         <ul>
           <li>Boas-vindas</li>
@@ -237,7 +244,8 @@ const Contato = () => (
           <li>MetaTags Validador</li>
         </ul>
       </div>
-    </div>
+    </Row>
+
     <Footer />
   </MainWrapperContainer>
 );

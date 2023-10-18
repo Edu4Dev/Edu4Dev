@@ -34,12 +34,13 @@ const MainWrapper = ({
         backgroundImage: `url(${theme !== "dark" ? bgImg : darkBgImg})`,
         backgroundRepeat: "repeat",
         backgroundSize: "500px 500px",
+        backgroundPosition: "bottom",
       }}
     >
       <RowContainer
         opt={{
           classes: "main-wrapper-inner",
-          isBoxed: true,
+          isBoxed: false,
           // bgColor: "#fff",
           rowWidth: rowWidth,
         }}

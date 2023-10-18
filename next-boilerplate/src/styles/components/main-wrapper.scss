@@ -27,13 +27,14 @@
     font-size: 18px;
   }
   .main-wrapper-inner {
-    &.boxed-column-child {
+    &.full-width-row-child {
+      display: block !important;
       .main-container {
         margin: 0 auto;
         max-width: 960px;
       }
     }
-    &.boxed-column {
+    &.full-width-row {
       padding-bottom: 40px;
     }
   }
@@ -45,7 +46,7 @@
 
 .wrapper-box.post {
   padding: 0;
-  .post-container.boxed-column {
+  .post-container.full-width-row {
     padding: 0;
   }
 }

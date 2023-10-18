@@ -72,7 +72,7 @@ const Home = ({ posts }) => {
         </div>
       </Row>
 
-      <div className='wrapper-overflow main-content'>
+      <div className='wrapper-overflow main-content mt0'>
         <main>
           <Image
             src={"/brandimages/edu4dev-logo-charas.png"}
@@ -438,250 +438,255 @@ const Home = ({ posts }) => {
               </Link>
             </div>
           </div>
-          <h2 className='main-content-h2'>Reconhecimentos e Parcerias</h2>
-          <Image
-            src={"/brandimages/qualidade.png"}
-            alt={"Edu4Dev"}
-            placeholder={"NONE"}
-            critical='true'
-            width={480}
-            height={275}
-            className='m0auto index-img'
-          />
-          <p className='main-content-p'>
-            A <strong className='highlightMe'>Edu4Dev</strong> é uma iniciativa
-            do mentor de tecnologia{" "}
-            <strong className='highlightMe'>Milton Bolonha</strong>.
-            <br />
-            Programador desde <strong className='highlightMe'>1998</strong>,
-            filantropo desde <strong className='highlightMe'>2007</strong> e
-            programador "Top Rated" pela{" "}
-            <strong className='highlightMe'>UpWork</strong> desde 2019.
-          </p>
-          <p>
-            Abaixo reconhecimentos, entidades e parcerias que estão conosco em
-            nosso MetaVerso.
-          </p>
-          <div className='partners-wrapper'>
-            <div className='partners'>
-              <div className='inner-partners'>
-                <h3>São Francisco, CA, EUA</h3>
-                <Image
-                  src={"/brandimages/upwork-logo.png"}
-                  alt={"Edu4Dev"}
-                  placeholder={"NONE"}
-                  critical='true'
-                  width={280}
-                  height={75}
-                  className='m0auto'
-                />
-                <p>
-                  Nossos mentores atuam no mercado competitivo em cenário
-                  internacional, desde 2018, destacando-se na{" "}
-                  <strong className='highlightMe'>UpWork</strong> como{" "}
-                  <strong className='highlightMe'>TOP RATED</strong> {" ("}
-                  autoridades na programação web{")"}.
-                </p>
-              </div>
-            </div>
-            <div className='partners'>
-              <div className='inner-partners'>
-                <h3>São Francisco, CA, EUA</h3>
-                <Image
-                  src={"/brandimages/github-logo.png"}
-                  alt={"Edu4Dev"}
-                  placeholder={"NONE"}
-                  critical='true'
-                  width={280}
-                  height={160}
-                  className='m0auto'
-                />
-                <p>
-                  Fazemos parte do
-                  <br />
-                  <strong className='highlightMe'>
-                    GitHub Developer Program
-                  </strong>
-                  ,
-                  <br />
-                  isso quer dizer que vamos te dar todo o suporte{" "}
-                  <strong className='highlightMe'>GitHub</strong> que você
-                  precisa.
-                </p>
-              </div>
-            </div>
-            <div className='partners'>
-              <div className='inner-partners'>
-                <h3>São Paulo - SP</h3>
-                <Image
-                  src={"/brandimages/hapvida-logo.png"}
-                  alt={"Edu4Dev"}
-                  placeholder={"NONE"}
-                  critical='true'
-                  width={280}
-                  height={160}
-                  className='m0auto'
-                />
-                <p>
-                  Por meio do programa 100 Open Startup, fomos contratados pela{" "}
-                  <strong className='highlightMe'>HapVida</strong> para
-                  consultoria on-line em tecnologia.
-                </p>
-              </div>
-            </div>
-            <div className='partners'>
-              <div className='inner-partners'>
-                <h3>São Paulo - SP</h3>
-                <Image
-                  src={"/brandimages/100-open-startups.png"}
-                  alt={"Edu4Dev"}
-                  placeholder={"NONE"}
-                  critical='true'
-                  width={280}
-                  height={160}
-                  className='m0auto'
-                />
-                <p>
-                  Estamos no ranking <br />
-                  <strong className='highlightMe'>
-                    100 Open Startup
-                  </strong>, <br />
-                  isso significa que já fechamos negócio com grandes players do
-                  mercado.
-                </p>
-              </div>
-            </div>
-            <div className='partners'>
-              <div className='inner-partners'>
-                <h3>São Paulo - SP</h3>
-                <Image
-                  src={"/brandimages/acboost.png"}
-                  alt={"Edu4Dev"}
-                  placeholder={"NONE"}
-                  critical='true'
-                  width={280}
-                  height={160}
-                  className='m0auto'
-                />
-                <p>
-                  Avaliados pela ACBOOST 22, da{" "}
-                  <strong className='highlightMe'>
-                    Associação Comercial de São Paulo
-                  </strong>
-                  , a <strong className='highlightMe'>Edu4Dev</strong> se
-                  destacou com um produto acima da média do programa.
-                </p>
-              </div>
-            </div>
-            <div className='partners'>
-              <div className='inner-partners'>
-                <h3>Denver, CO, USA</h3>
-                <Image
-                  src={"/brandimages/green-hat-logo.jpeg"}
-                  alt={"Edu4Dev"}
-                  placeholder={"NONE"}
-                  critical='true'
-                  width={280}
-                  height={160}
-                  className='m0auto'
-                />
-                <p>
-                  Nossos especialistas trabalharam por mais de 2 anos na agência
-                  web internacional{" "}
-                  <strong className='highlightMe'>
-                    Green Hat Web Solution
-                  </strong>
-                  .
-                </p>
-                <p>
-                  "Milton é um grande designer e desenvolvedor. Ele é
-                  extremamente talentoso. Eu recomendo Milton."
-                  <br />
-                  <br />
-                  <strong className='highlightMe'>
-                    - Ryan Masterson, <br />
-                    CEO da Green Hat
-                  </strong>
-                </p>
-              </div>
-            </div>
-            <div className='partners'>
-              <div className='inner-partners'>
-                <h3>São Paulo - SP</h3>
-                <Image
-                  src={"/brandimages/descola-logo.png"}
-                  alt={"Edu4Dev"}
-                  placeholder={"NONE"}
-                  critical='true'
-                  width={280}
-                  height={75}
-                  className='m0auto'
-                />
-                <p>
-                  A Descola é uma startup inovadora na área de cursos e tem como
-                  principal parceiro o Cubo Itaú. Eles usam no blog deles,
-                  tecnologia criada pela{" "}
-                  <strong className='highlightMe'>Edu4Dev</strong>, a mesma
-                  usada no curso.
-                </p>
-              </div>
-            </div>
-            <div className='partners'>
-              <div className='inner-partners'>
-                <h3>Ribeirão Preto - SP</h3>
-                <Image
-                  src={"/brandimages/as-casamenteiras-logo.png"}
-                  alt={"Edu4Dev"}
-                  placeholder={"NONE"}
-                  critical='true'
-                  width={280}
-                  height={160}
-                  className='m0auto'
-                />
-                <p>
-                  Tecnologia do curso alavancando vendas: "Hoje faço muito mais
-                  casamentos, graças as vendas da minha empresa que funcionam
-                  com tecnologia de ponta a ponta." <br />
-                  <br />
-                  <strong className='highlightMe'>
-                    Priscilla Barbosa, <br />
-                    CEO As Casamenteiras
-                  </strong>
-                </p>
-              </div>
-            </div>
 
-            <div className='partners'>
-              <div className='inner-partners'>
-                <h3>Paraíba</h3>
-                <Image
-                  src={"/brandimages/lds.png"}
-                  alt={"Edu4Dev"}
-                  placeholder={"NONE"}
-                  critical='true'
-                  width={280}
-                  height={160}
-                  className='m0auto'
-                />
-                <p>
-                  Serviço filantrópico/voluntário realizado na Paraíba nos anos
-                  de 2007 a 2009.
-                </p>
+          <div className='green-contrast'>
+            <h2 className='main-content-h2'>Reconhecimentos e Parcerias</h2>
+            <Image
+              src={"/brandimages/qualidade.png"}
+              alt={"Edu4Dev"}
+              placeholder={"NONE"}
+              critical='true'
+              width={480}
+              height={275}
+              className='m0auto index-img'
+            />
+            <p className='main-content-p'>
+              A <strong className='highlightMe'>Edu4Dev</strong> é uma
+              iniciativa do mentor de tecnologia{" "}
+              <strong className='highlightMe'>Milton Bolonha</strong>.
+              <br />
+              Programador desde <strong className='highlightMe'>1998</strong>,
+              filantropo desde <strong className='highlightMe'>2007</strong> e
+              programador "Top Rated" pela{" "}
+              <strong className='highlightMe'>UpWork</strong> desde 2019.
+            </p>
+            <p>
+              Abaixo reconhecimentos, entidades e parcerias que estão conosco em
+              nosso MetaVerso.
+            </p>
+            <div className='partners-wrapper'>
+              <div className='partners'>
+                <div className='inner-partners'>
+                  <h3>São Francisco, CA, EUA</h3>
+                  <Image
+                    src={"/brandimages/upwork-logo.png"}
+                    alt={"Edu4Dev"}
+                    placeholder={"NONE"}
+                    critical='true'
+                    width={280}
+                    height={75}
+                    className='m0auto img-contrast'
+                  />
+                  <p>
+                    Nossos mentores atuam no mercado competitivo em cenário
+                    internacional, desde 2018, destacando-se na{" "}
+                    <strong className='highlightMe'>UpWork</strong> como{" "}
+                    <strong className='highlightMe'>TOP RATED</strong> {" ("}
+                    autoridades na programação web{")"}.
+                  </p>
+                </div>
+              </div>
+              <div className='partners'>
+                <div className='inner-partners'>
+                  <h3>São Francisco, CA, EUA</h3>
+                  <Image
+                    src={"/brandimages/github-logo.png"}
+                    alt={"Edu4Dev"}
+                    placeholder={"NONE"}
+                    critical='true'
+                    width={280}
+                    height={160}
+                    className='m0auto img-contrast'
+                  />
+                  <p>
+                    Fazemos parte do
+                    <br />
+                    <strong className='highlightMe'>
+                      GitHub Developer Program
+                    </strong>
+                    ,
+                    <br />
+                    isso quer dizer que vamos te dar todo o suporte{" "}
+                    <strong className='highlightMe'>GitHub</strong> que você
+                    precisa.
+                  </p>
+                </div>
+              </div>
+              <div className='partners'>
+                <div className='inner-partners'>
+                  <h3>São Paulo - SP</h3>
+                  <Image
+                    src={"/brandimages/hapvida-logo.png"}
+                    alt={"Edu4Dev"}
+                    placeholder={"NONE"}
+                    critical='true'
+                    width={280}
+                    height={160}
+                    className='m0auto img-contrast'
+                  />
+                  <p>
+                    Por meio do programa 100 Open Startup, fomos contratados
+                    pela <strong className='highlightMe'>HapVida</strong> para
+                    consultoria on-line em tecnologia.
+                  </p>
+                </div>
+              </div>
+              <div className='partners'>
+                <div className='inner-partners'>
+                  <h3>São Paulo - SP</h3>
+                  <Image
+                    src={"/brandimages/100-open-startups.png"}
+                    alt={"Edu4Dev"}
+                    placeholder={"NONE"}
+                    critical='true'
+                    width={280}
+                    height={160}
+                    className='m0auto img-contrast'
+                  />
+                  <p>
+                    Estamos no ranking <br />
+                    <strong className='highlightMe'>
+                      100 Open Startup
+                    </strong>, <br />
+                    isso significa que já fechamos negócio com grandes players
+                    do mercado.
+                  </p>
+                </div>
+              </div>
+              <div className='partners'>
+                <div className='inner-partners'>
+                  <h3>São Paulo - SP</h3>
+                  <Image
+                    src={"/brandimages/acboost.png"}
+                    alt={"Edu4Dev"}
+                    placeholder={"NONE"}
+                    critical='true'
+                    width={280}
+                    height={160}
+                    className='m0auto img-contrast'
+                  />
+                  <p>
+                    Avaliados pela ACBOOST 22, da{" "}
+                    <strong className='highlightMe'>
+                      Associação Comercial de São Paulo
+                    </strong>
+                    , a <strong className='highlightMe'>Edu4Dev</strong> se
+                    destacou com um produto acima da média do programa.
+                  </p>
+                </div>
+              </div>
+              <div className='partners'>
+                <div className='inner-partners'>
+                  <h3>Denver, CO, USA</h3>
+                  <Image
+                    src={"/brandimages/green-hat-logo.jpeg"}
+                    alt={"Edu4Dev"}
+                    placeholder={"NONE"}
+                    critical='true'
+                    width={280}
+                    height={160}
+                    className='m0auto '
+                  />
+                  <p>
+                    Nossos especialistas trabalharam por mais de 2 anos na
+                    agência web internacional{" "}
+                    <strong className='highlightMe'>
+                      Green Hat Web Solution
+                    </strong>
+                    .
+                  </p>
+                  <p>
+                    "Milton é um grande designer e desenvolvedor. Ele é
+                    extremamente talentoso. Eu recomendo Milton."
+                    <br />
+                    <br />
+                    <strong className='highlightMe'>
+                      - Ryan Masterson, <br />
+                      CEO da Green Hat
+                    </strong>
+                  </p>
+                </div>
+              </div>
+              <div className='partners'>
+                <div className='inner-partners'>
+                  <h3>São Paulo - SP</h3>
+                  <Image
+                    src={"/brandimages/descola-logo.png"}
+                    alt={"Edu4Dev"}
+                    placeholder={"NONE"}
+                    critical='true'
+                    width={280}
+                    height={75}
+                    className='m0auto img-contrast'
+                  />
+                  <p>
+                    A Descola é uma startup inovadora na área de cursos e tem
+                    como principal parceiro o Cubo Itaú. Eles usam no blog
+                    deles, tecnologia criada pela{" "}
+                    <strong className='highlightMe'>Edu4Dev</strong>, a mesma
+                    usada no curso.
+                  </p>
+                </div>
+              </div>
+              <div className='partners'>
+                <div className='inner-partners'>
+                  <h3>Ribeirão Preto - SP</h3>
+                  <Image
+                    src={"/brandimages/as-casamenteiras-logo.png"}
+                    alt={"Edu4Dev"}
+                    placeholder={"NONE"}
+                    critical='true'
+                    width={280}
+                    height={160}
+                    className='m0auto img-contrast'
+                  />
+                  <p>
+                    Tecnologia do curso alavancando vendas: "Hoje faço muito
+                    mais casamentos, graças as vendas da minha empresa que
+                    funcionam com tecnologia de ponta a ponta." <br />
+                    <br />
+                    <strong className='highlightMe'>
+                      Priscilla Barbosa, <br />
+                      CEO As Casamenteiras
+                    </strong>
+                  </p>
+                </div>
+              </div>
+
+              <div className='partners'>
+                <div className='inner-partners'>
+                  <h3>Paraíba</h3>
+                  <Image
+                    src={"/brandimages/lds.png"}
+                    alt={"Edu4Dev"}
+                    placeholder={"NONE"}
+                    critical='true'
+                    width={280}
+                    height={160}
+                    className='m0auto'
+                  />
+                  <p>
+                    Serviço filantrópico/voluntário realizado na Paraíba nos
+                    anos de 2007 a 2009.
+                  </p>
+                </div>
               </div>
             </div>
-            <p className='main-content-p mboost'>
-              Matricule-se agora e inicie sua jornada <br />
-              para se tornar um especialista em tecnologia.
-            </p>
-            <a
-              href={"https://wa.me/5512981062959"}
-              target='_blank'
-              rel='nofollow'
-              className='matriculas'
-            >
-              Matricule-se Já!
-            </a>
           </div>
+
+          <p className='main-content-p mboost'>
+            Matricule-se agora e inicie sua jornada <br />
+            para se tornar um especialista em tecnologia.
+          </p>
+          <a
+            href={"https://wa.me/5512981062959"}
+            target='_blank'
+            rel='nofollow'
+            className='matriculas'
+          >
+            Matricule-se Já!
+          </a>
+
           <h2 className='main-content-h2'>Conheça os nossos módulos</h2>
           <Image
             src={"/brandimages/origami.png"}

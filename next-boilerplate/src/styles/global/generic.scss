@@ -99,6 +99,7 @@ button,
 ul,
 li {
   outline: none;
+  overflow-wrap: break-word;
 }
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
