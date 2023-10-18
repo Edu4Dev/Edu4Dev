@@ -71,9 +71,8 @@ const Contato = () => (
           className='seven-img'
         />
         <p>
-          <span className='highlightMe'>
-            Sejam bem-vindx's ao Brasil beta 2-0.X.X
-          </span>
+          Sejam bem-vindx's ao
+          <span className='highlightMe'>Brasil beta 2-0.X.X</span>
         </p>
         <ul>
           <li>Boas-vindas</li>

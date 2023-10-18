@@ -571,10 +571,11 @@ const Home = ({ posts }) => {
                   <p>
                     Avaliados pela ACBOOST 22, da{" "}
                     <strong className='highlightMe'>
-                      Associação Comercial de São Paulo
+                      Associação Comercial{" "}
                     </strong>
-                    , a <strong className='highlightMe'>Edu4Dev</strong> se
-                    destacou com um produto acima da média do programa.
+                    <strong className='highlightMe'>de São Paulo</strong>, a{" "}
+                    <strong className='highlightMe'>Edu4Dev</strong> se destacou
+                    com um produto acima da média do programa.
                   </p>
                 </div>
               </div>
