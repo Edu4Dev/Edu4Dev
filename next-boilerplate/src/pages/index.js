@@ -130,39 +130,42 @@ const Home = ({ posts }) => {
               <span className='four-head-button head-4'>Play</span>
             </p>
           </button>
-          <h2 className='main-content-h2'>Educação À Distância</h2>
-          <Image
-            src={"/brandimages/learning.png"}
-            alt={"Edu4Dev"}
-            placeholder={"NONE"}
-            critical='true'
-            width={480}
-            height={275}
-            className='m0auto index-img'
-          />
-          <p className='main-content-p'>
-            Mentorias on-line, aulas em grupo, consultorias avulsas, tudo no
-            conforto de casa.
-            <br />
-            Com a <strong className='highlightMe'>Edu4Dev</strong> o seu
-            aprendizado se torna uma{" "}
-            <strong className='highlightMe'>experiência incrível</strong>.
-          </p>
-          <p className='main-content-p'>
-            <strong className='highlightMe'>Faça 1 década em 1 mês</strong>, com
-            a escola de programação mais especializada do Brasil!
-            <br />
-            Nossos cursos são projetados para despertar a criatividade e o
-            empreendedorismo.
-          </p>
-          <a
-            href={"https://wa.me/5512981062959"}
-            target='_blank'
-            rel='nofollow'
-            className='matriculas'
-          >
-            Matriculas Abertas!
-          </a>
+
+          <div className='pink-contrast'>
+            <h2 className='main-content-h2'>Educação À Distância</h2>
+            <Image
+              src={"/brandimages/learning.png"}
+              alt={"Edu4Dev"}
+              placeholder={"NONE"}
+              critical='true'
+              width={480}
+              height={275}
+              className='m0auto index-img'
+            />
+            <p className='main-content-p'>
+              Mentorias on-line, aulas em grupo, consultorias avulsas, tudo no
+              conforto de casa.
+              <br />
+              Com a <strong className='highlightMe'>Edu4Dev</strong> o seu
+              aprendizado se torna uma{" "}
+              <strong className='highlightMe'>experiência incrível</strong>.
+            </p>
+            <p className='main-content-p'>
+              <strong className='highlightMe'>Faça 1 década em 1 mês</strong>,
+              com a escola de programação mais especializada do Brasil!
+              <br />
+              Nossos cursos são projetados para despertar a criatividade e o
+              empreendedorismo.
+            </p>
+            <a
+              href={"https://wa.me/5512981062959"}
+              target='_blank'
+              rel='nofollow'
+              className='matriculas'
+            >
+              Matriculas Abertas!
+            </a>
+          </div>
           <h2 className='main-content-h2'>O Que Você Vai Descobrir?</h2>
           <Image
             src={"/brandimages/laptop-reading.png"}
@@ -439,7 +442,7 @@ const Home = ({ posts }) => {
             </div>
           </div>
 
-          <div className='green-contrast'>
+          <div className='pink-contrast'>
             <h2 className='main-content-h2'>Reconhecimentos e Parcerias</h2>
             <Image
               src={"/brandimages/qualidade.png"}

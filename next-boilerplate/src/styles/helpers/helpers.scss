@@ -560,6 +560,12 @@
 		& * {
 			color: #000;
 		}
+		&:hover {
+			background-color: black;
+			& * {
+				color: yellow;
+			}
+		}
 		.inner-partners {
 			padding: 20px 10px;
 			h3 {
@@ -678,6 +684,7 @@ footer p {
 	margin-bottom: 40px;
 	z-index: 1;
 	position: relative;
+	margin-top: 20px;
 }
 
 .video-promo {
@@ -707,7 +714,7 @@ footer p {
 		margin-bottom: 20px;
 	}
 }
-.green-contrast {
+.pink-contrast {
 	background-color: $cta__color;
 	padding: 50px 0;
 	margin: 50px 0;
