@@ -6,7 +6,7 @@ const nextConfig = {
   reactStrictMode: true,
   output: "export",
   trailingSlash: true,
-  assetPrefix: isProd ? "https://edu4.dev" : null,
+  assetPrefix: isProd ? "https://www.edu4.dev" : null,
   images: {
     loader: "custom",
     loaderFile: "./src/containers/imgLoaderContainer.js",
