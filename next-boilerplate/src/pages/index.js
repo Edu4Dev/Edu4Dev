@@ -94,7 +94,7 @@ const Home = ({ posts }) => {
             Tudo para te ensinar o verdadeiro{" "}
             <strong className='highlightMe'>Mão Na Massa!!!</strong>
           </p>
-          <a
+          {/* <a
             href={"https://www.youtube.com/watch?v=FNJuXWO2kHk"}
             target='_blank'
             rel='noopener noreferrer'
@@ -129,7 +129,7 @@ const Home = ({ posts }) => {
               Clique <FaPlay className='FaPlay' />
               <span className='four-head-button head-4'>Play</span>
             </p>
-          </button>
+          </button> */}
 
           <div className='pink-contrast'>
             <h2 className='main-content-h2'>Educação À Distância</h2>
@@ -422,7 +422,10 @@ const Home = ({ posts }) => {
               </Link>
             </div>
             <div className='seven-box G prevent-hover'>
-              <Link href='/' className='seven-title-link'>
+              <Link
+                href='https://wa.me/5512981062959'
+                className='seven-title-link'
+              >
                 <h4 className='seven-title-now align-center'>Comece Já!!!</h4>
                 <div className='why-triangles'>
                   <div className='cool-arrow'></div>
