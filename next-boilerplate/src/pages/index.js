@@ -85,10 +85,10 @@ const Home = ({ posts }) => {
           />
           <p className='main-content-p'>
             Somos a <strong className='highlightMe'>Edu4Dev</strong>, a Escola
-            de Programação que ensina{" "}
+            com os melhores cursos de programação de websites, aplicativos e sistemas. Ensinamos{" "}
             <strong className='highlightMe'>teoria disruptiva</strong>, com{" "}
             <strong className='highlightMe'>tecnologia própria</strong>
-            <br />e possui a maior experiência de mercado {"("}desde 1998 e Top
+            <br />e possuimos a maior experiência de mercado {"("}desde 1998 e Top
             Rated UpWork{")"}.
             <br />
             Tudo para te ensinar o verdadeiro{" "}
