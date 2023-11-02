@@ -60,7 +60,7 @@ const Contato = () => (
         </div>
       </main>
       <div className='edu-modules'>
-        <h2 className='main-content-h2'>Módulo de Introdução ao Curso</h2>
+        <h2 className='main-content-h2'>Curso de Programação Edu4Dev</h2>
         <Image
           src={"/brandimages/ditadora.png"}
           alt={"Edu4Dev"}
@@ -75,16 +75,12 @@ const Contato = () => (
           <span className='highlightMe'>Brasil beta 2-0.X.X</span>
         </p>
         <ul>
-          <li>Boas-vindas</li>
-          <li>Palestra Inicial</li>
-          <li>Apresentando-se</li>
-          <li>O Que Vamos Aprender?</li>
-          <li>O Que Vamos Fazer?</li>
-          <li>Como Ganhar Dinheiro Com Esses Códigos?</li>
-          <li>Comece a sua Carreira Internacional</li>
-          <li>Tecnologia, Arte e Filosofia</li>
-          <li>Inteligência Artificial</li>
-          <li>O Desenvolvedor da Luz</li>
+          <li>Módulo 01 - O Que é Versionamento?</li>
+          <li>Módulo 02 - Construindo o Metaverso</li>
+          <li>Módulo 03 - Código Aberto & Padrões de Comunidade</li>
+          <li>Módulo 04 - O MultiVerso RÖÖM</li>
+          <li>Módulo 05 - Modelo GitHub Para WebSítios</li>
+          <li>Módulo 06</li>
         </ul>
         <h2 className='main-content-h2'>Módulo 01 - O Que é Versionamento?</h2>
         <Image
@@ -145,7 +141,7 @@ const Contato = () => (
         </ul>
 
         <h2 className='main-content-h2'>
-          Módulo 03 - Código Aberto & Padrões de Comunidade
+          Módulo 03 - Código Aberto & Padrões da Comunidade
         </h2>
         <Image
           src={"/brandimages/bolo.png"}
@@ -158,14 +154,15 @@ const Contato = () => (
         />
         <p>
           Compreenda o que significa código aberto e as vantagens associadas a
-          esse modelo de desenvolvimento. Saiba mais sobre os arquivos padrões
-          de comunidade, que devem estar em cada projeto de código aberto.
-          Aprenda sobre as garantias de software, licença MIT e segurança.
+          esse modelo de desenvolvimento. Saiba mais sobre os padrões da
+          comunidade, que devem ser seguidos por todos em cada projeto de código
+          aberto. Aprenda sobre as garantias de software, licença MIT e
+          segurança.
         </p>
         <ul>
           <li>Software Livre</li>
           <li>Código Aberto</li>
-          <li>Arquivos Padrões de Projeto</li>
+          <li>Padrões da Comunidade</li>
           <li>Arquivos dotEnv</li>
           <li>Garantias Para Projetos de Código Aberto</li>
         </ul>
@@ -184,7 +181,8 @@ const Contato = () => (
           Explore o conceito do MetaVerso, como funciona o universo dos dados e
           sua importância. Entenda a definição de metadados e como eles são
           usados em contextos como jogos e sistemas de informação. Conheça o
-          Método TE[i]As para a organização de metadados.
+          Método TE[i]As para a organização de metadados e as Cartas
+          doMultiVerso RÖÖM.
         </p>
         <ul>
           <li>O MultiVerso RÖÖM</li>
@@ -231,16 +229,16 @@ const Contato = () => (
           className='seven-img'
         />
         <p>
-          Explorare técnicas e práticas para testar a velocidade e o desempenho
-          de websites. A importância da validação de esquema de metadados, como
+          Explore técnicas e práticas para testar a velocidade e o desempenho de
+          websites. A importância da validação de esquema de metadados, como
           isso afeta a visibilidade e o desempenho nos mecanismos de busca.
         </p>
         <ul>
           <li>Otimização de Websítios</li>
           <li>Google PageSpeed</li>
           <li>GTMetrix</li>
-          <li>Schema Validador</li>
-          <li>MetaTags Validador</li>
+          <li>Validador de Schemas</li>
+          <li>Validador de MetaTags</li>
         </ul>
       </div>
     </Row>

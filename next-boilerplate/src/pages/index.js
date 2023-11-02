@@ -85,7 +85,7 @@ const Home = ({ posts }) => {
           />
           <p className='main-content-p'>
             Curso de Programação é na
-            <strong className='highlightMe'>Edu4Dev</strong>. a melhor Escola de
+            <strong className='highlightMe'>Edu4Dev</strong>. A melhor Escola de
             Programação do Brasil! Ensinamos{" "}
             <strong className='highlightMe'>teoria disruptiva</strong>, com{" "}
             <strong className='highlightMe'>tecnologia própria</strong>, com a
