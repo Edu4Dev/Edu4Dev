@@ -50,7 +50,7 @@ const Contato = () => (
         </p>
         <div className='partners-wrapper'>
           <a
-            href={"https://wa.me/5512981062959"}
+            href={"https://wa.me/5516991997935"}
             target='_blank'
             rel='nofollow'
             className='matriculas'
@@ -71,7 +71,7 @@ const Contato = () => (
           className='seven-img'
         />
         <p>
-          Sejam bem-vindx's ao
+          Sejam bem-vindx's ao{" "}
           <span className='highlightMe'>Brasil beta 2-0.X.X</span>
         </p>
         <ul>

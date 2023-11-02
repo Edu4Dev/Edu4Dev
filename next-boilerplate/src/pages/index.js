@@ -84,14 +84,13 @@ const Home = ({ posts }) => {
             className='m0auto index-img'
           />
           <p className='main-content-p'>
-            Somos a <strong className='highlightMe'>Edu4Dev</strong>, a Escola
-            de Programação que ensina{" "}
+            Curso de Programação é na
+            <strong className='highlightMe'>Edu4Dev</strong>. a melhor Escola de
+            Programação do Brasil! Ensinamos{" "}
             <strong className='highlightMe'>teoria disruptiva</strong>, com{" "}
-            <strong className='highlightMe'>tecnologia própria</strong>
-            <br />e possui a maior experiência de mercado {"("}desde 1998 e Top
-            Rated UpWork{")"}.
-            <br />
-            Tudo para te ensinar o verdadeiro{" "}
+            <strong className='highlightMe'>tecnologia própria</strong>, com a
+            maior experiência de mercado {"("}desde 1998 e Top Rated UpWork{")"}
+            . Tudo para te ensinar o verdadeiro{" "}
             <strong className='highlightMe'>Mão Na Massa!!!</strong>
           </p>
           {/* <a
@@ -158,7 +157,7 @@ const Home = ({ posts }) => {
               empreendedorismo.
             </p>
             <a
-              href={"https://wa.me/5512981062959"}
+              href={"https://wa.me/5516991997935"}
               target='_blank'
               rel='nofollow'
               className='matriculas'
@@ -423,7 +422,7 @@ const Home = ({ posts }) => {
             </div>
             <div className='seven-box G prevent-hover'>
               <Link
-                href='https://wa.me/5512981062959'
+                href='https://wa.me/5516991997935'
                 className='seven-title-link'
               >
                 <h4 className='seven-title-now align-center'>Comece Já!!!</h4>
@@ -686,7 +685,7 @@ const Home = ({ posts }) => {
             para se tornar um especialista em tecnologia.
           </p>
           <a
-            href={"https://wa.me/5512981062959"}
+            href={"https://wa.me/5516991997935"}
             target='_blank'
             rel='nofollow'
             className='matriculas'

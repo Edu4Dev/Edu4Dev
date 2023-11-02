@@ -38,7 +38,7 @@ const Contato = () => (
     <Row opt={{ isBoxed: true, classes: "wrapper-overflow" }}>
       <div className='hero-txt'>
         <h1>Fale direto com o Milton</h1>
-        <h2>(12) 98106-2959</h2>
+        <h2>(16) 99199-7935</h2>
       </div>
       <ul className='contact-link-tree-wrapper'>
         {Object.entries(mainConfigs.business.sameAs).map(

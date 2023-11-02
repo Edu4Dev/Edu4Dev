@@ -19,7 +19,7 @@ const Footer = () => {
       </Link>
       <p>Estamos te esperando, junte-se a nós nessa aventura eletrizante!</p>
       <a
-        href={"https://wa.me/5512981062959"}
+        href={"https://wa.me/5516991997935"}
         target='_blank'
         rel='nofollow'
         className='matriculas'
@@ -94,7 +94,7 @@ const Footer = () => {
             className='m0auto'
           />
         </a>
-        <a href='https://wa.me/5512981062959' target='_blank' rel='nofollow'>
+        <a href='https://wa.me/5516991997935' target='_blank' rel='nofollow'>
           <Image
             src={"/brandimages/icon-whats.png"}
             alt={"Edu4Dev"}
