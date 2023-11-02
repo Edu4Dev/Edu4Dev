@@ -77,10 +77,10 @@ const Contato = () => (
         <ul>
           <li>Módulo 01 - O Que é Versionamento?</li>
           <li>Módulo 02 - Construindo o Metaverso</li>
-          <li>Módulo 03 - Código Aberto & Padrões de Comunidade</li>
+          <li>Módulo 03 - Código Aberto & Padrões da Comunidade</li>
           <li>Módulo 04 - O MultiVerso RÖÖM</li>
           <li>Módulo 05 - Modelo GitHub Para WebSítios</li>
-          <li>Módulo 06</li>
+          <li>Módulo bônus: Testando Um Website</li>
         </ul>
         <h2 className='main-content-h2'>Módulo 01 - O Que é Versionamento?</h2>
         <Image
@@ -218,7 +218,7 @@ const Contato = () => (
           </li>
         </ul>
 
-        <h2 className='main-content-h2'>Módulo 06</h2>
+        <h2 className='main-content-h2'>Módulo bônus: Testando Um Website</h2>
         <Image
           src={"/brandimages/pinguim.png"}
           alt={"Edu4Dev"}

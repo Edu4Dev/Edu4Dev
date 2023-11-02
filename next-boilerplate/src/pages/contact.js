@@ -37,7 +37,7 @@ const Contato = () => (
     />
     <Row opt={{ isBoxed: true, classes: "wrapper-overflow" }}>
       <div className='hero-txt'>
-        <h1>Fale direto com o Milton</h1>
+        <h1>Fale direto a Edu4Dev:</h1>
         <h2>(16) 99199-7935</h2>
       </div>
       <ul className='contact-link-tree-wrapper'>
