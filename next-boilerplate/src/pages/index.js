@@ -445,8 +445,9 @@ const Home = ({ posts }) => {
                 </p>
               </Link>
             </div>
-          </div>
+          
 */}
+</div>
           <div className='pink-contrast'>
             <h2 className='main-content-h2'>Reconhecimentos e Parcerias</h2>
             <Image
