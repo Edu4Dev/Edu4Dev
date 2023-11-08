@@ -286,6 +286,7 @@ const Home = ({ posts }) => {
                 </p>
               </Link>
             </div>
+{/*
             <div className='seven-box A'>
               <Link href='/'>
                 <h3 className='seven-subtitle'>Segredos do</h3>
@@ -421,6 +422,7 @@ const Home = ({ posts }) => {
                 </h3>
               </Link>
             </div>
+            
             <div className='seven-box G prevent-hover'>
               <Link
                 href='https://wa.me/5516991997935'
@@ -444,7 +446,7 @@ const Home = ({ posts }) => {
               </Link>
             </div>
           </div>
-
+*/}
           <div className='pink-contrast'>
             <h2 className='main-content-h2'>Reconhecimentos e Parcerias</h2>
             <Image
