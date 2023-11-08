@@ -278,7 +278,6 @@ const Home = ({ posts }) => {
                     <small className='small-q'>{"<aluno>"}</small>Saia do "Nunca Pare de Aprender" 
                     e entre no mundo do "Aprenda de Uma Vez Por Todas".
                     <br />
-                    Eu amo a Edu4Dev{" "}
                     <span className={"color-me-span"}>#euAmoEdu4Dev</span>
                     <small className='small-q'>{"</aluno>"}</small>
                   </q>
