@@ -94,8 +94,8 @@ const Home = ({ posts }) => {
             . Tudo para te ensinar o verdadeiro{" "}
             <strong className='highlightMe'>Mão Na Massa!!!</strong>
           </p>
-          {/* <a
-            href={"https://www.youtube.com/watch?v=FNJuXWO2kHk"}
+           <a
+            href={"https://www.youtube.com/watch?v=r35DkATmIFk"}
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -115,7 +115,7 @@ const Home = ({ posts }) => {
             onClick={() =>
               typeof window !== "undefined"
                 ? window.open(
-                    "https://www.youtube.com/watch?v=FNJuXWO2kHk",
+                    "https://www.youtube.com/watch?v=r35DkATmIFk",
                     "_blank",
                     "noopener"
                   )
@@ -129,7 +129,7 @@ const Home = ({ posts }) => {
               Clique <FaPlay className='FaPlay' />
               <span className='four-head-button head-4'>Play</span>
             </p>
-          </button> */}
+          </button> 
 
           <div className='pink-contrast'>
             <h2 className='main-content-h2'>Educação À Distância</h2>
