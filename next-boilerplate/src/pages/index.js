@@ -275,12 +275,11 @@ const Home = ({ posts }) => {
                 <p>
                   {" "}
                   <q>
-                    <small className='small-q'>{"<aluno>"}</small>É incrível,
-                    tem dia de programar, outro é para criar jogos e até temos
-                    tempo para leitura em grupo.
+                    <small className='small-q'>{"<aluno>"}</small>Saia do "Nunca Pare de Aprender" 
+                    e entre no mundo do "Aprenda de Uma Vez Por Todas".
                     <br />
                     Eu amo a Edu4Dev{" "}
-                    <span className={"color-me-span"}>#devComOrgulho</span>
+                    <span className={"color-me-span"}>#euAmoEdu4Dev</span>
                     <small className='small-q'>{"</aluno>"}</small>
                   </q>
                 </p>
