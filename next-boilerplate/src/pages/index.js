@@ -96,8 +96,8 @@ const Home = ({ posts }) => {
             . Tudo para te ensinar o verdadeiro{" "}
             <strong className='highlightMe'>Mão Na Massa!!!</strong>
           </p>
-          {/* <a
-            href={"https://www.youtube.com/watch?v=FNJuXWO2kHk"}
+           <a
+            href={"https://www.youtube.com/watch?v=r35DkATmIFk"}
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -117,7 +117,7 @@ const Home = ({ posts }) => {
             onClick={() =>
               typeof window !== "undefined"
                 ? window.open(
-                    "https://www.youtube.com/watch?v=FNJuXWO2kHk",
+                    "https://www.youtube.com/watch?v=r35DkATmIFk",
                     "_blank",
                     "noopener"
                   )
@@ -131,7 +131,7 @@ const Home = ({ posts }) => {
               Clique <FaPlay className='FaPlay' />
               <span className='four-head-button head-4'>Play</span>
             </p>
-          </button> */}
+          </button> 
 
           <div className='pink-contrast'>
             <h2 className='main-content-h2'>Educação À Distância</h2>
@@ -277,17 +277,16 @@ const Home = ({ posts }) => {
                 <p>
                   {" "}
                   <q>
-                    <small className='small-q'>{"<aluno>"}</small>É incrível,
-                    tem dia de programar, outro é para criar jogos e até temos
-                    tempo para leitura em grupo.
+                    <small className='small-q'>{"<aluno>"}</small>Saia do "Nunca Pare de Aprender" 
+                    e entre no mundo do "Aprenda de Uma Vez Por Todas".
                     <br />
-                    Eu amo a Edu4Dev{" "}
-                    <span className={"color-me-span"}>#devComOrgulho</span>
+                    <span className={"color-me-span"}>#euAmoEdu4Dev</span>
                     <small className='small-q'>{"</aluno>"}</small>
                   </q>
                 </p>
               </Link>
             </div>
+{/*
             <div className='seven-box A'>
               <Link href='/'>
                 <h3 className='seven-subtitle'>Segredos do</h3>
@@ -423,6 +422,7 @@ const Home = ({ posts }) => {
                 </h3>
               </Link>
             </div>
+            
             <div className='seven-box G prevent-hover'>
               <Link
                 href={`https://wa.me/5516991997935?text=${mainConfigs.business.whatsSellMsg}`}
@@ -445,8 +445,9 @@ const Home = ({ posts }) => {
                 </p>
               </Link>
             </div>
-          </div>
-
+          
+*/}
+</div>
           <div className='pink-contrast'>
             <h2 className='main-content-h2'>Reconhecimentos e Parcerias</h2>
             <Image
