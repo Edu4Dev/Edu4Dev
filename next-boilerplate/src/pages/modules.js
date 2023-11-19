@@ -50,7 +50,7 @@ const Contato = () => (
         </p>
         <div className='partners-wrapper'>
           <a
-            href={"https://wa.me/5516991997935"}
+            href={`https://wa.me/5516991997935?text=${mainConfigs.business.whatsSellMsg}`}
             target='_blank'
             rel='nofollow'
             className='matriculas'
@@ -74,6 +74,8 @@ const Contato = () => (
           Sejam bem-vindx's ao{" "}
           <span className='highlightMe'>Brasil beta 2-0.X.X</span>
         </p>
+        <h1>Curso de Programação para Iniciantes</h1>
+        <h2 className='highlightMe h2pam-me'>Do Zero Ao Avançado no GitHub</h2>
         <ul>
           <li>Módulo 01 - O Que é Versionamento?</li>
           <li>Módulo 02 - Construindo o Metaverso</li>
@@ -81,164 +83,6 @@ const Contato = () => (
           <li>Módulo 04 - O MultiVerso RÖÖM</li>
           <li>Módulo 05 - Modelo GitHub Para WebSítios</li>
           <li>Módulo bônus: Testando Um Website</li>
-        </ul>
-        <h2 className='main-content-h2'>Módulo 01 - O Que é Versionamento?</h2>
-        <Image
-          src={"/brandimages/check.png"}
-          alt={"Edu4Dev"}
-          placeholder={"NONE"}
-          critical='true'
-          width={280}
-          height={280}
-          className='seven-img'
-        />
-        <p>
-          Compreenda o conceito fundamental do versionamento e sua importância
-          na programação.
-        </p>
-        <ul>
-          <li>O Que é Versionamento?</li>
-          <li>O Que é Git?</li>
-          <li>O Que é GitHub?</li>
-          <li>Como acessar e criar uma conta no GitHub.</li>
-          <li>
-            Lidando com o formulário de cadastro, senhas fracas e teste de
-            confirmação.
-          </li>
-          <li>Customize o seu Perfil GitHub.</li>
-        </ul>
-
-        <h2 className='main-content-h2'>Módulo 02 - Construindo o Metaverso</h2>
-        <Image
-          src={"/brandimages/passeando.png"}
-          alt={"Edu4Dev"}
-          placeholder={"NONE"}
-          critical='true'
-          width={280}
-          height={280}
-          className='seven-img'
-        />
-        <p>
-          Neste módulo você aprenderá a criar um repositório no GitHub.
-          Configurar o arquivo de desenvolvedor. Explore o conceito de
-          repositórios Git e como são usados para gerenciar código e projetos.
-          Descubra o padrão de escrita MarkDown (MD) e sua utilidade na
-          formatação de texto.
-        </p>
-        <ul>
-          <li>Como Criar um Repositório e o Arquivo do seu Perfil</li>
-          <li>O que é um Repositório Git</li>
-          <li>Padrão de escrita MD “MarkDown”</li>
-          <li>Marcações e Conversões em MD</li>
-          <li>
-            Perfil da <span className='highlightMe'>Edu4Dev</span>{" "}
-            https://github.com/Edu4Dev
-          </li>
-          <li>
-            Perfil do <span className='highlightMe'>Professor</span>{" "}
-            https://github.com/miltonbolonha
-          </li>
-        </ul>
-
-        <h2 className='main-content-h2'>
-          Módulo 03 - Código Aberto & Padrões da Comunidade
-        </h2>
-        <Image
-          src={"/brandimages/bolo.png"}
-          alt={"Edu4Dev"}
-          placeholder={"NONE"}
-          critical='true'
-          width={280}
-          height={280}
-          className='seven-img'
-        />
-        <p>
-          Compreenda o que significa código aberto e as vantagens associadas a
-          esse modelo de desenvolvimento. Saiba mais sobre os padrões da
-          comunidade, que devem ser seguidos por todos em cada projeto de código
-          aberto. Aprenda sobre as garantias de software, licença MIT e
-          segurança.
-        </p>
-        <ul>
-          <li>Software Livre</li>
-          <li>Código Aberto</li>
-          <li>Padrões da Comunidade</li>
-          <li>Arquivos dotEnv</li>
-          <li>Garantias Para Projetos de Código Aberto</li>
-        </ul>
-
-        <h2 className='main-content-h2'>Módulo 04 - O MultiVerso RÖÖM</h2>
-        <Image
-          src={"/brandimages/web.png"}
-          alt={"Edu4Dev"}
-          placeholder={"NONE"}
-          critical='true'
-          width={280}
-          height={280}
-          className='seven-img'
-        />
-        <p>
-          Explore o conceito do MetaVerso, como funciona o universo dos dados e
-          sua importância. Entenda a definição de metadados e como eles são
-          usados em contextos como jogos e sistemas de informação. Conheça o
-          Método TE[i]As para a organização de metadados e as Cartas
-          doMultiVerso RÖÖM.
-        </p>
-        <ul>
-          <li>O MultiVerso RÖÖM</li>
-          <li>Cartas do MultiVerso RÖÖM</li>
-          <li>Método TE[i]As</li>
-          <li>Esquema de MetaDados</li>
-          <li>Blocos de MetaDados</li>
-          <li>Palavras-chaves e Importâncias</li>
-        </ul>
-
-        <h2 className='main-content-h2'>
-          Módulo 05 - Modelo GitHub Para WebSítios
-        </h2>
-        <Image
-          src={"/brandimages/github-logo.png"}
-          alt={"Edu4Dev"}
-          placeholder={"NONE"}
-          critical='true'
-          width={280}
-          height={280}
-          className='seven-img'
-        />
-        <p>
-          Use os modelos <span className='highlightMe'>Edu4Dev</span> para{" "}
-          <span className='highlightMe'>GitHub Templates</span> e simplifique o
-          processo de criação aplicativos e websítios. Coloque um websítio no ar
-          em 5 minutos, igual a um hacker.
-        </p>
-        <ul>
-          <li>GitHub Templates</li>
-          <li>
-            Como colocar um site no ar igual a um hacker em cinco minutos?
-          </li>
-        </ul>
-
-        <h2 className='main-content-h2'>Módulo bônus: Testando Um Website</h2>
-        <Image
-          src={"/brandimages/pinguim.png"}
-          alt={"Edu4Dev"}
-          placeholder={"NONE"}
-          critical='true'
-          width={280}
-          height={280}
-          className='seven-img'
-        />
-        <p>
-          Explore técnicas e práticas para testar a velocidade e o desempenho de
-          websites. A importância da validação de esquema de metadados, como
-          isso afeta a visibilidade e o desempenho nos mecanismos de busca.
-        </p>
-        <ul>
-          <li>Otimização de Websítios</li>
-          <li>Google PageSpeed</li>
-          <li>GTMetrix</li>
-          <li>Validador de Schemas</li>
-          <li>Validador de MetaTags</li>
         </ul>
       </div>
     </Row>

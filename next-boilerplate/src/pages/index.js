@@ -11,6 +11,8 @@ import mainConfigs from "../configs/main-infos.json";
 import { FaPlay } from "react-icons/fa";
 
 const Home = ({ posts }) => {
+  console.log("mainConfigs");
+  console.log(mainConfigs);
   return (
     <MainWrapperContainer>
       <SeoContainer
@@ -158,7 +160,7 @@ const Home = ({ posts }) => {
               empreendedorismo.
             </p>
             <a
-              href={"https://wa.me/5516991997935"}
+              href={`https://wa.me/5516991997935?text=${mainConfigs.business.whatsSellMsg}`}
               target='_blank'
               rel='nofollow'
               className='matriculas'
@@ -423,7 +425,7 @@ const Home = ({ posts }) => {
             </div>
             <div className='seven-box G prevent-hover'>
               <Link
-                href='https://wa.me/5516991997935'
+                href={`https://wa.me/5516991997935?text=${mainConfigs.business.whatsSellMsg}`}
                 className='seven-title-link'
               >
                 <h4 className='seven-title-now align-center'>Comece Já!!!</h4>
@@ -686,7 +688,7 @@ const Home = ({ posts }) => {
             para se tornar um especialista em tecnologia.
           </p>
           <a
-            href={"https://wa.me/5516991997935"}
+            href={`https://wa.me/5516991997935?text=${mainConfigs.business.whatsSellMsg}`}
             target='_blank'
             rel='nofollow'
             className='matriculas'

@@ -91,7 +91,7 @@
     "brandPerson": "Milton Bolonha",
     "brandName": "Edu4Dev",
     "brandEmail": "miltonbolonha@gmail.com",
-    "brandLogo": "favicon-32x32.png",
+    "brandLogo": "brandimages/ico-edu4dev-logo.png",
     "brandPhone": "+5516991997935",
     "brandDescription": "Curso de Programação é na Edu4Dev. a melhor Escola de Programação Programação do Brasil! Ensinamos teoria disruptiva, com tecnologia própria e possui a maior experiência de mercado (desde 1998 e Top Rated UpWork). Tudo para te ensinar o verdadeiro Mão Na Massa!!!.",
     "brandCardImage": "brandimages/edu4dev-logo-ULTIMATE.png",
@@ -108,7 +108,8 @@
       "description": "description",
       "image": "image",
       "site": "site"
-    }
+    },
+    "whatsSellMsg": "Oi,%20meu%20nome%20%C3%A9%20*SEU_NOME*.%0AEu%20gostaria%20de%20me%20matricular%20no%20curso:%0A%0A%5B%20x%20%5D%20*Programa%C3%A7%C3%A3o%20Para%20Iniciantes*%0A%0ASeguem%20abaixo%20os%20dados%20para%20matr%C3%ADcula:%0A%0ANOME_COMPLETO%0AIDADE%0ARG%0AENDERE%C3%87O%20COMPLETO%0AEMAIL%0A@INSTAGRAM%0A@OUTRA_REDE"
   },
   "pages": {
     "hasHeader": true,

@@ -2,6 +2,7 @@ import React from "react";
 import Row from "../containers/RowContainer";
 import Link from "next/link";
 import Image from "next/image";
+import mainConfigs from "../configs/main-infos.json";
 
 const Footer = () => {
   return (
@@ -19,7 +20,7 @@ const Footer = () => {
       </Link>
       <p>Estamos te esperando, junte-se a nós nessa aventura eletrizante!</p>
       <a
-        href={"https://wa.me/5516991997935"}
+        href={`https://wa.me/5516991997935?text=${mainConfigs.business.whatsSellMsg}`}
         target='_blank'
         rel='nofollow'
         className='matriculas'
@@ -94,7 +95,11 @@ const Footer = () => {
             className='m0auto'
           />
         </a>
-        <a href='https://wa.me/5516991997935' target='_blank' rel='nofollow'>
+        <a
+          href={`https://wa.me/5516991997935?text=${mainConfigs.business.whatsSellMsg}`}
+          target='_blank'
+          rel='nofollow'
+        >
           <Image
             src={"/brandimages/icon-whats.png"}
             alt={"Edu4Dev"}
