@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const isProd = process.env.NODE_ENV === "production";
 
-const isGithubPages = process.env.GITHUB_PAGES || false;
+const isGithubPages = process.env.GITHUB_PAGES ? "true" : "false";
 const nextConfig = {
   reactStrictMode: true,
   output: "export",
