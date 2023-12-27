@@ -134,14 +134,17 @@ $cta__padding: 18px 15px 10px;
 $cta__width: 230px;
 
 @font-face {
+  font-display: swap;
   font-family: "Braynerd";
   src: local("Braynerd"), url(../../../public/fonts/Braynerd-Regular.ttf) format("truetype");
 }
 @font-face {
+  font-display: swap;
   font-family: "Gobold_Hollow";
   src: local("Gobold_Hollow"), url(../../../public/fonts/Gobold_Hollow.ttf) format("truetype");
 }
 @font-face {
+  font-display: swap;
   font-family: "Gobold";
   src: local("Gobold"), url(../../../public/fonts/Gobold_Light_Italic.otf) format("truetype");
 }
