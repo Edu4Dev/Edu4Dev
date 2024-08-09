@@ -638,31 +638,7 @@ const Home = ({ posts }) => {
                   </p>
                 </div>
               </div>
-              <div className='partners'>
-                <div className='inner-partners'>
-                  <h3>Ribeirão Preto - SP</h3>
-                  <Image
-                    src={"/brandimages/as-casamenteiras-logo.png"}
-                    alt={"Edu4Dev"}
-                    placeholder={"NONE"}
-                    critical='true'
-                    width={280}
-                    height={160}
-                    className='m0auto img-contrast'
-                  />
-                  <p>
-                    Tecnologia do curso alavancando vendas: "Hoje faço muito
-                    mais casamentos, graças as vendas da minha empresa que
-                    funcionam com tecnologia de ponta a ponta." <br />
-                    <br />
-                    <strong className='highlightMe'>
-                      Priscilla Barbosa, <br />
-                      CEO As Casamenteiras
-                    </strong>
-                  </p>
-                </div>
-              </div>
-
+              
               <div className='partners'>
                 <div className='inner-partners'>
                   <h3>Paraíba</h3>
