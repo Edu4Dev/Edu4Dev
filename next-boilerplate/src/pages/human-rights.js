@@ -137,7 +137,7 @@ const HumanRightsPage = () => (
         Pretendemos ser um estandarte e um farol para a{" "}
         <strong className='highlightMe'>Decolonialidade</strong> no Brasil.
       </p>
-      <h2 className='main-content-h2'>Hacktivismo</h2>
+      <h2 className='main-content-h2'>Hacktivismo Educacional</h2>
       <Image
         src={"/brandimages/bandeira-hacktivismo.png"}
         alt={"Edu4Dev hacktivismo"}
@@ -149,7 +149,7 @@ const HumanRightsPage = () => (
       />
       <p>
         A <strong className='highlightMe'>Edu4Dev</strong> pretende ser uma
-        startup social que visa o bem comum do Brasileiro. Fazemos isso por meio
+        startup educacional social que visa o bem comum do Brasileiro. Fazemos isso por meio
         de ensino voluntário, preços acessíveis de nossos produtos e com muito
         investimento em ciência para ensino de tecnologia.
       </p>
@@ -167,8 +167,8 @@ const HumanRightsPage = () => (
       />
       <p>
         Nosso professor{" "}
-        <strong className='highlightMe'>Milton Bolonha é autista</strong> e
-        busca o empoderamento servil de outros autistas, por meio da sua{" "}
+        Milton Bolonha apoia a causa do <strong className='highlightMe'>Transtorno do Espectro Autista</strong> e
+        busca o empoderamento de outros autistas, por meio da sua{" "}
         <strong className='highlightMe'>pedagogia inclusiva</strong>. Somos
         contra todo tipo de eugenia!
       </p>
